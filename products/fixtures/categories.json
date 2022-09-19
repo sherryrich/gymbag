@@ -1,0 +1,74 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "bars_snacks",
+        "friendly_name": "Bars & Snacks"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "drinks",
+        "friendly_name": "Drinks"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "dumbbells",
+        "friendly_name": "Dumbbells"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "kettlebells",
+        "friendly_name": "kettlebells"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "plates",
+        "friendly_name": "Plates"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "shorts",
+        "friendly_name": "Shorts"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.category",
+      "fields": {
+        "name": "socks",
+        "friendly_name": "Socks"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.category",
+      "fields": {
+        "name": "tshirts",
+        "friendly_name": "T-Shirts"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.category",
+      "fields": {
+        "name": "vitamins",
+        "friendly_name": "Vitamins"
+      }
+    }
+  ]

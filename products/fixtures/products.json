@@ -1,0 +1,143 @@
+[
+    {
+      "pk": 1,
+      "model": "products.product",
+      "fields": {
+        "sku": "gb0000000001",
+        "name": "Protein Brownie",
+        "description": "Everyday protein-packed treat — ideal for on-the-go snacking",
+        "price": 29.99,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "https://images.unsplash.com/photo-1622484211828-17230f29dfa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80",
+        "image": "1622484211828.jpg"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.product",
+      "fields": {
+        "sku": "gb0000000002",
+        "name": "Peanut Butter",
+        "description": "Super-nutritious snack — perfect for spreading on toast, rice crackers, or your favourite fruit",
+        "price": 9.50,
+        "category": 1,
+        "rating": 4.5,
+        "image_url": "https://images.unsplash.com/photo-1654747781271-a2b6992c7b52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+        "image": "1654747781271.jpg"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.product",
+      "fields": {
+        "sku": "gb0000000003",
+        "name": "Vitamin D3",
+        "description": "The sunshine vitamin — for everyday wellbeing, whatever the weather",
+        "price": 9.99,
+        "category": 1,
+        "rating": 4.8,
+        "image_url": "https://images.unsplash.com/photo-1636868768704-7219ed65a47c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80",
+        "image": "1636868768704.jpg"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.product",
+      "fields": {
+        "sku": "gb0000000004",
+        "name": "Energy Drink",
+        "description": "Ready-to-drink 8 pack",
+        "price": 8.99,
+        "category": 2,
+        "rating": 4.8,
+        "image_url": "https://images.unsplash.com/photo-1551870573-6f5e93e660fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "image": "1551870573.jpg"
+      }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "gb0000000005",
+          "name": "Dumbbell",
+          "description": "Dumbbell 5kg",
+          "price": 12.99,
+          "category": 3,
+          "rating": 4.8,
+          "image_url": "https://images.unsplash.com/photo-1638536534783-5573b7e0c5a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "image": "1638536534783.jpg"
+        }
+      },
+      {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+          "sku": "gb0000000006",
+          "name": "kettlebells",
+          "description": "kettlebells 9kg",
+          "price": 15.99,
+          "category": 4,
+          "rating": 4.7,
+          "image_url": "https://images.unsplash.com/photo-1632077804406-188472f1a810?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "image": "1632077804406.jpg"
+        }
+      },
+      {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+          "sku": "gb0000000007",
+          "name": "Plates",
+          "description": "Gym Plates 25kg",
+          "price": 45.99,
+          "category": 5,
+          "rating": 4.9,
+          "image_url": "https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "image": "1526401485004.jpg"
+        }
+      },
+      {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+          "sku": "gb0000000008",
+          "name": "Shorts",
+          "description": "Gym Shorts",
+          "price": 27.99,
+          "category": 6,
+          "rating": 4.9,
+          "image_url": "https://images.unsplash.com/photo-1617951907145-53f6eb87a3a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+          "image": "1617951907145.jpg"
+        }
+      },
+      {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+          "sku": "gb0000000009",
+          "name": "T-shirts",
+          "description": "T-shirts - White",
+          "price": 5.99,
+          "category": 7,
+          "rating": 4.3,
+          "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+          "image": "1521572163474.jpg"
+        }
+      },
+      {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+          "sku": "gb0000000010",
+          "name": "Vitamins",
+          "description": "Multivitamin Gummies",
+          "price": 8.99,
+          "category": 8,
+          "rating": 4.5,
+          "image_url": "https://images.unsplash.com/photo-1596177582967-a5d143a41237?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "image": "1596177582967.jpg"
+        }
+      }
+]
+     
