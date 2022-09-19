@@ -56,9 +56,19 @@ body {
     border: 1px solid black !important;
 }
 
-.bg-black {
+.bg-red {
     background: rgb(255, 0, 0) !important;
     color: rgb(255, 255, 255)!important;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 
