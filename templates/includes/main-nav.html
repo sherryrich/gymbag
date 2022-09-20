@@ -17,10 +17,10 @@
                 Clothing
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">T-Shirts</a>
-                <a href="" class="dropdown-item">Shorts</a>
-                <a href="" class="dropdown-item">Socks</a>
-                <a href="" class="dropdown-item">All Clothing</a>
+                <a href="{% url 'products' %}?category=tshirts" class="dropdown-item">T-Shirts</a>
+                <a href="{% url 'products' %}?category=shorts" class="dropdown-item">Shorts</a>
+                <a href="{% url 'products' %}?category=socks" class="dropdown-item">Socks</a>
+                <a href="{% url 'products' %}?category=tshirts,shorts,socks" class="dropdown-item">All Clothing</a>
             </div>
         </li>
 
@@ -29,10 +29,10 @@
                 Nutrition
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="nutrition-link">
-                <a href="" class="dropdown-item">Bars &amp; Snacks</a>
-                <a href="" class="dropdown-item">Drinks</a>
-                <a href="" class="dropdown-item">Vitamins</a>
-                <a href="" class="dropdown-item">All Nutrition</a>
+                <a href="{% url 'products' %}?category=bars_snacks" class="dropdown-item">Bars &amp; Snacks</a>
+                <a href="{% url 'products' %}?category=drinks" class="dropdown-item">Drinks</a>
+                <a href="{% url 'products' %}?category=vitamins" class="dropdown-item">Vitamins</a>
+                <a href="{% url 'products' %}?category=bars,snacks,drinks,vitamins" class="dropdown-item">All Nutrition</a>
             </div>
         </li>
 
@@ -41,10 +41,10 @@
                 Equipment
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="equipment-link">
-                <a href="" class="dropdown-item">Dumbbells</a>
-                <a href="" class="dropdown-item">Kettlebells</a>
-                <a href="" class="dropdown-item">Plates</a>
-                <a href="" class="dropdown-item">All Equipment</a>
+                <a href="{% url 'products' %}?category=dumbbells" class="dropdown-item">Dumbbells</a>
+                <a href="{% url 'products' %}?category=kettlebells" class="dropdown-item">Kettlebells</a>
+                <a href="{% url 'products' %}?category=plates" class="dropdown-item">Plates</a>
+                <a href="{% url 'products' %}?category=dumbells,kettelbells,plates" class="dropdown-item">All Equipment</a>
             </div>
         </li>
 
