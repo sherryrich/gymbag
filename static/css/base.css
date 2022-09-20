@@ -10,6 +10,11 @@ body {
     font-family: 'Lato';
 }
 
+h1 {
+    color: white !important;
+    background-color: rgb(0, 0, 0)  !important;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -44,8 +49,8 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
-    color: white;
+    background: rgb(255, 0, 0) !important;
+    color: rgb(255, 255, 255)!important;
 }
 
 .text-black {
