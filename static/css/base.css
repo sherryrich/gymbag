@@ -15,6 +15,12 @@ h1 {
     background-color: rgb(0, 0, 0) !important;
 }
 
+.about-container {
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -273,8 +279,10 @@ input[name='q']::placeholder {
     width: 100%;
     display: inline-block;
     background-color: white !important;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
-
 
 .social-networks {
     text-align: center;
