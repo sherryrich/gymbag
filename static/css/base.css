@@ -68,10 +68,12 @@ h1 {
 .shop-now-button:focus,
 .btn-black:hover,
 .btn-black:active,
-.btn-black:focus {
+.btn-black:focus,
+#mc-embedded-subscribe {
     background: rgb(255, 0, 0) !important;
     color: rgb(255, 255, 255) !important;
 }
+
 
 .text-black {
     color: #000 !important;
@@ -279,7 +281,7 @@ input[name='q']::placeholder {
     width: 100%;
     display: inline-block;
     background-color: white !important;
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
 }
