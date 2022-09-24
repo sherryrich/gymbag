@@ -119,13 +119,24 @@
                 {% include 'includes/main-nav.html' %}
             </nav>
         </div>
+        <div class="row bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {% include 'includes/main-nav-2.html' %}
+            </nav>
+        </div>
         <div id="delivery-banner" class="row text-center">
             <div class="col bg-red text-white">
-                <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
+                <h5 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h5>
             </div>
         </div>
+    
     </header>
 
+ 
     {% if messages %}
     <div class="message-container">
         {% for message in messages %}
@@ -144,13 +155,27 @@
     </div>
     {% endif %}
 
-
+    
 
     {% block page_header %}
     {% endblock %}
 
     {% block content %}
     {% endblock %}
+
+    <footer id="footer-container" class="mt-xl-5 pt-4">
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" aria-label="link to facebook" target="_blank"><i
+                        class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" aria-label="link to twitter" target="_blank"><i
+                        class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com" aria-label="link to youtube" target="_blank"><i
+                        class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com" aria-label="link to instagram" target="_blank"><i
+                        class="fab fa-instagram"></i></a></li>
+        </ul>
+   </footer>
+   
 
     {% block postloadjs %}
     <script type="text/javascript">
