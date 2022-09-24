@@ -28,7 +28,7 @@
       "model": "products.category",
       "fields": {
         "name": "kettlebells",
-        "friendly_name": "kettlebells"
+        "friendly_name": "Kettlebells"
       }
     },
     {
@@ -69,6 +69,30 @@
       "fields": {
         "name": "vitamins",
         "friendly_name": "Vitamins"
+      }
+    },
+    {
+      "pk": 10,
+      "model": "products.category",
+      "fields": {
+        "name": "new_arrivals",
+        "friendly_name": "New Arrivals"
+      }
+    },
+    {
+      "pk": 11,
+      "model": "products.category",
+      "fields": {
+        "name": "sale",
+        "friendly_name": "Sale"
+      }
+    },
+    {
+      "pk": 12,
+      "model": "products.category",
+      "fields": {
+        "name": "clearance",
+        "friendly_name": "Clearance"
       }
     }
   ]
