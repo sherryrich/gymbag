@@ -29,6 +29,7 @@ urlpatterns = [
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
     path('about/', TemplateView.as_view(template_name="about.html"), name='about'),
-    # path('contact/', TemplateView.as_view(template_name="contact.html"), name='contact'),
     path('contact/', contact, name='contact'),
+    path('installation/', contact, name='installation'),
+    path('news/', TemplateView.as_view(template_name="news.html"), name='news'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
