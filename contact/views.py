@@ -1,15 +1,10 @@
-
 from django.shortcuts import render, get_object_or_404, reverse, redirect
-from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
-from django.contrib.messages.views import SuccessMessageMixin
 from django.urls import reverse_lazy
 from django.views import generic, View
-from .models import Post
-from .forms import CommentForm, ContactForm
+from .forms import ContactForm
 from django.forms import Form
 from django.http import HttpResponseRedirect
-from django.db.models import Q
-
+from django.contrib import messages
 
 
 # Create your views here.
@@ -30,4 +25,5 @@ def contact(request):
         if 'submitted' in request.GET:
             submitted = True
     form = ContactForm()
-    return render(request, 'contact.html', {'form': form})
+    return render(request, 'contact/contact.html', {'form': form})
+

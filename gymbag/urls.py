@@ -18,6 +18,7 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from django.views.generic import TemplateView
+from contact.views import contact
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,5 +29,6 @@ urlpatterns = [
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
     path('about/', TemplateView.as_view(template_name="about.html"), name='about'),
-    path('contact/', TemplateView.as_view(template_name="contact.html"), name='contact'),
+    # path('contact/', TemplateView.as_view(template_name="contact.html"), name='contact'),
+    path('contact/', contact, name='contact'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
