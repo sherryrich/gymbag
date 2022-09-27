@@ -21,10 +21,10 @@
                     Whether you are creating a facility from scratch, renovating, refurbishing, or need help to source equipment or flooring, we’ll ensure that you get the best solution for your needs.<br>
                     Simply fill out the form and simply select date / time and ne of our team will be in touch.</p>
 
-                <form action="" method="POST">
+                <form action="{% url 'installation' %}" method="POST">
 
                     {% csrf_token %}
-                    
+
                     {{ form.as_p  }}
 
                     <button class="btn btn-info" type="submit">Submit</button>
