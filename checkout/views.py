@@ -185,17 +185,20 @@ def checkout_success(request, order_number):
 
 
 def search_order(request):
-    if request.method == 'POST':
-        searched = request.POST['searched']
+    print("hi")
+    if "searched" in request.GET:
+        searched = request.GET['searched']
+        print(searched)
+        print("hi")
         if not searched:
             return redirect("/")
         post_list = Post.objects.filter(
             Q(content__icontains=searched) |
             Q(title__icontains=searched) |
             Q(author__username__icontains=searched)).filter(status=1)
-
-        return render(
-            request, 'orderstatus.html',
-            {'searched': searched, 'post_list': post_list})
+        print(searched)
+        print(post_list)
+        return render(request, 'orderstatus.html',{'searched': searched, 'post_list': post_list})
     else:
-        return render(request, 'orderstatus.html', {})
+        return render(request, 'orderstatus.html')
+

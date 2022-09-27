@@ -19,9 +19,10 @@
             <p>
                 <h1>Order Status</h1>
                 
-                {% if searched %}
+                {{ searched }} {{ post_list }}
+
                 <br />
-                {% if post_list|length < 1 %}
+                {% if post_list %}
                     <h2>No results for '{{ searched }}' :(</h2>
    
                 {% else %}
@@ -29,7 +30,7 @@
                     <h2>You searched for '{{ searched }}':</h2>
                 <br />
                 {% endif %}
-                {% endif %}
+             
 
                 {% for order in orders %}
                     {{ order }} - {{order.order_number}}
@@ -40,7 +41,7 @@
 
                     <form method=GET action="{% url 'orderstatus' %}">
 
-                    {% csrf_token %}
+                 
 
                     {{ form.as_p  }}
 

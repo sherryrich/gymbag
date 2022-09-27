@@ -31,7 +31,6 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
     path('about/', TemplateView.as_view(template_name="about.html"), name='about'),
     path('contact/', contact, name='contact'),
-    path('orderstatus/', TemplateView.as_view(template_name="orderstatus.html"), name='orderstatus'),
     path('installation/', Installation, name='installation'),
     path('news/', TemplateView.as_view(template_name="news.html"), name='news'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
