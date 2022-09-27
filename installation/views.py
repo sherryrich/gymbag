@@ -32,8 +32,8 @@ def Installation(request):
             except ValidationError as e:
                 messages.error(request, e.message)
 
-    booking_form = InstallationForm()
+    form = InstallationForm()
     context = {
-        'booking_form': booking_form,
+        'form': form,
     }
     return render(request, 'installation/installation.html', context)

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<!--installation page-->
+<div class="overlay"></div>
+<div class="container-fluid about-container">
+    <div class="row">
+        <div class="col text-center mt-5 mb-5">
+            <p>
+                <h1>Gym Installations</h1>
+                <p> We offer commercial gym installation service. <br>
+                    Whether you are creating a facility from scratch, renovating, refurbishing, or need help to source equipment or flooring, we’ll ensure that you get the best solution for your needs.<br>
+                    Simply fill out the form and simply select date / time and ne of our team will be in touch.</p>
+
+                <form action="{% url 'installation' %}" method="POST">
+
+                    {% csrf_token %}
+
+                    {{ form2.as_p  }}
+
+                    <button class="btn btn-info" type="submit">Submit</button>
+
+                </form>
+            </p>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
