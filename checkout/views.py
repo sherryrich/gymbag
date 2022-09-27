@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpR
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
-
+from django.forms import Form
 from .forms import OrderForm
 from .models import Order, OrderLineItem
 from products.models import Product
@@ -179,3 +179,23 @@ def checkout_success(request, order_number):
     }
 
     return render(request, template, context)
+
+
+"""View for searching orders"""
+
+
+def search_order(request):
+    if request.method == 'POST':
+        searched = request.POST['searched']
+        if not searched:
+            return redirect("/")
+        post_list = Post.objects.filter(
+            Q(content__icontains=searched) |
+            Q(title__icontains=searched) |
+            Q(author__username__icontains=searched)).filter(status=1)
+
+        return render(
+            request, 'orderstatus.html',
+            {'searched': searched, 'post_list': post_list})
+    else:
+        return render(request, 'orderstatus.html', {})

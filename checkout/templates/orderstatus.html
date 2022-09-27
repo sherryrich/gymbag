@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+<!--News 'GymBag' page-->
+<div class="overlay"></div>
+<div class="container-fluid about-container">
+    <div class="row">
+        <div class="col text-center mt-5 mb-5">
+            <p>
+                <h1>Order Status</h1>
+                
+                {% if searched %}
+                <br />
+                {% if post_list|length < 1 %}
+                    <h2>No results for '{{ searched }}' :(</h2>
+   
+                {% else %}
+        
+                    <h2>You searched for '{{ searched }}':</h2>
+                <br />
+                {% endif %}
+                {% endif %}
+
+                {% for order in orders %}
+                    {{ order }} - {{order.order_number}}
+
+                    % endif %}
+                    {% endfor %}
+                <p>Enter your order number below <br>
+
+                    <form method=GET action="{% url 'orderstatus' %}">
+
+                    {% csrf_token %}
+
+                    {{ form.as_p  }}
+
+                    <input class="form-control search_order" type="search" placeholder="Search Orders"
+                    aria-label="Search Orders" name="searched" style="width: 600px;">
+                <button class="btn btn-outline-info search_button" type="submit">Search</button>
+
+                </form>
+            </p>
+        </div>
+    </div>
+
+</div>
+
+
+{% endblock %}
