@@ -23,11 +23,11 @@
 
                 <br />
                 {% if post_list %}
-                    <h2>No results for '{{ searched }}' :(</h2>
+                    <h2>No results for '{{ searched }}' </h2>
    
                 {% else %}
         
-                    <h2>You searched for '{{ searched }}':</h2>
+                    <h2>You searched for '{{ searched }}' </h2>
                 <br />
                 {% endif %}
              
@@ -35,8 +35,8 @@
                 {% for order in orders %}
                     {{ order }} - {{order.order_number}}
 
-                    % endif %}
-                    {% endfor %}
+                % endif %}
+                {% endfor %}
                 <p>Enter your order number below <br>
 
                     <form method=GET action="{% url 'orderstatus' %}">

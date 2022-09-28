@@ -4,6 +4,7 @@ from django.contrib import messages
 from django.conf import settings
 from django.forms import Form
 from .forms import OrderForm
+from django.db.models import Q
 from .models import Order, OrderLineItem
 from products.models import Product
 from profiles.forms import UserProfileForm
@@ -184,6 +185,24 @@ def checkout_success(request, order_number):
 """View for searching orders"""
 
 
+# def search_order(request):
+#     if not request.htmx:
+#         raise Http404
+#     try:
+#         order_number = request.GET.get('order_number').upper()
+#         order = get_object_or_404(Order, order_number=order_number)
+#     except:
+#         order = None
+#     if order is None:
+#         return HttpResponse('No order found')
+#     context = {
+#         'order_number': order_number,
+#     }
+#     template = 'checkout/templates/orderstatus.html'
+#     return render(request, template, context)
+
+
+
 def search_order(request):
     print("hi")
     if "searched" in request.GET:
@@ -192,10 +211,8 @@ def search_order(request):
         print("hi")
         if not searched:
             return redirect("/")
-        post_list = Post.objects.filter(
-            Q(content__icontains=searched) |
-            Q(title__icontains=searched) |
-            Q(author__username__icontains=searched)).filter(status=1)
+        post_list = Order.objects.filter(
+            Q(order_number=searched))
         print(searched)
         print(post_list)
         return render(request, 'orderstatus.html',{'searched': searched, 'post_list': post_list})
