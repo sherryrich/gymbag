@@ -202,20 +202,84 @@ def checkout_success(request, order_number):
 #     return render(request, template, context)
 
 
+# def search_order(request):
+#     print("hi")
+#     if "searched" in request.GET:
+#         searched = request.GET['searched']
+#         print(searched)
+#         print("hi")
+#         if not searched:
+#             return redirect("/")
+#         post_list = Order.objects.filter(
+#             Q(order_number=searched))
+#         print(searched)
+#         print(post_list)
+#         return render(request, 'orderstatus.html',{'searched': searched, 'post_list': post_list})
+#     else:
+#         return render(request, 'orderstatus.html')
+
 
 def search_order(request):
-    print("hi")
-    if "searched" in request.GET:
-        searched = request.GET['searched']
-        print(searched)
-        print("hi")
-        if not searched:
-            return redirect("/")
-        post_list = Order.objects.filter(
-            Q(order_number=searched))
-        print(searched)
-        print(post_list)
-        return render(request, 'orderstatus.html',{'searched': searched, 'post_list': post_list})
-    else:
-        return render(request, 'orderstatus.html')
+    order_list = Order.objects.all()
+    return render(request, 'orderstatus.html', 
+        {'order_list' : order_list})
+
+
+# def search_order(request):
+#     if request.method == 'GET':
+#         searched = request.GET['searched']
+#         if not searched:
+#             return redirect("/")
+#         search_list = Order.objects.filter(
+#             Q(order_number__icontains=searched)).filter(status=1)
+#         print(search_order)
+#         context = {'order_number': order_number}
+
+#         return render(
+#             request, 'orderstatus.html', context)
+#     else:
+#         return render(request, 'orderstatus.html', {})
+
+# def search_orders(request):
+
+#     context = {}
+#     template = 'orderstatus.html'
+#     return render(request, template, context)
+
+
+# def search_order(request):
+#     if not request.htmx:
+#         raise Http404
+#     try:
+#         order_number = request.GET.get('order_number').upper()
+#         order = get_object_or_404(Order, order_number=order_number)
+#     except:
+#         order = None
+#     if order is None:
+#         return HttpResponse('No order found')
+#     context = {
+#         'order_number': order_number,
+#     }
+#     template = 'checkout/templates/checkout/snippets/order_status.html'
+#     return render(request, template, context)
+
+
+# def search_order(request):
+#     search_order = Order.order_number
+#     if "searched" in request.GET:
+#          searched = request.GET['searched']
+#          print(search_order)
+#          if not searched:
+#              return redirect("/")
+    
+#     return render(request, 'orderstatus.html', 
+#         {'search_order' : search_order})
+
+
+
+
+# def search_order(request):
+#     context = {}
+#     template = 'orderstatus.html'
+#     return render(request, template, context)
 

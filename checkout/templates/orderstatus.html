@@ -11,48 +11,40 @@
 
 {% block content %}
 
-<!--News 'GymBag' page-->
+<!--Status 'GymBag' page-->
 <div class="overlay"></div>
 <div class="container-fluid about-container">
-    <div class="row">
-        <div class="col text-center mt-5 mb-5">
-            <p>
+    <div class="row" id="order-status">
+        <div class="col mt-5 mb-5">
+          
                 <h1>Order Status</h1>
                 
-                {{ searched }} {{ post_list }}
+                <ul>
+                    {% for order in order_list %}
+                    <li> {{ order.date}} | {{ order.order_number }} | {{ order.grand_total}}</li>
+                    {% endfor %}
+                </ul>
 
-                <br />
-                {% if post_list %}
-                    <h2>No results for '{{ searched }}' </h2>
-   
-                {% else %}
         
-                    <h2>You searched for '{{ searched }}' </h2>
-                <br />
-                {% endif %}
-             
-
-                {% for order in orders %}
-                    {{ order }} - {{order.order_number}}
-
-                % endif %}
-                {% endfor %}
                 <p>Enter your order number below <br>
 
-                    <form method=GET action="{% url 'orderstatus' %}">
+                    <form method=GET action="{% url 'orderstatus' %}" data-hx-swap="innerHTML"
+                        data-hx-target="#order-status">
 
-                 
+                        {{ form.as_p  }}
 
-                    {{ form.as_p  }}
+                        <input class="form-control search_order" type="search" placeholder="Search Orders"
+                            aria-label="Search Orders" name="searched" style="width: 600px;">
+                        <button class="btn btn-outline-info search_button" type="submit">Search</button>
 
-                    <input class="form-control search_order" type="search" placeholder="Search Orders"
-                    aria-label="Search Orders" name="searched" style="width: 600px;">
-                <button class="btn btn-outline-info search_button" type="submit">Search</button>
+                    </form>
+                </p>
+       
 
-                </form>
-            </p>
+      
         </div>
     </div>
+    
 
 </div>
 
