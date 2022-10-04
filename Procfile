@@ -1,1 +1,1 @@
-web: gunicorn gymbag.wsgi
+web: gunicorn gymbag.wsgi:application
