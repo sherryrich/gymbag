@@ -24,6 +24,7 @@ from installation.views import Installation
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('summernote/', include('django_summernote.urls')),
+    path('blog/', TemplateView.as_view(template_name="blog.html"), name='blog'),
     path('accounts/', include('allauth.urls')),
     path('', include('home.urls')),
     path('products/', include('products.urls')),

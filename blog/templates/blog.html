@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+
+ <!-- Blog Entries Column -->
+ <div class="overlay"></div>
+ <div class="col-12 mt-3 left">
+    <div class="row">
+        {% for post in post_list %}
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="image-container">
+                        {% if "placeholder" in post.featured_image.url %}
+                        <img class="card-img-top"
+                            src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
+                        {% else %}
+                        <img class="card-img-top" src=" {{ post.featured_image.url }}">
+                        {% endif %}
+                        <div class="image-flash">
+                            <p class="author">Author: {{ post.author }}</p>
+                        </div>
+                    </div>
+                    <a href="#" class="post-link">
+                        <h2 class="card-title">{{ post.title }}</h2>
+                        <p class="card-text">{{ post.excerpt }}</p>
+                    </a>
+                    <hr />
+                    <p class="card-text text-muted h6">{{ post.created_on}} <i class="fa-solid fa-thumbs-up"></i>
+                        {{ post.number_of_likes }}</p>
+                </div>
+            </div>
+        </div>
+        {% if forloop.counter|divisibleby:3 %}
+    </div>
+    <div class="row">
+        {% endif %}
+        {% endfor %}
+
+
+<h1>BLOG</h1>
+
+{% endblock %}
