@@ -32,6 +32,7 @@ h1 {
 
 .logo-font {
     text-transform: uppercase;
+    margin-bottom: 0.35rem!important;
 }
 
 .main-logo-link {
@@ -284,6 +285,8 @@ input[name='q']::placeholder {
 .my-profile {
     margin-top: 2.5rem!important;
 }
+
+
 
 
 

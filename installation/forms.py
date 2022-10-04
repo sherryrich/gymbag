@@ -16,6 +16,8 @@ class InstallationForm(forms.ModelForm):
             'installation_type',
         )
 
+    
+
     date = forms.DateField(
         widget=forms.widgets.DateInput(
             attrs={
