@@ -76,10 +76,9 @@ h1 {
 
 
 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; padding: 10px; width:450px;}
-/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 
-   
+
+
 .text-black {
     color: #000 !important;
 }
@@ -279,6 +278,14 @@ input[name='q']::placeholder {
     border-color: #dc3545;
     border-radius: 0;
 }
+
+/* Profile */
+
+.my-profile {
+    margin-top: 2.5rem!important;
+}
+
+
 
 /* footer */
 

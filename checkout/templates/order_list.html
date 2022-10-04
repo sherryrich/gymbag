@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<!--Order List Page-->
+<div class="overlay"></div>
+<div class="container-fluid about-container">
+    <div class="row" id="order-status">
+        <div class="col mt-5 mb-5">
+
+<ul>
+    {% for order in order_list %}
+    <li> {{ order.date}} | {{ order.order_number }} | {{ order.grand_total}}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

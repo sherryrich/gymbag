@@ -1,11 +1,14 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.http import HttpResponse, Http404
 from django.views.decorators.http import require_POST
 from django.contrib import messages
+from django.views.generic import ListView
 from django.conf import settings
 from django.forms import Form
 from .forms import OrderForm
 from django.db.models import Q
 from .models import Order, OrderLineItem
+
 from products.models import Product
 from profiles.forms import UserProfileForm
 from profiles.models import UserProfile
@@ -219,11 +222,57 @@ def checkout_success(request, order_number):
 #         return render(request, 'orderstatus.html')
 
 
-def search_order(request):
+def orderstatus(request):
+    print("orderstatus")
     order_list = Order.objects.all()
     return render(request, 'orderstatus.html', 
         {'order_list' : order_list})
+    
 
+def search_orders(request):
+    if request.method == "POST":
+        searched = request.POST['searched']
+        if not searched:
+            return redirect("/")
+        order_list = Order.objects.get(order_number__iexact="searched")
+        return render(request, 'order_list.html',
+        {'searched':searched,'order_list':order_list})
+    else:
+        return render(request, 'order_list.html',
+        {})
+
+
+def search_order(request):
+    order_list = Order.objects.all()
+    return render(request, 'order_list.html', 
+        {'order_list' : order_list})
+
+
+
+
+
+# class search_order(ListView):
+#     model = Order
+#     template_name = "search_results.html"
+
+    # def get_queryset(self): # new
+    #     return Order.objects.filter(
+    #          Q(order_number__icontains=searched)).filter(status=1)
+
+    # def get_queryset(self): # new
+    #     return Order.objects.filter(
+    #         Q(order_number__icontains=searched)).filter(status=1)
+    #     print(search_order)
+    #     context = {'order_number': order_number}
+
+    #     return render(
+    #          request, 'orderstatus.html', context)
+
+
+# class SearchResultsView(ListView):
+#     model = Order
+#     template_name = 'search_results.html'
+#     queryset = Order.objects.filter(name__icontains='Boston') # new
 
 # def search_order(request):
 #     if request.method == 'GET':
@@ -283,3 +332,64 @@ def search_order(request):
 #     template = 'orderstatus.html'
 #     return render(request, template, context)
 
+
+# def order_status(request):
+#     '''
+#     View to handle requests to view the status of a given order
+#     '''
+#     context = {}
+#     template = 'orderstatus.html'
+#     return render(request, template, context)
+
+
+# def order_status_hx(request):
+#     '''
+#     View to handle the HX request to retrieve the order status
+#     '''
+#     if not request.htmx:
+#         raise Http404
+#     try:
+#         order_number = request.GET.get('order_number').upper()
+#         order = get_object_or_404(Order, order_number=order_number)
+#     except:
+#         order = None
+#     if order is None:
+#         return HttpResponse('No order found')
+#     context = {
+#         'order_number': order_number,
+#     }
+#     template = 'search_results.html'
+#     return render(request, template, context)
+
+
+# def order_status(request):
+#     '''
+#     View to handle requests to view the status of a given order
+#     '''
+#     context = {}
+#     template = 'checkout/get_order_status.html'
+#     return render(request, template, context)
+
+
+# def order_status_hx(request):
+#     '''
+#     View to handle the HX request to retrieve the order status
+#     '''
+#     if not request.htmx:
+#         raise Http404
+#     try:
+#         order_number = request.GET.get('order_number').upper()
+#         order = get_object_or_404(Order, order_number=order_number)
+#         order_status = order.get_order_status_display
+#         order_date = order.date
+#     except:
+#         order = None
+#     if order is None:
+#         return HttpResponse('No order found')
+#     context = {
+#         'order_number': order_number,
+#         'order_status': order_status,
+#         'order_date': order_date,
+#     }
+#     template = 'checkout/snippets/order_status.html'
+#     return render(request, template, context)
