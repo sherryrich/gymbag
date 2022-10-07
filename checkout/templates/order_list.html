@@ -17,11 +17,11 @@
 <div class="container-fluid about-container">
     <div class="row" id="order-status">
         <div class="col mt-5 mb-5">
-
-<ul>
-    {% for order in order_list %}
-    <li> {{ order.date}} | {{ order.order_number }} | {{ order.grand_total}}</li>
-    {% endfor %}
-</ul>
+             
+            <ul>
+                {% for order in order_list %}
+                <li> {{ order.date}} | {{ order.order_number }} | {{ order.grand_total}}</li>
+                {% endfor %}
+            </ul>
 
 {% endblock %}

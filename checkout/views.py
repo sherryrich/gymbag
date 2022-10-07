@@ -226,7 +226,7 @@ def orderstatus(request):
     print("orderstatus")
     order_list = Order.objects.all()
     return render(request, 'orderstatus.html', 
-        {'order_list' : order_list})
+        {'orderstatus' : orderstatus})
     
 
 def search_orders(request):
@@ -248,6 +248,17 @@ def search_order(request):
         {'order_list' : order_list})
 
 
+def search_orders(request):
+    if request.method == "POST":
+        searched = request.POST['searched']
+        order = Order.objects.filter(order_number__contains=searched)
+        if not searched:
+            return redirect("/contact")
+        return render(request, 'search_orders.html',
+        {'searched':searched,'order':order})
+    else:
+        return render('search_orders.html',
+        {})
 
 
 
@@ -393,3 +404,30 @@ def search_order(request):
 #     }
 #     template = 'checkout/snippets/order_status.html'
 #     return render(request, template, context)
+
+
+
+# def all_orders(request):
+#     """ A view to show all orders, including sorting and search queries """
+
+#     orders = Order.order_nmber
+#     query = None
+
+#     if request.GET:
+#         if 'q' in request.GET:
+#             query = request.GET['q']
+#             if not query:
+#                 messages.error(request, "You didn't enter any search criteria!")
+#                 return redirect(reverse('products'))
+            
+#             queries = Q(name__icontains=query) | Q(description__icontains=query)
+#             products = products.filter(queries)
+
+#     current_sorting = f'{sort}_{direction}'
+
+#     context = {
+#         'order_number': order_number,
+#     }
+
+#     return render(request, 'search_orders.html', context)
+

@@ -297,10 +297,6 @@ input[name='q']::placeholder {
     width: 100%;
     display: inline-block;
     background-color: white !important;
-    /* position: fixed; */
-    left: 0;
-    bottom: 0;
-    text-align: center;
 }
 
 .social-networks {
@@ -314,7 +310,7 @@ input[name='q']::placeholder {
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 2%;
+    /* padding: 2%; */
     color: #3a3a3a;
 }
 

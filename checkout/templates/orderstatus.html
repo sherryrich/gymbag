@@ -22,14 +22,13 @@
             <h1>Order Status</h1>
             <p>Enter your order number below <br>
 
-                <form method=POST action="{% url 'search_orders' %}" data-hx-swap="innerHTML"
-                    data-hx-target="#order-status-target">
+                <form method="POST" action="{% url 'order_list' %}">
 
                     {% csrf_token %}
 
                     <input class="form-control search_order" type="search" placeholder="Search Orders"
                         aria-label="Search Orders" name="searched" style="width: 600px;"><br>
-                    <button class="btn btn-outline-info search_button" type="submit">Search</button>
+                    <button class="btn btn-info search_button" type="submit">Search</button>
 
                 </form>
             </p>
@@ -38,7 +37,6 @@
       
         </div>
     </div>
-    
 
 </div> 
 

@@ -18,30 +18,18 @@
     <div class="row" id="order-status">
         <div class="col mt-5 mb-5">
 
-            <h1>Order Status</h1>
-
-           
             {% if searched %}
-            <h1>You searched for {{ searched }}</h1>
+            <h1>You searched for "{{ searched }}"</h1>
            
-
-            {% for order in order_list  %}
-            <li> {{ order.order_number }} </li>
-            {% endfor %}
+            <ul>
+                {% for order in order_list %}
+                <li> {{ order.date}} | {{ order.order_number }} | {{ order.grand_total}}</li>
+                {% endfor %}
             </ul>
 
             {% else %}
-            <h1>You forgot to search</h1>
+            <h1>Hey you forgot to search :(</h1>
             {% endif %}
-
-
-            <!-- 
-                <h1>Order Status</h1>
-                
-                <div>
-                    <p>Please see confirmation of your order Number</p>
-                    <p>{{order.search_results}}</p>
-                </div> -->
 
         </div>
     </div>
