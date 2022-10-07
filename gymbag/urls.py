@@ -37,5 +37,5 @@ urlpatterns = [
     path('installation/', Installation, name='installation'),
     path('news/', TemplateView.as_view(template_name="news.html"), name='news'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-handler404 = 'watchyouwant.views.handler404'
-handler500 = 'watchyouwant.views.handler500'
+handler404 = 'gymbag.views.handler404'
+handler500 = 'gymbag.views.handler500'
