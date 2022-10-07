@@ -59,7 +59,7 @@ h1 {
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
-.btn-outline-black:focus {
+.btn-outline-black:focus, {
     background: black;
     color: white !important;
 }
@@ -70,10 +70,13 @@ h1 {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus,
+.btn-info,
 #mc-embedded-subscribe {
     background: rgb(255, 0, 0) !important;
     color: rgb(255, 255, 255) !important;
+    border-color: white;
 }
+
 
 #mc_embed_signup{
     background:rgb(255, 255, 255); 

@@ -43,6 +43,7 @@
 
     <title>GymBag {% block extra_title %}{% endblock %}</title>
 </head>
+
 <body>
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
@@ -153,20 +154,20 @@
     {% endblock %}
 
 
-            <footer id="footer-container" class="w-100 bg-white">
-                <ul class="social-networks">
-                    <li><a href="https://www.facebook.com" aria-label="link to facebook" target="_blank"><i
-                                class="fab fa-facebook"></i></a></li>
-                    <li><a href="https://www.twitter.com" aria-label="link to twitter" target="_blank"><i
-                                class="fab fa-twitter-square"></i></a></li>
-                    <li><a href="https://www.youtube.com" aria-label="link to youtube" target="_blank"><i
-                                class="fab fa-youtube"></i></a></li>
-                    <li><a href="https://www.instagram.com" aria-label="link to instagram" target="_blank"><i
-                                class="fab fa-instagram"></i></a></li>
-                </ul>
-            </footer>
-
-    
+    <div class="container-fluid w-100 bg-white">
+        <footer id="footer-container">
+            <ul class="social-networks">
+                <li><a href="https://www.facebook.com" aria-label="link to facebook" target="_blank"><i
+                            class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com" aria-label="link to twitter" target="_blank"><i
+                            class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.youtube.com" aria-label="link to youtube" target="_blank"><i
+                            class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com" aria-label="link to instagram" target="_blank"><i
+                            class="fab fa-instagram"></i></a></li>
+            </ul>
+        </footer>
+    </div>
 
     {% block postloadjs %}
     <script type="text/javascript">
@@ -175,5 +176,6 @@
     {% endblock %}
 
 </body>
+
 
 </html>

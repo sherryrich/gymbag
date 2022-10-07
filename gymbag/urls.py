@@ -20,7 +20,6 @@ from django.conf.urls.static import static
 from django.views.generic import TemplateView
 from contact.views import contact
 from installation.views import Installation
-from .views import handler404
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -37,4 +36,3 @@ urlpatterns = [
     path('installation/', Installation, name='installation'),
     path('news/', TemplateView.as_view(template_name="news.html"), name='news'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-handler404 = 'gymbag.views.handler404'
