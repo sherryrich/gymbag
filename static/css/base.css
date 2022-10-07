@@ -75,10 +75,12 @@ h1 {
     color: rgb(255, 255, 255) !important;
 }
 
-
-#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; padding: 10px; width:450px;}
-
-
+#mc_embed_signup{
+    background:rgb(255, 255, 255); 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif;
+    padding: 10px;
+    width:450px;}
 
 .text-black {
     color: #000 !important;
@@ -295,10 +297,11 @@ input[name='q']::placeholder {
     /* position: fixed; */
     left: 0;
     bottom: 0;
+    text-align: center;
 }
 
 .social-networks {
-    text-align: center;
+    text-align: center !important;
 }
 
 .social-networks li {
@@ -315,6 +318,8 @@ input[name='q']::placeholder {
 .social-networks i:hover {
     color: rgb(255, 0, 0);
 }
+
+
 
 /* -------------------------------- Media Queries */
 
