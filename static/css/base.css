@@ -381,7 +381,7 @@ input[name='q']::placeholder {
 }
 
 .masthead-text {
-    background-color: #445261;
+    background-color: #000000;
     color: white;
     position: relative;
 }
@@ -398,7 +398,7 @@ input[name='q']::placeholder {
     right: 90%;
     height: 100%;
     width: 150%;
-    background: #445261;
+    background: #000000;
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
     transform: skew(15deg);
@@ -422,7 +422,7 @@ input[name='q']::placeholder {
 
 .post-subtitle {
     margin-left: 5%;
-    color: lightgray;
+    color: #E84610;
 }
 
 .btn-signup {
