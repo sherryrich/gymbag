@@ -25,7 +25,7 @@ from .views import handler404
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('summernote/', include('django_summernote.urls')),
-    path('', include('blog.urls'), name='blog_urls'),
+    path('blogs/', include('blog.urls'), name='news'),
     path('accounts/', include('allauth.urls')),
     path('', include('home.urls')),
     path('products/', include('products.urls')),
@@ -35,6 +35,5 @@ urlpatterns = [
     path('about/', TemplateView.as_view(template_name="about.html"), name='about'),
     path('contact/', contact, name='contact'),
     path('installation/', Installation, name='installation'),
-    path('news/', TemplateView.as_view(template_name="news.html"), name='news'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 handler404 = 'gymbag.views.handler404'

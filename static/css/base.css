@@ -531,5 +531,8 @@ input[name='q']::placeholder {
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
     }
+
+    #mc_embed_signup{
+        width:300px;}
 }
 
