@@ -18,8 +18,8 @@
 <div class="container-fluid about-container">
     <div class="row">
 
-        
-<!--News 'GymBag' page-->
+
+        <!--News 'GymBag' page-->
 
         <!-- Blog Entries Column -->
         <div class="col-12 mt-3 left">
@@ -29,11 +29,11 @@
                     <div class="card mb-4">
                         <div class="card-body">
                             <div class="image-container">
+                                <!-- The featured image URL goes in the src attribute -->
                                 {% if "placeholder" in post.featured_image.url %}
-                                <img class="card-img-top"
-                                    src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
+                                <img  src="https://sherryrich-gymbag2.s3.amazonaws.com/media/gym2.jpg" width="100%" alt="stock gym image">
                                 {% else %}
-                                <img class="card-img-top" src=" {{ post.featured_image.url }}">
+                                <img src="{{ post.image.url }}" style="width:100%" alt="article stock image">
                                 {% endif %}
                                 <div class="image-flash">
                                     <p class="author">Author: {{ post.author }}</p>
@@ -44,7 +44,8 @@
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
                             <hr />
-                            <p class="card-text text-muted h6">{{ post.created_on}} <i class="fa-solid fa-thumbs-up"></i>
+                            <p class="card-text text-muted h6">{{ post.created_on}} <i
+                                    class="fa-solid fa-thumbs-up"></i>
                                 {{ post.number_of_likes }}</p>
                         </div>
                     </div>
