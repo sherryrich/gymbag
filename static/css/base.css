@@ -84,7 +84,9 @@ h1 {
     clear:left; 
     font:14px Helvetica,Arial,sans-serif;
     padding: 10px;
-    width:450px;}
+    width:450px;
+    color: #000;
+}
 
 .text-black {
     color: #000 !important;
@@ -298,6 +300,7 @@ input[name='q']::placeholder {
     width: 100%;
     display: inline-block;
     background-color: white !important;
+    padding: 0;
 }
 
 .social-networks {
@@ -311,7 +314,6 @@ input[name='q']::placeholder {
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    /* padding: 2%; */
     color: #3a3a3a;
 }
 
