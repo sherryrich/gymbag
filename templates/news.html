@@ -30,7 +30,7 @@
                         <div class="card-body">
                             <div class="image-container">
                                 <!-- The featured image URL goes in the src attribute -->
-                                {% if "placeholder" in post.featured_image.url %}
+                                {% if "placeholder" in post.image.url %}
                                 <img  src="https://sherryrich-gymbag2.s3.amazonaws.com/media/gym2.jpg" width="100%" alt="stock gym image">
                                 {% else %}
                                 <img src="{{ post.image.url }}" style="width:100%" alt="article stock image">
