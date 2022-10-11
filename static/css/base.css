@@ -401,9 +401,9 @@ input[name='q']::placeholder {
     height: 100%;
     width: 150%;
     background: #000000;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    transform: skew(15deg);
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    transform: skew(10deg);
     z-index: 100;
 }
 
