@@ -113,7 +113,7 @@ h1 {
 
 a.category-badge>span.badge:hover {
     background: #212529 !important;
-    color: rgb(255, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .btt-button {
@@ -305,6 +305,8 @@ input[name='q']::placeholder {
 
 .social-networks {
     text-align: center !important;
+    padding-left: 0;
+    margin-bottom: 0;
 }
 
 .social-networks li {
