@@ -99,7 +99,7 @@
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
                             href="{% url 'view_bag' %}">
                             <div class="text-center">
-                                <div><i class="fa-solid fa-cart-shopping fa-xl"></i></div>
+                                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <p class="my-0">
                                     {% if grand_total %}
                                     ${{ grand_total|floatformat:2 }}
@@ -149,52 +149,49 @@
     </div>
     {% endif %}
 
-
-
     {% block page_header %}
     {% endblock %}
 
     {% block content %}
     {% endblock %}
 
-<div id="footer-container" class="col bg-red text-white fixed-bottom">
-    <ul class="social-networks">
-        <li><a href="#" aria-label="Privacy Policy" target="_blank"><i class=""></i>Privacy Policy</a></li>
-        <li><a href="#" aria-label="Terms & Conditions" target="_blank"><i class=""></i>Terms & Conditions</a></li>
-        <li><a href="#" aria-label="Returns Policy" target="_blank"><i class=""></i>Returns Policy</a></li>
-        <li><a href="#" aria-label="sitemap" target="_blank"><i class=""></i>sitemap</a></li>
-    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <footer>
-        <div>
-                   <ul class="social-networks">
-                <li><a href="https://www.facebook.com" aria-label="link to facebook" target="_blank"><i
-                            class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.twitter.com" aria-label="link to twitter" target="_blank"><i
-                            class="fab fa-twitter-square"></i></a></li>
-                <li><a href="https://www.youtube.com" aria-label="link to youtube" target="_blank"><i
-                            class="fab fa-youtube"></i></a></li>
-                <li><a href="https://www.instagram.com" aria-label="link to instagram" target="_blank"><i
-                            class="fab fa-instagram"></i></a></li>
-            </ul>
-        </div>
-    </footer>
-</div>
+    <div id="footer-container" class="col bg-red text-white fixed-bottom">
+        <ul class="social-networks">
+            <li><a href="#" aria-label="Privacy Policy" target="_blank"><i class=""></i>Privacy Policy</a></li>
+            <li><a href="#" aria-label="Terms & Conditions" target="_blank"><i class=""></i>Terms & Conditions</a></li>
+            <li><a href="#" aria-label="Returns Policy" target="_blank"><i class=""></i>Returns Policy</a></li>
+            <li><a href="#" aria-label="sitemap" target="_blank"><i class=""></i>sitemap</a></li>
+        </ul>
 
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        <footer>
+            <div>
+                <ul class="social-networks">
+                    <li><a href="https://www.facebook.com" aria-label="link to facebook" target="_blank"><i
+                                class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com" aria-label="link to twitter" target="_blank"><i
+                                class="fab fa-twitter-square"></i></a></li>
+                    <li><a href="https://www.youtube.com" aria-label="link to youtube" target="_blank"><i
+                                class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com" aria-label="link to instagram" target="_blank"><i
+                                class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
 
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
-    {% endblock %}
 
+    {% endblock %}
 </body>
 
 
