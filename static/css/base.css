@@ -321,6 +321,15 @@ input[name='q']::placeholder {
     color: rgb(255, 0, 0);
 }
 
+#footer-container a {
+    color: #3a3a3a;
+}
+
+#footer-container a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
 /* -----CC for Blog------- */
 
 .brand {
