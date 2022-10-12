@@ -38,3 +38,11 @@ class OrderForm(forms.ModelForm):
             self.fields[field].widget.attrs['class'] = 'stripe-style-input'
             self.fields[field].label = False
 
+
+class OrderStatusForm(forms.ModelForm):
+    '''
+    Form for employees to update the status of a customers order
+    '''
+    class Meta:
+        model = Order
+        fields = ('order_status',)
