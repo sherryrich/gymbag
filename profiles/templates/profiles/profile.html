@@ -42,6 +42,7 @@
                                 <th>Date</th>
                                 <th>Items</th>
                                 <th>Order Total</th>
+                                <th>Order Status</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -66,6 +67,7 @@
                                         </ul>
                                     </td>
                                     <td>${{ order.grand_total }}</td>
+                                    <td>{{ order.order_status }}</td>
                                 </tr>
                             {% endfor %}
                         </tbody>

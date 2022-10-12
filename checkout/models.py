@@ -11,9 +11,9 @@ from profiles.models import UserProfile
 # Create your models here.
 
 class Order(models.Model):
-    CONFIRMED = 'CON'
-    SHIPPED = 'SHIP'
-    CANCELLED = 'CAN'
+    CONFIRMED = 'CONFIRMED'
+    SHIPPED = 'SHIPPED'
+    CANCELLED = 'CANCELLED'
     STATUS_CHOICES = [
         (CONFIRMED, 'Confirmed'),
         (SHIPPED, 'Shipped'),
