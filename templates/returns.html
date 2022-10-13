@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+<!--Returns 'GymBag' page-->
+
+
+<div class="overlay"></div>
+<div class="container-fluid about-container">
+    <div class="row">
+        <div class="col mt-5 mb-5">
+            <br>
+            <br>
+            <h1><strong>Gym</strong>Bag Returns Policy
+            </h1>
+            If it doesn't fit or you've changed your mind, no problem.
+            <br>
+            <br>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fa-solid fa-arrow-right"></i>  Statutory Rights
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                     Your rights under this returns policy are in addition to your cancellation rights under the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fa-solid fa-arrow-right"></i> Exchange or Refund all item(s)
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        lease retain your receipt. GymBag is always happy to exchange or refund all item(s) using the original method of payment as long as the item(s) are returned in a resellable condition (with original packaging, tags and/or labels) within 30 days from the date of purchase.
+
+                        Please be advised, however, that the following item(s) cannot be returned:
+                        
+                        Innerwear/underwear/swimwear/masks due to hygiene reasons
+                        Personalised item(s) (e.g. altered)
+                        An exception can be made for items deemed faulty and cannot be fixed or replaced by the store as per Consumer Rights Directive 2011/83/EU.
+                        
+                        If you do not have your original receipt, we will allow customers to make a like for like exchange for the same item, or for the current value of the item, whichever is lower at the time of return. For example, you can change the size or the colour of an item.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="fa-solid fa-arrow-right"></i>  Returning Products by Post
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        If you wish to return an online purchase via post, please follow the instructions outlined below. Please note we do not offer pre-paid postal returns.
+                        Enclose the return note in your package (the sheet with the information about the items you want to return).
+                        It is your responsibility to keep all return receipts, making a shipment by registered mail or by any other means necessary to enable a precise proof of the sending date.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <i class="fa-solid fa-arrow-right"></i>  When should I expect a refund?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Please note we will refund you in 14 (FOURTEEN) working days from the date on which we receive the returned the product(s) to the specified address (please see above). Any refunds made by us will be made to the method of payment provided when you placed your order and will be subject to Uniqlo right to withhold amounts for products which are found damaged on return. You will be refunded the amount you paid for the product(s) returned excluding any delivery charges (if appropriate). In other words, we will refund you the cost of the Products but not your delivery charges.
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+</div>     
+
+{%endblock%}

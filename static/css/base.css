@@ -157,13 +157,22 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+.btn-link,
 .terms {
     color: white;
 }
 
+.btn-link:hover,
 .terms:hover {
     color: rgb(255, 0, 0);
+    text-decoration: none
 }
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(204, 89, 89) !important;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {

@@ -35,6 +35,7 @@ urlpatterns = [
     path('about/', TemplateView.as_view(template_name="about.html"), name='about'),
     path('privacy/', TemplateView.as_view(template_name="privacy.html"), name='privacy'),
     path('terms/', TemplateView.as_view(template_name="terms.html"), name='terms'),
+    path('returns/', TemplateView.as_view(template_name="returns.html"), name='returns'),
     path('contact/', contact, name='contact'),
     path('installation/', Installation, name='installation'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
