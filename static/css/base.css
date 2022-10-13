@@ -61,6 +61,7 @@ h1 {
 .btn-info {
     background-color: rgb(255, 0, 0);
     color: rgb(255, 255, 255);
+    border: none;
 }
 
 .btn-submit:hover,
@@ -156,7 +157,13 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+.terms {
+    color: white;
+}
 
+.terms:hover {
+    color: rgb(255, 0, 0);
+}
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
