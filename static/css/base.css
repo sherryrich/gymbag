@@ -42,20 +42,36 @@ h1 {
 }
 
 .shop-now-button {
-    background: rgb(255, 0, 0);
-    color: white;
-    min-width: 260px;
+    background: rgb(255, 0, 0) !important;
+    color: white !important;
+    min-width: 260px !important;
 }
+
 
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus {
     background: rgb(255, 255, 255) !important;
     color: rgb(255, 0, 0) !important;
-    border-color: rgb(255, 2, 2);
-    min-width: 260px;
+    border-color: rgb(0, 0, 0) !important;
+    min-width: 260px !important;
 }
 
+.btn-submit,
+.btn-info {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.btn-submit:hover,
+.btn-submit:active,
+.btn-submit:focus,
+.btn-info:hover,
+.btn-info:active,
+.btn-info:focus {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(255, 0, 0) !important;
+}
 
 .btn-black {
     background: black;
@@ -79,15 +95,11 @@ h1 {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus,
-.btn-info,
 #mc-embedded-subscribe {
     background: rgb(255, 0, 0) !important;
     color: rgb(255, 255, 255) !important;
     border-color: white;
 }
-
-.btn-submit,
-
 
 #mc_embed_signup{
     background:rgb(255, 255, 255); 
