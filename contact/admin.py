@@ -6,8 +6,8 @@ from .models import Contact
 
 @admin.register(Contact)
 class ContactAdmin(admin.ModelAdmin):
-    list_display = ('name', 'email', 'body', 'created_on')
-    search_fields = ('name', 'email', 'body')
+    list_display = ('name', 'email', 'body', 'contact_reason', 'created_on')
+    search_fields = ('name', 'email', 'body', 'contact_reason')
 
     def approve_contact(self, request, queryset):
         queryset.update(approved=True)
