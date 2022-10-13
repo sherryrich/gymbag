@@ -33,7 +33,8 @@ h1 {
 
 .logo-font {
     text-transform: uppercase;
-    margin-bottom: 0.35rem!important;
+    margin-top: 0.57rem!important;
+    margin-bottom: 0.57rem!important;
 }
 
 .main-logo-link {
@@ -41,10 +42,20 @@ h1 {
 }
 
 .shop-now-button {
-    background: black;
+    background: rgb(255, 0, 0);
     color: white;
     min-width: 260px;
 }
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus {
+    background: rgb(255, 255, 255) !important;
+    color: rgb(255, 0, 0) !important;
+    border-color: rgb(255, 2, 2);
+    min-width: 260px;
+}
+
 
 .btn-black {
     background: black;
@@ -65,9 +76,6 @@ h1 {
     color: white !important;
 }
 
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus,
@@ -77,6 +85,8 @@ h1 {
     color: rgb(255, 255, 255) !important;
     border-color: white;
 }
+
+.btn-submit,
 
 
 #mc_embed_signup{
@@ -424,8 +434,12 @@ input[name='q']::placeholder {
 }
 
 .post-link:hover,
-.page-link {
-    color: #E84610;
+.page-link:hover {
+    color: #ff0000;
+}
+
+.page-link{
+    color: black;
 }
 
 .post-title {

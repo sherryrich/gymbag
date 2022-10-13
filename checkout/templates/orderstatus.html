@@ -1,14 +1,16 @@
 {% extends "base.html" %}
 {% load static %}
-
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
+{% endblock %}
 
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
@@ -18,7 +20,7 @@
 <div class="container-fluid about-container">
     <div class="row" id="order-status">
         <div class="col mt-5 mb-5">
-          
+
             <h1>Order Status</h1>
             <p>Enter your order number below <br>
 
@@ -29,17 +31,10 @@
                     <input class="form-control search_order" type="search" placeholder="Search Orders"
                         aria-label="Search Orders" name="searched" style="width: 600px;"><br>
                     <button class="btn btn-info search_button" type="submit">Search</button>
-
                 </form>
             </p>
-
-               
-      
         </div>
     </div>
-
-</div> 
-
-
+</div>
 
 {% endblock %}
