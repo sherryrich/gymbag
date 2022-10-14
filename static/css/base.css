@@ -16,11 +16,38 @@ h1 {
     background-color: rgb(0, 0, 0) !important;
 }
 
+.contact-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: rgb(0, 0, 0) !important;
+    z-index: -1;
+}
+
+
+.contact-container,
+.installation-container {
+    margin: auto;
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+.news-container,
 .about-container {
     margin: auto;
     background-color: black;
     color: white;
 }
+
+.installation-container {
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
 
 /* from Bulma */
 .icon {
@@ -132,6 +159,10 @@ h1 {
     position: fixed;
     background: white;
     z-index: -1;
+}
+
+.overlay-installation {
+    background: black !important;
 }
 
 a.category-badge>span.badge:hover {
