@@ -5,7 +5,7 @@ from .models import Installation
 class InstallationAdmin(admin.ModelAdmin):
     """This class defines admin page for the Installation Service"""
     readonly_fields = ('date',)
-    fields = ('first_name', 'last_name', 'installation_type',)
+    fields = ('first_name', 'last_name', 'phone_number', 'email_address', 'installation_type',)
     list_display = ('first_name', 'last_name', 'date', 'installation_type')
     ordering = ('-date',)
 
