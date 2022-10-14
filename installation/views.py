@@ -26,7 +26,7 @@ def Installation(request):
                 form.save()
                 messages.success(
                     request,
-                    "Thanks for submitting your Installation Query" +
+                    "Thanks for submitting your Installation Query." +
                     " We will be in touch to re-confirm your" +
                     " time and date.")
             except ValidationError as e:

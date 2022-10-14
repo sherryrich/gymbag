@@ -18,7 +18,10 @@ def contact(request):
         form = ContactForm(request.POST)
         if form.is_valid():
             form.save()
-            messages.success(request, 'Your message has been sent!')
+            messages.success(
+                request,
+                'Your message has been sent sucesfully !' +
+                ' We aim to respond within 1 working day.')
             return HttpResponseRedirect('/contact?submitted=True')
     else:
         form = ContactForm()
