@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/accounts/login/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/bag/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=tshirts</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=shorts</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=socks</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=tshirts,shorts,socks</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=bars_snacks</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=drinks</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=vitamins</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=bars_snacks,drinks,vitamins</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=dumbbells</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=kettlebells</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=plates</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=dumbbells,kettlebells,plates</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=new_arrivals</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=sale</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=clearance</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/?category=new_arrivals,sale,clearance</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/about/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/installation/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/blogs/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/contact/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/privacy/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/terms/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/returns/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/11/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/18/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/17/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/14/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/15/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/10/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/4/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/22/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/2/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/3/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/6/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/16/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/13/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/8/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/1/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/19/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/12/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/20/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/products/21/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/blogs/7-benefits-of-high-intensity-interval-training-hiit/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/blogs/10-workout-essentials/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/blogs/homemade-protein-shake/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/blogs/marathon-training/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sherryrich-gymbag.herokuapp.com/blogs/try-a-triathlon/</loc>
+  <lastmod>2022-10-14T09:33:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

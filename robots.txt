@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Disallow: /admin/
+Disallow: /profiles/
+Sitemap: https://sherryrich-gymbag.herokuapp.com/sitemap.xml
