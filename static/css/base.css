@@ -633,5 +633,13 @@ input[name='q']::placeholder {
 
     #mc_embed_signup{
         width:300px;}
+
+    .contact-container,
+    .installation-container {
+            margin: auto;
+            width: 150%;
+            background-color: black;
+            color: white;
+        }
 }
 
