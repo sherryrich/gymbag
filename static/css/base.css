@@ -414,6 +414,12 @@ input[name='q']::placeholder {
     text-decoration: none;
 }
 
+.copyright {
+    text-align: center;
+    color: #3a3a3a;
+}
+
+
 /* -----CC for Blog------- */
 
 .brand {
