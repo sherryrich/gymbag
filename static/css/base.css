@@ -173,7 +173,20 @@ input[name='q']::placeholder {
     box-shadow: 0 0 0 0.2rem rgb(204, 89, 89) !important;
 }
 
-/* ------------------------------- bootstrap toasts */
+
+/* ------ form styles ------  */
+
+.form-control {
+    width: 50%;
+}
+
+/* ------ icon styles ------  */
+.icon {
+    justify-content: left !important;
+    width: 3.5rem !important;
+}
+
+/* ------  bootstrap toasts  ------ */
 
 .message-container {
     position: fixed;
