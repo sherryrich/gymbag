@@ -5,7 +5,7 @@ GymBag is a fictional e-commerce fashion retailer based in Ireland.
 Founded in September 2022, GymBag specializes in buying clearance stock from manufacturers and selling at discounted prices online.
 
 ## Showcase
-![Preview](https://github.com/sherryrich/heard-it/blob/main/docs/gymbag_amiresponsive.JPG)
+![Preview](https://github.com/sherryrich/blob/main/docs/gymbag_amiresponsive.JPG)
 
 ### Live Website
 A deployed link to the website can be found [here](https://sherryrich-gymbag.herokuapp.com/)
@@ -13,9 +13,8 @@ A deployed link to the website can be found [here](https://sherryrich-gymbag.her
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
-- [UX](#user-experience)
+- [UX](#ux-user-experience)
 - [Architecture](#architecture)
-- [Agile Development Process](#agile-development-process)
 - [Design](#design)
 - [Features](#features)
 - [Web Marketing](#web-marketing)
@@ -29,47 +28,49 @@ A deployed link to the website can be found [here](https://sherryrich-gymbag.her
 
 
 
-# User Experience (UX)
-## User Stories
-## Overall Goals
-## Strategy
+## UX User Experience
+### User Stories
+#### As the site creator/admin:
+####  As the site user:
+### Overall Goals
+### Strategy
 
-# Architecture
-## Database Schema
+## Architecture
+### Database Schema
 
-# Design
-## Wireframes
-## Navigation
-## Color Palette
-## Typography
+## Design
+### Wireframes
+### Navigation
+### Color Palette
+### Typography
 
-# Features
-## Existing Features
-## Future Features
+## Features
+### Existing Features
+### Future Features
 
-# Web Marketing - SEO
+## Web Marketing
 
-# Social Media
+## Social Media
 
-# Technologies Used
-## Languages Used
-## Frameworks, Libraries & Programs Used
+## Technologies Used
+### Languages Used
+### Frameworks, Libraries & Programs Used
 
-# Testing
-## Validation Testing
-## Lighthouse Report
-## The W3C Markup Validator
-## W3C CSS Validator
-## W3C CSS Validator
-## PEP8 online
-## JSHint
-## Color Contrast Accessibility Validator
-## Manual Testing
+## Testing
+### Validation Testing
+### Lighthouse Report
+### The W3C Markup Validator
+### W3C CSS Validator
+### W3C CSS Validator
+### PEP8 online
+### JSHint
+### Color Contrast Accessibility Validator
+### Manual Testing
 
-# Bugs / Errors encountered during development
+## Bugs / Errors encountered during development
 
-# Deployment
+## Deployment
 
-# Credits
+## Credits
 
-# Acknowledgements
+## Acknowledgements
