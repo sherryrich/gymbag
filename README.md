@@ -5,7 +5,7 @@ GymBag is a fictional e-commerce fashion retailer based in Ireland.
 Founded in September 2022, GymBag specializes in buying clearance stock from manufacturers and selling at discounted prices online.
 
 ## Showcase
-![Preview](https://github.com/sherryrich/blob/main/docs/gymbag_amiresponsive.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/gymbag_amiresponsive.JPG)
 
 ### Live Website
 A deployed link to the website can be found [here](https://sherryrich-gymbag.herokuapp.com/)
