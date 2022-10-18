@@ -40,6 +40,26 @@ A deployed link to the website can be found [here](https://sherryrich-gymbag.her
 
 ## Design
 ### Wireframes
+### Wireframes
+ <details>
+  <summary>Click here to view all wireframes both Desktop & mobile:</summary>
+
+  ![](docs/homepage.JPG)
+  ![](docs/products.JPG)
+  ![](docs/about.JPG)
+  ![](docs/contact.JPG)
+  ![](docs/installation.JPG)
+  ![](docs/news.JPG)
+
+  ![](docs/homepage_mobile.JPG)
+  ![](docs/products_mobile.JPG)
+  ![](docs/about_mobile.JPG)
+  ![](docs/contact_mobile.JPG)
+  ![](docs/installation_mobile.JPG)
+  ![](docs/news_mobile.JPG)
+
+  </details>
+
 ### Navigation
 ### Color Palette
 ### Typography
