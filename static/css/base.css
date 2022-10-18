@@ -2,13 +2,12 @@ html {
     height: 100%;
 }
 
-
 body {
     background: url('/media/weights_bar.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Lato';
+    font-family: 'Roboto Condensed', 'Lato', 'Arial', 'sans-serif';
 }
 
 h1 {
@@ -25,7 +24,6 @@ h1 {
     background: rgb(0, 0, 0) !important;
     z-index: -1;
 }
-
 
 .contact-container,
 .installation-container {
@@ -47,7 +45,6 @@ h1 {
     background-color: black;
     color: white;
 }
-
 
 /* from Bulma */
 .icon {
@@ -73,7 +70,6 @@ h1 {
     color: white !important;
     min-width: 260px !important;
 }
-
 
 .shop-now-button:hover,
 .shop-now-button:active,
@@ -203,7 +199,6 @@ input[name='q']::placeholder {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgb(204, 89, 89) !important;
 }
-
 
 /* ------ form styles ------  */
 
