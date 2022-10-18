@@ -61,6 +61,15 @@ A deployed link to the website can be found [here](https://sherryrich-gymbag.her
   </details>
 
 ### Navigation
+I created a logic flowchart to help organise the site structure. The ERD (entity relationship diagram) helped visually to confirm user roles and the permissions and website structure.
+
+<details>
+  <summary>Click here to view website navigation:</summary>
+
+  ![](docs/gymbag.drawio.png)
+
+  </details>
+
 ### Color Palette
 ### Typography
 
