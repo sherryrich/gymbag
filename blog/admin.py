@@ -4,6 +4,7 @@ from django_summernote.admin import SummernoteModelAdmin
 
 # Register your models here.
 
+
 @admin.register(Post)
 class PostAdmin(SummernoteModelAdmin):
 
@@ -21,6 +22,6 @@ class CommentAdmin(admin.ModelAdmin):
     search_fields = ('name', 'email', 'body')
     actions = ['approve_comments']
 
+
     def approve_comments(self, request, queryset):
         queryset.update(approved=True)
-
