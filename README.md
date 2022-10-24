@@ -133,6 +133,50 @@ Roboto Condensed is the primary font taken from Google Fonts this font was chose
 ## Bugs / Errors encountered during development
 
 ## Deployment
+* This project was developed using a GitPod workspace. The code was committed to Git and pushed to GitHub using the terminal.
+
+* Log in to [Heroku](https://id.heroku.com/login) or create an account
+* On the main page click New and Create New App
+* Note: new app name must be unique
+* Next select your region, I chose Europe.
+* Click Create App button
+* Click in resources and select Heroku Postgres database
+* Click Reveal Config Vars and add new config "SECRET_KEY"
+* Click Reveal Config Vars and add new config "DISABLE_COLLECTSTATIC = 1"
+* The next page is the project’s Deploy Tab. Click on the Settings Tab and scroll down to Config Vars
+* Next, go to Buildpack section click Add Buildpack select python and Save Changes
+* Scroll to the top of the page and choose the Deploy tab
+* Select Github as the deployment method
+* Confirm you want to connect to GitHub
+* Search for the repository name and click the connect button
+* Scroll to the bottom of the deploy page and select the preferred deployment type
+* Click either Enable Automatic Deploys for automatic deployment when you push updates to Github
+
+### Final Deployment 
+
+* Create a runtime.txt `python-3.8.14`
+* Create a Procfile `web: gunicorn gymbag.wsgi:application`
+* When development is complete change the debug setting to: `DEBUG = False` in settings.py
+* In Heroku settings, delete the config vars for `DISABLE_COLLECTSTATIC = 1`
+
+### Forking This Project
+
+* Open [GitHub](https://github.com/sherryrich/gymbag)
+* Find the 'Fork' button at the top right of the page
+* Once you click the button the fork will be in your repository
+
+### Cloning This Project
+
+* Clone this project by following the steps:
+
+* Open [GitHub](https://github.com/sherryrich/gymbag)
+* You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order
+to copy the URL
+* Once you click the button the fork will be in your repository
+* Open a new terminal
+* Change the current working directory to the location that you want the cloned directory
+* Type 'git clone' and paste the URL copied in step 3
+* Press 'Enter' and the project is cloned
 
 ## Credits
 

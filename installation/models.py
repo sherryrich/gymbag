@@ -2,9 +2,6 @@ from django.db import models
 import datetime
 from django.core.exceptions import ValidationError
 
-# Create your models here.
-
-
 
 class Installation(models.Model):
     """Model for installation service"""

@@ -1,7 +1,6 @@
 from django.contrib import admin
 from .models import Order, OrderLineItem
 
-# Register your models here.
 
 class OrderLineItemAdminInline(admin.TabularInline):
     model = OrderLineItem
@@ -28,5 +27,6 @@ class OrderAdmin(admin.ModelAdmin):
                     'grand_total', 'order_status')
 
     ordering = ('-date',)
+
 
 admin.site.register(Order, OrderAdmin)

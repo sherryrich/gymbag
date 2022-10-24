@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from .forms import InstallationForm
 from .models import Installation
-from profiles.models import UserProfile
 from django.contrib import messages
 from django.core.exceptions import ValidationError
 
