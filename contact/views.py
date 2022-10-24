@@ -29,4 +29,3 @@ def contact(request):
             submitted = True
     form = ContactForm()
     return render(request, 'contact/contact.html', {'form': form})
-

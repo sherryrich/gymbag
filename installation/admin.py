@@ -2,6 +2,7 @@ from django.contrib import admin
 from .models import Installation
 # Register your models here.
 
+
 class InstallationAdmin(admin.ModelAdmin):
     """This class defines admin page for the Installation Service"""
     readonly_fields = ('date',)

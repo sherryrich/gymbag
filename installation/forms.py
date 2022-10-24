@@ -24,8 +24,6 @@ class InstallationForm(forms.ModelForm):
             'date': forms.SelectDateWidget(attrs={'class': 'form-control'}),
         }
 
-    
-
     date = forms.DateField(
         widget=forms.widgets.DateInput(
             attrs={
