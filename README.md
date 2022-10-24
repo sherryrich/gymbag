@@ -180,4 +180,27 @@ to copy the URL
 
 ## Credits
 
+* Code Institute - [Hello Django](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/dc049b343a9b474f8d75822c5fda1582/121ef050096f4546a1c74327a9113ea6/) - Task Manager Walkthrough
+* Code Institute - [I think therefore I blog](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/b31493372e764469823578613d11036b/fe4299adcd6743328183aab4e7ec5d13/
+) - Django blog project Walkthrough
+* Codemy.com Database Tables With Django - [YouTube](https://youtu.be/z5e_8FgKZig)
+* Codemy.com Delete a Blog Post - Django - [YouTube](https://youtu.be/8NPOwmtupiI)
+* Corey Schafer Python Django Tutorial [YouTube](https://www.youtube.com/c/Coreyms)
+* Create A Simple Blog With Python and Django [YouTube](https://youtu.be/B40bteAMM_M)
+* The Web Developer Bootcamp 2002 [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)
+* How to Use GitHub for Automated Kanban Project Management [YouTube](https://www.youtube.com/watch?v=YVFa5VljCDY)
+* Style Django Forms With Bootstrap 
+ [YouTube](https://www.youtube.com/watch?v=6-XXvUENY_8)
+ * More Django Styling  
+ [YouTube](https://www.youtube.com/watch?v=uJp4PaDkux0)
+
+
 ## Acknowledgements
+## Acknowledgements
+* To create this website, I relied on material covered in the Full Stack Development course by Code Institute.
+* I also sourced information and help from a variety of sources such as Slack Community Channels, Udemy, W3Schools, MDN and YouTube for Online Web Tutorials and resources.
+* Martina Terlevic for reviewing my work and providing valuable feedback and advice.
+
+This project is for educational use only and was created for the Code Institute Module.
+
+Created by Richard Sherry 😊
