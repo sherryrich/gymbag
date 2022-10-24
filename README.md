@@ -10,6 +10,16 @@ Founded in September 2022, GymBag specializes in buying clearance stock from man
 ### Live Website
 A deployed link to the website can be found [here](https://sherryrich-gymbag.herokuapp.com/)
 
+### QR Code
+
+ <details>
+  <summary>Click here to see QR Code</summary>
+
+  ![](docs/qrcode_sherryrich-gymbag.herokuapp.com.png)
+
+  </details>
+
+
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
@@ -180,7 +190,8 @@ to copy the URL
 
 ## Credits
 
-* Code Institute - [Hello Django](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/dc049b343a9b474f8d75822c5fda1582/121ef050096f4546a1c74327a9113ea6/) - Task Manager Walkthrough
+* Code Institute - [Boutique Ado](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+EA101+2021_T1/courseware/eb05f06e62c64ac89823cc956fcd8191/3adff2bf4a78469db72c5330b1afa836/) -  Walkthrough
+* Code Institute - [Hello Django](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/dc049b343a9b474f8d75822c5fda1582/121ef050096f4546a1c74327a9113ea6/) -  Walkthrough
 * Code Institute - [I think therefore I blog](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/b31493372e764469823578613d11036b/fe4299adcd6743328183aab4e7ec5d13/
 ) - Django blog project Walkthrough
 * Codemy.com Database Tables With Django - [YouTube](https://youtu.be/z5e_8FgKZig)
@@ -195,7 +206,6 @@ to copy the URL
  [YouTube](https://www.youtube.com/watch?v=uJp4PaDkux0)
 
 
-## Acknowledgements
 ## Acknowledgements
 * To create this website, I relied on material covered in the Full Stack Development course by Code Institute.
 * I also sourced information and help from a variety of sources such as Slack Community Channels, Udemy, W3Schools, MDN and YouTube for Online Web Tutorials and resources.
