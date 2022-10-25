@@ -94,43 +94,66 @@ Roboto Condensed is the primary font taken from Google Fonts this font was chose
 ## Features
 ### Existing Features
 ### Home page
+Homepage displays the logo on the left top, search bar in the middle, then my account and card details on the right hand side.
+Below that is the main navigation links. There is a H1 heading with "No 1 for gym gear" along with a large background image of weights bar and plates informing users so that the website's purpose is immediately evident to a new user.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/homepage_features.JPG)
 ### Navigation Bar
+The naviation bar has links to all products, clothing, nutrition, equipment, special offers and more. Included in the dropdown for more are the links to About us, gum instatiion, news / blog and ccontact us pages.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/navigation_bar.JPG)
 ### All Products page
+The All products page displays all products available. Users can sort by price, rating, name or category. There is a back to top button if users wish to get back to the top easily.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/all_products.JPG)
 ### Product Category pages
+Users can search via each category in the various dropdown options for quick navigation.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/all_equipment.JPG)
 ### Individual Product pages - shopping bag
+Individual product pages provides a name, description, price, the quantity selected and update and delete options if superuser is logged in.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/shopping_bag.JPG)
 ### About Us
+The about us page informs the user(s) to find brieft information on hen the website was formed and what the website sells.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/about_page.JPG)
 ### Gym Installation page
+The Installation page allows potential users contact GymBag regarding potential gym instaallation queries.  Once the form is successfully sent a message is shown to the user to inform the user.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/gym_installation_page.JPG)
 ### News / Blog
+This feature is used by admin users to display latest news articles and stories to generate inbound traffic to the website organically.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/blog.JPG)
 ### Contact Us
+Feedback and suggestions can be submitted via a form with name, email and body of message and dropdown option, the options available are Retuns, Availabilty, Pricing, Feedback and Other. Once the form is successfully sent a message is shown to the user to inform the user.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/contact_us.JPG)
+### Newsletter sign-up
+Newsletter signup form encourging users to enter email address on the homepage for the purposes gathering email addresses for digital marketing campaigns.
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_status.JPG)
 ### Shopping Cart and Checkout
+The Shopping Cart updates with the total value spent and displays a success message along with incentive to increase spend to avail of free delivery over $50.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/cart.JPG)
 ### User Profile Page
+The user profile page displays users contact information along with order history includeing current oder status. This can be edited by the superuser in the admin. Once tthe status is changed this is reflected in realtime for the user. The 3 status options are "Confirmed", "Shipped" and "Cancelled", the default status is "Confirmed" once an order is completed.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/my_profile.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_status.JPG)
 ### Admin CRUD pages for Products, News / Blog
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/product_management.JPG)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/read.JPG)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/update.JPG)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/delete.JPG)
 ### Admin
+Admin - Superuser Access
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/admin.JPG)
 ### Footer
+The footer contains links to Privacy Policy Terms & Conditions Returns Policy as well as social network links (Facebook, Twitter, Instagram and YouTube) and Copyright information.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/footer.JPG)
 ### Privacy Policy
+GDPR compliant privacy policy informs users about how their data is being collected and processed. It is transparent, concise and easily accessible.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/footer.JPG)
 ### Returns
+A clear returns policy is alos displayed to encourge fist time and repeat customers purchasing.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/privacy_policy.JPG)
 ### Terms & Conditions
+Personalized terms and conditions created for GymBag.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/terms_conditions.JPGG)
-
+### 404 Page
+A 404 page was created to handle user navigational errors and give user a quick ink to direct them back to shopping.
+![Preview](https://github.com/sherryrich/gymbag/blob/docs/404.JPG)
 
 ### Future Features
 ### Gift Cards
@@ -164,8 +187,10 @@ Roboto Condensed is the primary font taken from Google Fonts this font was chose
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) used for audits to measure the quality of web pages.
 * [Heroku](https://www.heroku.com/) used to deploy this app, a cloud platform as a service supporting several programming languages.
 * [Pexels](https://www.pexels.com/) Images for this project were sourced from Pexels.
+* [Privacy Policy Generator](https://www.privacypolicygenerator.info/) Free Privacy Policy Generator.
 * [Stripe]() Integrated with Stripe to faciliate online payments.
 * [SQLite](https://www.sqlite.org/index.html) database used in local development was a SQLLite database.
+* [Terms and Conditions Generator](https://www.termsandconditionsgenerator.com/) Free terms and conditions generator.
 * [Unsplash](https://unsplash.com/) Images for this project were sourced from Unsplash.
 * [WAVE](https://wave.webaim.org/extension/) Browser Extension testing.
 * [a11y](https://color.a11y.com/) Color Contrast Accessibility Validator.
