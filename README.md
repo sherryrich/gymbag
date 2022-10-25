@@ -93,6 +93,46 @@ Roboto Condensed is the primary font taken from Google Fonts this font was chose
 
 ## Features
 ### Existing Features
+### Home page
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/homepage_features.JPG)
+### Navigation Bar
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/navigation_bar.JPG)
+### All Products page
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/all_products.JPG)
+### Product Category pages
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/all_equipment.JPG)
+### Individual Product pages - shopping bag
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/shopping_bag.JPG)
+### About Us
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/about_page.JPG)
+### Gym Installation page
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/gym_installation_page.JPG)
+### News / Blog
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/blog.JPG)
+### Contact Us
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/contact_us.JPG)
+### Shopping Cart and Checkout
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/cart.JPG)
+### User Profile Page
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/my_profile.JPG)
+### Admin CRUD pages for Products, News / Blog
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/product_management.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/read.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/update.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/delete.JPG)
+### Admin
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/admin.JPG)
+### Footer
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/footer.JPG)
+### Privacy Policy
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/footer.JPG)
+### Returns
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/privacy-policy.JPG)
+### Terms & Conditions
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/terms_conditions.JPGG)
+
+
+
 ### Future Features
 
 ## Web Marketing
