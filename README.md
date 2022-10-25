@@ -156,10 +156,17 @@ The user profile page displays users contact information along with order histor
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/my_profile.JPG)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_status.JPG)
 
-### Admin CRUD pages for Products, News / Blog
-![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/product_management.JPG)
-![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/read.JPG)
-![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/update.JPG)
+### Admin CRUD pages for Products
+Adding a product as a superuser
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/create.JPG)
+Adding a product - success message
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/create_success.JPG)
+Reading / viewing the product listed
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/read_product.JPG)
+Update - product details
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/update_product.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/update_message.JPG)
+Delete - product details
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/delete.JPG)
 
 ### Admin
@@ -180,7 +187,7 @@ GDPR compliant privacy policy informs users about how their data is being collec
 ### Returns
 A clear returns policy is alos displayed to encourge fist time and repeat customers purchasing.
 
-![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/privacy_policy.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/returns.JPG)
 
 ### Terms & Conditions
 Personalized terms and conditions created for GymBag.
