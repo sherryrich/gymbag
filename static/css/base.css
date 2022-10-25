@@ -66,24 +66,24 @@ h1 {
 }
 
 .shop-now-button {
-    background: rgb(255, 0, 0) !important;
-    color: white !important;
+    background: #ea0000 !important;
+    color: #fff !important;
     min-width: 260px !important;
 }
 
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus {
-    background: rgb(255, 255, 255) !important;
-    color: rgb(255, 0, 0) !important;
-    border-color: rgb(0, 0, 0) !important;
+    background: #fff !important;
+    color: #ea0000 !important;
+    border-color: #000 !important;
     min-width: 260px !important;
 }
 
 .btn-submit,
 .btn-info {
-    background-color: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color: #ea0000;
+    color: #fff;
     border: none;
 }
 
@@ -93,13 +93,13 @@ h1 {
 .btn-info:hover,
 .btn-info:active,
 .btn-info:focus {
-    background-color: rgb(255, 255, 255) !important;
-    color: rgb(255, 0, 0) !important;
+    background-color: #fff !important;
+    color: #ea0000 !important;
 }
 
 .btn-black {
-    background: black;
-    color: white;
+    background: #000;
+    color: #fff;
 }
 
 .btn-outline-black {
@@ -120,18 +120,22 @@ h1 {
 .btn-black:active,
 .btn-black:focus,
 #mc-embedded-subscribe {
-    background: rgb(255, 0, 0) !important;
-    color: rgb(255, 255, 255) !important;
-    border-color: white;
+    background: #ea0000 !important;
+    color: #fff !important;
+    border-color: #fff;
 }
 
 #mc_embed_signup{
-    background:rgb(255, 255, 255); 
+    background:#fff; 
     clear:left; 
     font:14px Helvetica,Arial,sans-serif;
     padding: 10px;
     width:450px;
     color: #000;
+}
+
+#mc_embed_signup .asteris {
+    color: #ea0000 !important;
 }
 
 .text-black {
@@ -143,8 +147,8 @@ h1 {
 }
 
 .bg-red {
-    background: rgb(255, 0, 0) !important;
-    color: rgb(255, 255, 255) !important;
+    background: #ea0000 !important;
+    color: #fff !important;
 }
 
 .overlay {
@@ -163,7 +167,7 @@ h1 {
 
 a.category-badge>span.badge:hover {
     background: #212529 !important;
-    color: rgb(255, 255, 255) !important;
+    color: #fff !important;
 }
 
 .btt-button {
@@ -191,7 +195,7 @@ input[name='q']::placeholder {
 
 .btn-link:hover,
 .terms:hover {
-    color: rgb(255, 0, 0);
+    color: #ea0000;
     text-decoration: none
 }
 
@@ -401,7 +405,7 @@ input[name='q']::placeholder {
 }
 
 .social-networks i:hover {
-    color: rgb(255, 0, 0);
+    color: #ea0000;
 }
 
 #footer-container a {
@@ -409,7 +413,7 @@ input[name='q']::placeholder {
 }
 
 #footer-container a:hover {
-    color: rgb(255, 0, 0);
+    color: #ea0000;
     text-decoration: none;
 }
 
@@ -462,7 +466,7 @@ input[name='q']::placeholder {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: rgb(255, 0, 0)
+    background-color: #ea0000
 }
 
 .author {
