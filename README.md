@@ -185,14 +185,14 @@ A clear returns policy is alos displayed to encourge fist time and repeat custom
 ### Terms & Conditions
 Personalized terms and conditions created for GymBag.
 
-![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/terms_conditions.JPGG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/terms_conditions.JPG)
 
 ### 404 Page
 A 404 page was created to handle user navigational errors and give user a quick ink to direct them back to shopping.
 
-![Preview](https://github.com/sherryrich/gymbag/blob/docs/404.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/404.JPG)
 
-### Future Features
+## Future Features
 ### Gift Cards
 ### Customer Reviews
 
