@@ -127,13 +127,14 @@ Roboto Condensed is the primary font taken from Google Fonts this font was chose
 ### Privacy Policy
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/footer.JPG)
 ### Returns
-![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/privacy-policy.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/privacy_policy.JPG)
 ### Terms & Conditions
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/terms_conditions.JPGG)
 
 
-
 ### Future Features
+### Gift Cards
+### Customer Reviews
 
 ## Web Marketing
 
