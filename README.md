@@ -154,19 +154,23 @@ The Shopping Cart updates with the total value spent and displays a success mess
 The user profile page displays users contact information along with order history includeing current oder status. This can be edited by the superuser in the admin. Once tthe status is changed this is reflected in realtime for the user. The 3 status options are "Confirmed", "Shipped" and "Cancelled", the default status is "Confirmed" once an order is completed.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/my_profile.JPG)
+
+Status is changed in admin.
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_status.JPG)
 
-### Admin CRUD pages for Products
-Adding a product as a superuser
+## Admin CRUD pages for Products
+### Adding a product as a superuser
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/create.JPG)
-Adding a product - success message
+### Adding a product - success message
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/create_success.JPG)
-Reading / viewing the product listed
+### Reading / viewing the product listed
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/read_product.JPG)
-Update - product details
+### Update - product details
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/update_product.JPG)
+### Update - product details - confirmation message
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/update_message.JPG)
-Delete - product details
+### Delete - product details
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/delete.JPG)
 
 ### Admin
@@ -182,7 +186,7 @@ The footer contains links to Privacy Policy Terms & Conditions Returns Policy as
 ### Privacy Policy
 GDPR compliant privacy policy informs users about how their data is being collected and processed. It is transparent, concise and easily accessible.
 
-![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/footer.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/privacy_policy.JPG)
 
 ### Returns
 A clear returns policy is alos displayed to encourge fist time and repeat customers purchasing.
