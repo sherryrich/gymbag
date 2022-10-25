@@ -253,6 +253,12 @@ A 404 page was created to handle user navigational errors and give user a quick 
 ### JSHint
 ### Color Contrast Accessibility Validator
 ### Manual Testing
+### Responsiveness Browser Compatibility
+
+|  | Chrome | Firefox | Edge | Safari | Pass/Fail |
+| ------------- |-------------| -----|  ---------- |  -----| :----: |
+| Expected Appearance   | yes | yes  | yes  | yes | Pass |
+| Expected Layout   | yes | yes  | yes  | yes | Pass |
 
 ## Bugs / Errors encountered during development
 
