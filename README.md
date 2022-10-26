@@ -275,6 +275,7 @@ A 404 page was created to handle user navigational errors and give user a quick 
 | Selecting Register Up directs user to /accounts/signup/ page |  Pass |
 | Selecting Login directs user to /accounts/login/ page  |  Pass |
 | Using the search box in navbar and entering a search returns expected result  |  Pass |
+| Selecting the back to top box on the products pages brings the user back to the top  |  Pass |
 | Using the search box in navbar and entering a no results search returns error message and shows all products  |  Pass |
 | Registering as a new user and entering form validation works |  Pass |
 | Logging in as superuser / admin |  Pass |
@@ -285,7 +286,21 @@ A 404 page was created to handle user navigational errors and give user a quick 
 | As a user I can see the blog / news article on the front end. |  Pass |
 | Editing an existing blog / news article in Django admin reflects change on the front end. |  Pass |
 | Deleting a blog / news article in Django admin removes article on the front end. |  Pass |
-
+| Confirmation message that post is "waiting for approval" shown to user |  Pass |
+| As admin I can view and publish articles |  Pass |
+| Updating a post as the author |  Pass |
+| Posting a new article requires appropriate fields to be filled in |  Pass |
+| If posting a new product and no image is selected then the default image is used |  Pass |
+| Deleting a product as admin |  Pass |
+| Confirmation message of deletion is shown |  Pass |
+| Users not permitted to access create/update/deleate products or articles if they dont have access permission ie SQL Injection attacks |  Pass |
+| Logging out as a user / admin prompts "are you sure" message |  Pass |
+| "You have signed out" message shows to user when successfully signed out |  Pass |
+| Logging out as a user / admin directs user to homepage |  Pass |
+| Clicking on the social media icons in the footer open the link in a new tab |  Pass |
+| Clicking on the Privacy Policy link in the footer diverts user to the /privacy/ page |  Pass |
+| Clicking on the Terms and Conditions link in the footerdiverts user to the /terms/ page |  Pass |
+| Clicking on the Returns Policy link in the footer diverts user to the /returns/ page |  Pass |
 
 ### Responsiveness Browser Compatibility
 
