@@ -253,7 +253,48 @@ A 404 page was created to handle user navigational errors and give user a quick 
 ### JSHint
 ### Color Contrast Accessibility Validator
 ### Manual Testing
+### More manual testing scanerios and results
+|   | Pass/Fail |
+| ------------- | :----: |
+| Selecting GymBag logo on homepage directs user back to homepage  |  Pass |
+| Selecting each navvbar link shows users dropdown options  |  Pass |
+| Selecting ALL for each dropdown option brings user to all for each category page  |  Pass |
+| Sort By price, rating, name and category options reflects results accordingly on page  |  Pass |
+| Selecting About Us directs user to /about/ page |  Pass |
+| Selecting Show Now on about us page directs user to /products/ page |  Pass |
+| Selecting Gym Installation directs user to /installation/ page |  Pass |
+| Sumbitting details in form on /installation/ page sucesfully sends message to admin|  Pass |
+| Selecting News / Blog directs user to /blogs/ page |  Pass |
+| Selecting News articles directs user to particluar article page |  Pass |
+| If logged in as a user I can leave a comment on News articles |  Pass |
+| If logged in as a user I can like News articles |  Pass |
+| Click on the pagination links "next" and "prev" at the bottom of the news page returns results of the next page (example /?page=2) |  Pass |
+| Selecting contact directs user to /contact page  |  Pass |
+| Filling in form on /contact page requires name, email and body and contact reason selected to send to Django admin  |  Pass |
+| Contact form successfully sends data to Django admin as expected  |  Pass |
+| Selecting Register Up directs user to /accounts/signup/ page |  Pass |
+| Selecting Login directs user to /accounts/login/ page  |  Pass |
+| Using the search box in navbar and entering a search returns expected result  |  Pass |
+| Using the search box in navbar and entering a no results search returns error message and shows all products  |  Pass |
+| Registering as a new user and entering form validation works |  Pass |
+| Logging in as superuser / admin |  Pass |
+| "successfully signed in as (user name)" message shown to user |  Pass |
+| When logged in as superuser / admin you can see product management page |  Pass |
+| Adding a new product on the product managment page sucesffuly adds product |  Pass |
+| Creating a new blog / news article in Django admin reflects on the front end. |  Pass |
+| As a user I can see the blog / news article on the front end. |  Pass |
+| Editing an existing blog / news article in Django admin reflects change on the front end. |  Pass |
+| Deleting a blog / news article in Django admin removes article on the front end. |  Pass |
+
+
 ### Responsiveness Browser Compatibility
+
+  <details>
+  <summary>Checked color contrast analysis accessibility</summary>
+
+  ![](docs/a11y_result.JPG)
+
+  </details> 
 
 |  | Chrome | Firefox | Edge | Safari | Pass/Fail |
 | ------------- |-------------| -----|  ---------- |  -----| :----: |
