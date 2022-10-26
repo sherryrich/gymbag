@@ -318,28 +318,28 @@ A 404 page was created to handle user navigational errors and give user a quick 
 
 ## Bugs / Errors encountered during development
 * “can’t open file ‘manage.py’: [Errno 2] No such file or directory”. Reason why was there is a character missing character in the command used for starting the project
- [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug1.JPG)
-* Incorrectly named the file mobile_top_header.html [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug2.JPG)
-* Needed to have pillow installed to use the image field - pip3 install pillow [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug3.JPG)
-* Dopdown results were not displaying because I had comma seperated when it should have been underscore [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug4.JPG)
-* Typo in both dumbells and kettlebells caused products not to display [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug5.JPG)
-* Includes folder in the wrong location [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug6.JPG)
-* Gitpod, online resource glitch - always a good idea to push regularly [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug7.JPG)
-* Must create app before adding name of app to installed_apps in settings.py [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug8.JPG)
-* Missed closing bracked in settings.py [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug9.JPG)
-* Webhook wasn’t displaying order in the terminal. resolved by making the port public by clicking on the lock icon. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug10.JPG) - [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug11.JPG)
-* Spotted typo error in checkout - admin.py [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug12.JPG) - [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug13.JPG)
+ [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug1.JPG)
+* Incorrectly named the file mobile_top_header.html [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug2.JPG)
+* Needed to have pillow installed to use the image field - pip3 install pillow [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug3.JPG)
+* Dopdown results were not displaying because I had comma seperated when it should have been underscore [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug4.JPG)
+* Typo in both dumbells and kettlebells caused products not to display [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug5.JPG)
+* Includes folder in the wrong location [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug6.JPG)
+* Gitpod, online resource glitch - always a good idea to push regularly [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug7.JPG)
+* Must create app before adding name of app to installed_apps in settings.py [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug8.JPG)
+* Missed closing bracked in settings.py [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug9.JPG)
+* Webhook wasn’t displaying order in the terminal. resolved by making the port public by clicking on the lock icon. [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug10.JPG) - [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug11.JPG)
+* Spotted typo error in checkout - admin.py [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug12.JPG) - [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug13.JPG)
 * Updated webhook handler url in strip to match the change in url on Girpod locally - then the webhooks started to process stransactions sucesfully again.
-* Comments in the code arent allowed in json [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug14.JPG)
-* Typo in template litteral didn’t display, should be lowercase p {{ products }} [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug15.JPG)
-* When I created duplicate of products.html and edited I should have edited it to "product_detail.html" and not products_detail.html"  [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug16.JPG)
+* Comments in the code arent allowed in json [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug14.JPG)
+* Typo in template litteral didn’t display, should be lowercase p {{ products }} [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug15.JPG)
+* When I created duplicate of products.html and edited I should have edited it to "product_detail.html" and not products_detail.html"  [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug16.JPG)
 * If still logged in as /admin this can cause issues locally. When I logged out and back in I was able to see expected local version.
-* didn’t append the webhook url in Stripe with '/' [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug17.JPG) & [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug18.JPG)
-* issues deploying - followed steps advised on slack and worked [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug19.JPG)
-* Typo in settings.py [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug20.JPG)
-* CSS - back to top was behind fixed bottom footer, initally I used z-index but felt this looked wrong so just moved it up above the footer [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug21.JPG) 
+* didn’t append the webhook url in Stripe with '/' [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug17.JPG) & [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug18.JPG)
+* issues deploying - followed steps advised on slack and worked [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug19.JPG)
+* Typo in settings.py [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug20.JPG)
+* CSS - back to top was behind fixed bottom footer, initally I used z-index but felt this looked wrong so just moved it up above the footer [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug21.JPG) 
 * Needed to run a migration on the Postgres DB just with a Heroku prefix and it will affect the Postgres DB on Heroku instead of local SQLite one.
-"heroku run python3 manage.py makemigrations" & "heroku run python3 manage.py migrate" resolved this. [Click here](https://github.com/sherryrich/heard-it/blob/main/docs/bug22.JPG)
+"heroku run python3 manage.py makemigrations" & "heroku run python3 manage.py migrate" resolved this. [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug22.JPG)
 
 
 
