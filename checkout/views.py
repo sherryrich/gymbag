@@ -1,12 +1,9 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse # noqa
+from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse  # noqa
 from django.http import Http404
 from django.views.decorators.http import require_POST
 from django.contrib import messages
-from django.views.generic import ListView
 from django.conf import settings
-from django.forms import Form
 from .forms import OrderForm
-from django.db.models import Q
 from .models import Order, OrderLineItem
 
 from products.models import Product
@@ -72,7 +69,8 @@ def checkout(request):
                         )
                         order_line_item.save()
                     else:
-                        for size, quantity in item_data['items_by_size'].items():
+                        for size, quantity in item_data['items_by_size'].items(
+                        ):
                             order_line_item = OrderLineItem(
                                 order=order,
                                 product=product,
@@ -91,8 +89,8 @@ def checkout(request):
 
             # Save the info to the user's profile if all is well
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse
-            ('checkout_success', args=[order.order_number]))
+            return redirect(
+                reverse('checkout_success', args=[order.order_number]))
         else:
             messages.error(request, 'There was an error with your form. \
                 Please double check your information.')

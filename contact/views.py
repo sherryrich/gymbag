@@ -1,8 +1,5 @@
-from django.shortcuts import render, get_object_or_404, reverse, redirect
-from django.urls import reverse_lazy
-from django.views import generic, View
+from django.shortcuts import render, get_object_or_404, redirect
 from .forms import ContactForm
-from django.forms import Form
 from django.http import HttpResponseRedirect
 from django.contrib import messages
 
