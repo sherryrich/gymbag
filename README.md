@@ -209,7 +209,23 @@ A 404 page was created to handle user navigational errors and give user a quick 
 
 ## Web Marketing
 
-## Social Media
+## Web Marketing / Marketing Strategies
+
+### SEO - Search Engine Optimization
+Google keyword research was used to optmise web pages and content to increase ranking in search engines. Both short-tail & Long-tail keywords are used. The “People also ask” and “Related searches” was also used to identify keywords used.
+
+### Content Marketing
+A blog post was created so that the website can create and distribute content material to attract and convert audience into first time customers and repeat customers. The main aim of the blog posts is to build trust and loyalty.
+
+### Social Media Marketing
+A facebook business page was set up with the aim of generating growth organically by building a community and encouraging loyalty amongst our target market. The advantage of this is its free and quick to set up and facebook has a large audience and dempgraphic. The site can connect with customers directly via the facebook platform and wider global audience. The main aim of the facebook page iis to build and maintain relationship with target audience. Content created can be spread across different social media platforms. 
+
+I have also included a screen shot below should the facebook business page be removed by facebook.
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/facebook.JPG)
+
+### Email Marketing
+Mailchimp is used to gain new customers and retain existing. Mailchimp enables the business to run and analyse the success of newsletter marketing campaigns. Users who register to receive the newsletter are automatically added to weekly newsletter. This strategy was chosen because its free to set up with the current level of business and can scale quicktly as the business grows therefore increase conversions and generate more revenue for the business. The users who sign up have already visited the website and are more likely to become customers and therefore low cost to generate sales.
+
 
 ## Technologies Used
 
@@ -233,6 +249,7 @@ A 404 page was created to handle user navigational errors and give user a quick 
 * [Google Chrome Dev tools](https://developer.chrome.com/docs/devtools/) for debugging.
 * [Google Fonts](https://fonts.google.com/about) for typography.
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) used for audits to measure the quality of web pages.
+* [Google Keyword Planner](https://ads.google.com/aw/keywordplanner/home?)
 * [Heroku](https://www.heroku.com/) used to deploy this app, a cloud platform as a service supporting several programming languages.
 * [Pexels](https://www.pexels.com/) Images for this project were sourced from Pexels.
 * [Privacy Policy Generator](https://www.privacypolicygenerator.info/) Free Privacy Policy Generator.
@@ -241,6 +258,7 @@ A 404 page was created to handle user navigational errors and give user a quick 
 * [Terms and Conditions Generator](https://www.termsandconditionsgenerator.com/) Free terms and conditions generator.
 * [Unsplash](https://unsplash.com/) Images for this project were sourced from Unsplash.
 * [WAVE](https://wave.webaim.org/extension/) Browser Extension testing.
+* [Wordtracker](https://www.wordtracker.com/)
 * [a11y](https://color.a11y.com/) Color Contrast Accessibility Validator.
 
 ## Testing
