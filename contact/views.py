@@ -10,7 +10,6 @@ from django.contrib import messages
 
 
 def contact(request):
-    submitted = False
     if request.method == "POST":
         form = ContactForm(request.POST)
         if form.is_valid():
@@ -20,9 +19,12 @@ def contact(request):
                 'Your message has been sent sucesfully !' +
                 ' We aim to respond within 1 working day.')
             return HttpResponseRedirect('/contact?submitted=True')
+        else:
+            messages.error(
+                request, 'There was a problem sending your message. \
+                    Please try again.')
     else:
         form = ContactForm()
         if 'submitted' in request.GET:
-            submitted = True
-    form = ContactForm()
+            form = ContactForm()
     return render(request, 'contact/contact.html', {'form': form})
