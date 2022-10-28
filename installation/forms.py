@@ -1,6 +1,5 @@
 from django import forms
 from .models import Installation
-from django.core.exceptions import ValidationError
 
 
 class InstallationForm(forms.ModelForm):
