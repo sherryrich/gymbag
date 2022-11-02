@@ -48,6 +48,36 @@ A deployed link to the website can be found [here](https://sherryrich-gymbag.her
 ## Architecture
 ### Database Schema
 
+I created 8 tables for the website. Post, Comment, Contact, installation, order, OrderLineItem, product and UserProfile tables. 
+
+A relational database was created. SQLite was used in development of the website and Postgres via Heroku in production.
+
+The Post table is used by SuperUsers to post blog posts  to the website. It has a Primary Key of ID & a ForeignKey relationship to the Comment table. 
+The table also has the following fields, a title, slug (short summary the subject of a post), content, excerpt (short extract), Updated On (date post was updated), Created On (date post was created), status (draft or published) and Likes.
+
+The Comment table is used by users to comment on blog posts. It has the following fields a Primary Key of ID, name, email, body, created on, approved and a ForeignKey to the Post table.
+
+The Contact table is used by users to submit the contact form. It has the following fields a Primary Key of ID, name, email, body & created on (date contact form was submitted) and contact_reason.
+
+The Installation table is used by users to submit the installation query form. It has the following fields a Primary Key of ID, name, email, body & created on (date contact form was submitted) and installation_type.
+
+The Product model contains information about all products listed on the website. It has the following fields a Primary Key of ID, a ForeignKey of category, sku, name, description, has_sizes, price, rating, image_url & image.
+
+The UserProfile table contains information about the user's profile. It has the following fields Primary Key of ID, user, default_phone_number, default_street_address1, default_street_address2, default_town_or_city, default_county, default_postcode & default_country.
+
+The Order model contains all information relating to a customer's order. It has the following fields a Primary Key of ID, order_number, a ForeignKey to the user_profile, full_name, email, phone_number, country, postcode, town_or_city, street_address1, street_address2, county, date, delivery_cost, order_total, grand_total, original_bag, stripe_pid &order_status.
+
+The OrderLineItem table contains infor about an order. It has the following fields a Primary Key of ID, a ForeignKey to the order table, product_size, quantity and lineitem_total.
+
+<details>
+  <summary>Click here to view Database Schema:</summary>
+
+  ![](docs/database.PNG)
+
+  </details>
+
+
+
 ## Design
 ### Wireframes
 ### Wireframes
