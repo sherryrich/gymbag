@@ -105,7 +105,6 @@ The OrderLineItem table contains infor about an order. It has the following fiel
 
 ## Design
 ### Wireframes
-### Wireframes
  <details>
   <summary>Click here to view all wireframes both Desktop & mobile:</summary>
 
@@ -259,10 +258,8 @@ A 404 page was created to handle user navigational errors and give user a quick 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/404.JPG)
 
 ## Future Features
-### Gift Cards
-### Customer Reviews
-
-## Web Marketing
+* Gift Cards [#28](https://github.com/sherryrich/gymbag/issues/28)
+* Customer Reviews [#29](https://github.com/sherryrich/gymbag/issues/29)
 
 ## Web Marketing / Marketing Strategies
 
