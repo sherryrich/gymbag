@@ -40,8 +40,33 @@ A deployed link to the website can be found [here](https://sherryrich-gymbag.her
 
 ## UX User Experience
 ### User Stories
+Agile Development Process, The MoSCoW method was adopted to approach to prioritizing which project requirements for must have, should have, could have and will not have. Please view [GitHub Issues](https://github.com/sherryrich/gymbag/issues) as well as the [KANBAN board](https://github.com/users/sherryrich/projects/13) used for for this project.
+
+
 #### As the site creator/admin:
+* As the website Administrator I would like to be able to access the Django admin
+* As the website Administrator I would like to be able to add, view, edit and delete products
+* As the website Administrator I would like to be able to add, view, edit and delete blog posts
+* As the website Administrator I want to be able to view / reject pending posts from users before publication
+
+
 ####  As the site user:
+* As a website user, I want to be able to instantly understand the main purpose of the site and learn more about the business and products on offer
+* I want to be able to register an account
+* I want to be able to update details on my account
+* I want to be able to register for newsletter
+* I want to be able to add products to my shopping bag and update / pusrchase items easily
+* I want to be able to checkout securely
+* I want to be able to leave comments on all news / blog posts
+* I want to be able to Like & unlike on all news / blog posts
+* I want to be able to search all products by using the search functionality
+* I want to be able to view my order history / my profile
+* I want to be able to send messages via the contact form
+* I want to be able to send messages via the installation form
+
+
+
+
 ### Overall Goals
 ### Strategy
 
