@@ -328,17 +328,25 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 ### W3C CSS Validator
 
   <details>
-  <summary>Checked color contrast analysis accessibility</summary>
+  <summary>Checked using W3C CSS Validator ensuring there were no errors or warnings present. Click here to see the W3C CSS Validator result: </summary>
 
   ![](docs/w3c_css_validator_result.JPG)
 
   </details> 
 
-### PEP8 online
+### flake8
+
+  <details>
+  <summary>The website pep8online.com is currently down so flake8 was run in the terminal. Click here to see the result: </summary>
+
+  ![](docs/flake8.JPG)
+
+  </details> 
+
 ### Color Contrast Accessibility Validator
 
   <details>
-  <summary>Checked color contrast analysis accessibility</summary>
+  <summary>Checked color contrast analysis accessibility. Click here to see the W3C CSS Validator result: </summary>
 
   ![](docs/a11y_result.JPG)
 
@@ -346,7 +354,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 
 ### Manual Testing
 ### More manual testing scanerios and results
-|   | Pass/Fail |
+| Test  | Pass/Fail |
 | ------------- | :----: |
 | Selecting GymBag logo on homepage directs user back to homepage  |  Pass |
 | Selecting each navvbar link shows users dropdown options  |  Pass |
@@ -432,6 +440,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 * "./gymbag/urls.py:50:1: F811 redefinition of unused 'handler404' from line 23". This is as per code institute instructions [View here](https://github.com/sherryrich/gymbag/blob/main/docs/404_error.JPG) 
 * ./checkout/apps.py:8:9: F401 'checkout.signals' imported but unused. This is as per code institute Boutique Ado instructions 
 [Code Institute Solutions](https://github.com/Code-Institute-Solutions/boutique_ado_v1/blob/250e2c2b8e43cccb56b4721cd8a8bd4de6686546/checkout/apps.py)
+* tHE CON
 ## Deployment
 
 * This project was developed using a GitPod workspace. The code was committed to Git and pushed to GitHub using the terminal.
