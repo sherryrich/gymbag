@@ -105,13 +105,12 @@ h1 {
 .btn-outline-black {
     background: white;
     color: black !important;
-    /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
-.btn-outline-black:focus, {
+.btn-outline-black:focus {
     background: black;
     color: white !important;
 }
@@ -422,7 +421,6 @@ input[name='q']::placeholder {
     color: #3a3a3a;
 }
 
-
 /* -----CC for Blog------- */
 
 .brand {
@@ -567,8 +565,6 @@ input[name='q']::placeholder {
     background: transparent;
     border: none;
 }
-
-
 
 /* -------------------------------- Media Queries */
 

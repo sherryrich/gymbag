@@ -316,12 +316,34 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 ## Testing
 ### Validation Testing
 ### Lighthouse Report
+
+  <details>
+  <summary>Checked color contrast analysis accessibility</summary>
+
+  ![](docs/lighthouse.JPG)
+
+  </details> 
+
 ### The W3C Markup Validator
 ### W3C CSS Validator
-### W3C CSS Validator
+
+  <details>
+  <summary>Checked color contrast analysis accessibility</summary>
+
+  ![](docs/w3c_css_validator_result.JPG)
+
+  </details> 
+
 ### PEP8 online
-### JSHint
 ### Color Contrast Accessibility Validator
+
+  <details>
+  <summary>Checked color contrast analysis accessibility</summary>
+
+  ![](docs/a11y_result.JPG)
+
+  </details> 
+
 ### Manual Testing
 ### More manual testing scanerios and results
 |   | Pass/Fail |
@@ -374,12 +396,6 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 
 ### Responsiveness Browser Compatibility
 
-  <details>
-  <summary>Checked color contrast analysis accessibility</summary>
-
-  ![](docs/a11y_result.JPG)
-
-  </details> 
 
 |  | Chrome | Firefox | Edge | Safari | Pass/Fail |
 | ------------- |-------------| -----|  ---------- |  -----| :----: |
