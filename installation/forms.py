@@ -17,7 +17,7 @@ class InstallationForm(forms.ModelForm):
         widgets = {
             'first_name': forms.TextInput(attrs={'class': 'form-control'}),
             'last_name': forms.TextInput(attrs={'class': 'form-control'}),
-            'phone_number': forms.NumberInput(attrs={'class': 'form-control'}),
+            'phone_number': forms.TextInput(attrs={'class': 'form-control'}),
             'email_address': forms.EmailInput(attrs={'class': 'form-control'}),
             'installation_type': forms.Select(attrs={'class': 'form-control'}),
             'date': forms.SelectDateWidget(attrs={'class': 'form-control'}),
