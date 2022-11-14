@@ -46,6 +46,7 @@ h1 {
     color: white;
 }
 
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -208,6 +209,11 @@ input[name='q']::placeholder {
 .form-control {
     width: 50%;
 }
+
+.input-group-append {
+    width: 25%;
+}
+
 
 #id_body {
     height: calc(7.5em + 0.75rem + 2px);
