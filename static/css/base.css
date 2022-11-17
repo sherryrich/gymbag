@@ -391,6 +391,8 @@ input[name='q']::placeholder {
     display: inline-block;
     background-color: white !important;
     padding: 0;
+    border-top: 4px solid #dc3545;
+
 }
 
 .social-networks {
