@@ -4,6 +4,16 @@
 GymBag is a fictional e-commerce fashion retailer based in Ireland.
 Founded in September 2022, GymBag specializes in buying clearance stock from manufacturers and selling at discounted prices online.
 
+That this website is for educational purposes only and the credit card payment functionality is not set up to accept real payments.
+If testing interactively, feel free to use card details below. Further information can be viewed via [Stripe documentation test page](https://stripe.com/docs/testing)
+* 4242424242424242 (Visa)
+* Expiration date = Any future date (Example: 12/24)
+* CVN = any 3 digits (Example: 132)
+* Postcode = any 5 digits (Example: 12345)
+
+
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/test_credentials.JPG)
+
 ## Showcase
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/gymbag_amiresponsive.JPG)
 
@@ -78,6 +88,14 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 ### Site User / Target Audience / Demographic
 * Target market is aimed at anyone in the 20 - 35 years old
 * Gym enthusiasts who like to post about their gym routines, lifestyle and diet online
+* People looking to be part of the community by posting, sharing & liking articles
+
+### Site Goals
+* The site's main purpose is immediately clear
+* Simple navigation that allows the user to find information and resources intuitively
+* User authentication
+* CRUD functionality for superuser(s)
+
 
 ## Architecture
 ### Database Schema
