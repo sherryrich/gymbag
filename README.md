@@ -68,7 +68,16 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 
 
 ### Overall Goals
+* Create an e-commerce cloud-hosted Full-Stack web application to sell Gym related products online.
+* Allow superusers access to full CRUD (create, read, update and deleted) functionality on blog posts / articles and products respectively.
+* To provide users with a targeted product selection and smooth customer experience when shopping on GymBag.
+
 ### Strategy
+* GymBag primarily is focused on selling B2C products to end users. Habits of the consumers have changed recently and many more consumers than ever before have turned to online shopping versus traditional brick-and-mortar store purchases. This is where GymBag aims to benefit consumers by offering large discounts off the manufacturer’s products for home and commercial exercises equipment.
+
+### Site User / Target Audience / Demographic
+* Target market is aimed at anyone in the 20 - 35 years old
+* Gym enthusiasts who like to post about their gym routines, lifestyle and diet online
 
 ## Architecture
 ### Database Schema
@@ -266,6 +275,8 @@ A 404 page was created to handle user navigational errors and give user a quick 
 ### SEO - Search Engine Optimization
 Google keyword research was used to optmise web pages and content to increase ranking in search engines. Both short-tail & Long-tail keywords are used. The “People also ask” and “Related searches” was also used to identify keywords used.
 
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/seo_keywords.JPG)
+
 ### Content Marketing
 A blog post was created so that the website can create and distribute content material to attract and convert audience into first time customers and repeat customers. The main aim of the blog posts is to build trust and loyalty.
 
@@ -354,9 +365,9 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 
 ### Manual Testing
 ### More manual testing scanerios and results
-| Test  | Pass/Fail |
-| ------------- | :----: |
-| Selecting GymBag logo on homepage directs user back to homepage  |  Pass |
+| Feature | Test  | Expected Result | Actual Result |
+| -------------| ----- | ----- | :----: |
+| GymBag logo  | Selecting GymBag logo on homepage |  directs user back to homepage |  Pass |
 | Selecting each navvbar link shows users dropdown options  |  Pass |
 | Selecting ALL for each dropdown option brings user to all for each category page  |  Pass |
 | Sort By price, rating, name and category options reflects results accordingly on page  |  Pass |
