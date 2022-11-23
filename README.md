@@ -54,25 +54,27 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 
 
 #### As the site creator/admin:
-* As the website Administrator I would like to be able to access the Django admin
+* As the website Administrator I would like to be able to access the Django admin to view orders, comments etc
 * As the website Administrator I would like to be able to add, view, edit and delete products
 * As the website Administrator I would like to be able to add, view, edit and delete blog posts
 * As the website Administrator I want to be able to view / reject pending posts from users before publication
+* As the website Administrator I want to be able to view newsletter signups
+* As the website Administrator I want users to be able to view the business social media
 
 
 ####  As the site user:
-* As a website user, I want to be able to instantly understand the main purpose of the site and learn more about the business and products on offer
-* I want to be able to register an account
-* I want to be able to update details on my account
-* I want to be able to register for newsletter
-* I want to be able to add products to my shopping bag and update / pusrchase items easily
-* I want to be able to checkout securely
-* I want to be able to leave comments on all news / blog posts
-* I want to be able to Like & unlike on all news / blog posts
-* I want to be able to search all products by using the search functionality
-* I want to be able to view my order history / my profile
-* I want to be able to send messages via the contact form
-* I want to be able to send messages via the installation form
+* As a website user I want to be able to instantly understand the main purpose of the site and learn more about the business and products on offer
+* As a website user I want to be able to register an account
+* As a website user I want to be able to update details on my account
+* As a website user I want to be able to register for newsletter
+* As a website user I want to be able to add products to my shopping bag and update / pusrchase items easily
+* As a website user I want to be able to checkout securely
+* As a website user I want to be able to leave comments on all news / blog posts
+* As a website user I want to be able to Like & unlike on all news / blog posts
+* As a website user I want to be able to search all products by using the search functionality
+* As a website user I want to be able to view my order history / my profile
+* As a website user I want to be able to send messages via the contact form
+* As a website user I want to be able to send messages via the installation form
 
 
 
@@ -342,6 +344,11 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 * [Wordtracker](https://www.wordtracker.com/)
 * [a11y](https://color.a11y.com/) Color Contrast Accessibility Validator.
 
+
+### requirements.txt file
+* Python libraries listed in the requirements.txt file
+![Preview](docs/python_libraries_requirements.JPG)
+
 ## Testing
 ### Validation Testing
 ### Lighthouse Report
@@ -445,7 +452,7 @@ Whilst no longer a requirement for the submission of this project I decided to r
   </details> 
 
 
-    <details>
+  <details>
   <summary>Coverage HTML Report - Contact</summary>
 
   ![](docs/coverage_html_report.JPG)
