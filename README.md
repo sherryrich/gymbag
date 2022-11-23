@@ -431,6 +431,27 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 | Clicking on the Terms and Conditions link in the footerdiverts user to the /terms/ page |  Pass |
 | Clicking on the Returns Policy link in the footer diverts user to the /returns/ page |  Pass |
 
+
+## Automated Testing
+
+### Unit testing
+Whilst no longer a requirement for the submission of this project I decided to run some automated tests for the contact page as a way to demonstrate knowledge and ability to write and view unit tests. For future projects I hope to expand unit testing and aim for 100%.
+
+  <details>
+  <summary>Auotmated tests results - Contact</summary>
+
+  ![](docs/django_auto_testing.JPG)
+
+  </details> 
+
+
+    <details>
+  <summary>Coverage HTML Report - Contact</summary>
+
+  ![](docs/coverage_html_report.JPG)
+
+  </details> 
+
 ### Responsiveness Browser Compatibility
 
 
