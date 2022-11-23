@@ -347,6 +347,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 
 ### requirements.txt file
 * Python libraries listed in the requirements.txt file
+
 ![Preview](docs/python_libraries_requirements.JPG)
 
 ## Testing
@@ -373,7 +374,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 ### flake8
 
   <details>
-  <summary>The website pep8online.com is currently down so flake8 was run in the terminal. Click here to see the result: </summary>
+  <summary>The website pep8online.com is currently down so flake8 was run in the terminal. Migration and settings errors remain. Click here to see the result: </summary>
 
   ![](docs/flake8.JPG)
 
@@ -393,50 +394,47 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 | Feature | Test  | Expected Result | Actual Result |
 | -------------| ----- | ----- | :----: |
 | GymBag logo  | Selecting GymBag logo on homepage |  directs user back to homepage |  Pass |
-| Selecting each navvbar link shows users dropdown options  |  Pass |
-| Selecting ALL for each dropdown option brings user to all for each category page  |  Pass |
-| Sort By price, rating, name and category options reflects results accordingly on page  |  Pass |
-| Selecting About Us directs user to /about/ page |  Pass |
-| Selecting Show Now on about us page directs user to /products/ page |  Pass |
-| Selecting Gym Installation directs user to /installation/ page |  Pass |
-| Sumbitting details in form on /installation/ page sucesfully sends message to admin|  Pass |
-| Selecting News / Blog directs user to /blogs/ page |  Pass |
-| Selecting News articles directs user to particluar article page |  Pass |
-| If logged in as a user I can leave a comment on News articles |  Pass |
-| If logged in as a user I can like News articles |  Pass |
-| Click on the pagination links "next" and "prev" at the bottom of the news page returns results of the next page (example /?page=2) |  Pass |
-| Selecting contact directs user to /contact page  |  Pass |
-| Filling in form on /contact page requires name, email and body and contact reason selected to send to Django admin  |  Pass |
-| Contact form successfully sends data to Django admin as expected  |  Pass |
-| Selecting Register Up directs user to /accounts/signup/ page |  Pass |
-| Selecting Login directs user to /accounts/login/ page  |  Pass |
-| Using the search box in navbar and entering a search returns expected result  |  Pass |
-| Selecting the back to top box on the products pages brings the user back to the top  |  Pass |
-| Using the search box in navbar and entering a no results search returns error message and shows all products  |  Pass |
-| Registering as a new user and entering form validation works |  Pass |
-| Logging in as superuser / admin |  Pass |
-| "successfully signed in as (user name)" message shown to user |  Pass |
-| When logged in as superuser / admin you can see product management page |  Pass |
-| Adding a new product on the product managment page sucesffuly adds product |  Pass |
-| Creating a new blog / news article in Django admin reflects on the front end. |  Pass |
-| As a user I can see the blog / news article on the front end. |  Pass |
-| Editing an existing blog / news article in Django admin reflects change on the front end. |  Pass |
-| Deleting a blog / news article in Django admin removes article on the front end. |  Pass |
-| Confirmation message that post is "waiting for approval" shown to user |  Pass |
-| As admin I can view and publish articles |  Pass |
-| Updating a post as the author |  Pass |
-| Posting a new article requires appropriate fields to be filled in |  Pass |
-| If posting a new product and no image is selected then the default image is used |  Pass |
-| Deleting a product as admin |  Pass |
-| Confirmation message of deletion is shown |  Pass |
-| Users not permitted to access create/update/deleate products or articles if they dont have access permission ie SQL Injection attacks |  Pass |
-| Logging out as a user / admin prompts "are you sure" message |  Pass |
-| "You have signed out" message shows to user when successfully signed out |  Pass |
-| Logging out as a user / admin directs user to homepage |  Pass |
-| Clicking on the social media icons in the footer open the link in a new tab |  Pass |
-| Clicking on the Privacy Policy link in the footer diverts user to the /privacy/ page |  Pass |
-| Clicking on the Terms and Conditions link in the footerdiverts user to the /terms/ page |  Pass |
-| Clicking on the Returns Policy link in the footer diverts user to the /returns/ page |  Pass |
+| Navigation Links  | Selecting navigation links |  directs user to relevant categories & pages |  Pass |
+| All categories  | Selecting All for each category |  directs user to show all relevant categories on the same page |  Pass |
+| Sort By  | Selecting the filter Sory by for each category |  sucesfully alters the search By price, rating, name and category options reflects results accordingly on page |  Pass |
+| About Us | Selecting About Us |  directs user to About Us page |  Pass |
+| Shop Now | Selecting Shop Now |  directs user to full products list page |  Pass |
+| Gym Installation | Selecting Gym Installation |  directs user to Gym Installation page |  Pass |
+| Sumbitting Form | Sumbitting details in form on installation page |  sucesfully sends message to admin and displays success message |  Pass |
+| Selecting News / Blog | Selecting News / Blog page |  directs user to /blogs/ page |  Pass |
+| Selecting News article(s) | Selecting particluar News article(s) |  directs user to particluar article page |  Pass |
+| User Access | Logged in as user |  I can leave a comment on News / Blog posts |  Pass |
+| User Access | Logged in as user |  I can leave a like  on  News / Blog posts |  Pass |
+| Pagination |  links "next" and "prev" | links at the bottom of the News / Blog posts returns results of the next page (example /?page=2) and back to the previous page | Pass |
+| Contact | Selecting Contact | directs user to /contact page  |  Pass |
+| Form Validation Required fields | Filling in form on /contact page | requires name, email and body and contact reason selected to send to Django admin  |  Pass |
+| Contact form submission | submit contact form | successfully sends data to Django admin as expected  |  Pass |
+| Register | Register for an account | selecting Register in my account directs user to /accounts/signup/ page |  Pass |
+| Login | Login to an account | selecting Login in my account directs user to /accounts/Login/ page |  Pass |
+| Search | Using the search box | Entering a search returns expected result  |  Pass |
+| Back to top | Back to top box | Selecting the back to top box on the products pages brings the user back to the top of the page  |  Pass |
+| Search no results | No search | Entering a no results search returns error message and shows all products  |  Pass |
+| New User | Registering as a new user | Registering as a new user entering form validation works |  Pass |
+| Admin | Loggin in as Logging in as superuser / admin | Logging in as superuser / admin directs user to admin access, shows product management page |  Pass |
+| Login Message | log-in Success | "successfully signed in as (user name)" message shown to user|  Pass |
+| Add Product | Adding a new product | Adding a new product on the product managment page sucesffuly adds product |  Pass |
+| News / blog | Create a new news / blog artile |  Creating a new blog / news article in Django admin reflects on the front end | Pass |
+| News / blog | Read the news / blog artile  |  As a user I can see the blog / news article on the front end | Pass |
+| News / blog  |  Update an existing news / blog artile | As admin I can update and edit existing blog / news article |  Pass |
+| News / blog  |  Delete an existing news / blog artile | As admin I can delete an existing blog / news article |  Pass |
+| Leave a comment | Submit comment on an article | Confirmation message that post is "waiting for approval" shown to user |  Pass |
+| Add Product | no image is selected | default image is used |  Pass |
+| Deleting Product | Deleting selected product | removed product from search |  Pass |
+| Deleting Message | Deleting product confirmation | Confirmation message of deletion is shown when succesfully deleted |  Pass |
+| Deleting Message | Deleting product confirmation | Confirmation message of deletion is shown when succesfully deleted |  Pass |
+| Defensive Programming | Test for SQL Injection attacks | Users not permitted to access create/update/deleate products or articles if they dont have access permission | Pass |
+| Logging out | message shown | Logging out as a user / admin prompts "are you sure" message |  Pass |
+| Successfully signed out | signed out message shown | "You have signed out" message shows to user when successfully signed out |  Pass |
+| Logging out | | Logging out and redirect | Logging out as a user / admin directs user to homepage |  Pass |
+| Footer | social media links | Clicking on the social media icons in the footer open the link in a new tab |  Pass |
+| Footer | Privacy Policy links | Clicking on the Privacy Policy link in the footer diverts user to the /privacy/ page |  Pass |
+| Footer | Terms and Conditions links | Clicking on the Terms and Conditions link in the footerdiverts user to the /terms/ page |  Pass |
+| Footer | Returns Policy links | Clicking on the Returns Policy link in the footer diverts user to the /returns/ page |  Pass |
 
 
 ## Automated Testing
