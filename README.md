@@ -495,7 +495,53 @@ Whilst no longer a requirement for the submission of this project I decided to r
 * "./gymbag/urls.py:50:1: F811 redefinition of unused 'handler404' from line 23". This is as per code institute instructions [View here](https://github.com/sherryrich/gymbag/blob/main/docs/404_error.JPG) 
 * ./checkout/apps.py:8:9: F401 'checkout.signals' imported but unused. This is as per code institute Boutique Ado instructions 
 [Code Institute Solutions](https://github.com/Code-Institute-Solutions/boutique_ado_v1/blob/250e2c2b8e43cccb56b4721cd8a8bd4de6686546/checkout/apps.py)
-* tHE CON
+
+
+## Stripe
+* Register for an account at stripe.com
+* Go to Developers section once logged in
+* Go to API keys section
+![Preview](docs/stripe_api.JPG)
+* Note both the publishable and secret keys
+* In your local environment(env.py) and heroku, create environment variables STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY with the publishable and secret key values
+os.environ.setdefault('STRIPE_PUBLIC_KEY', 'YOUR_VALUE_GOES_HERE')
+os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
+* Back in the Developers section of your stripe account click on Webhooks
+![Preview](docs/stripe_webhook.JPG)
+* Create a webhook with the url of your website /checkout/wh/, for example: https://sherryrich-gymbag.herokuapp.com/checkout/wh/
+* Select the payment_intent.payment_failed and payment_intent.succeeded as events to send
+* Note the key created for this webhook
+* In your local environment(env.py) and heroku, create environment variable STRIPE_WH_SECRET with the secret values os.environ.setdefault('STRIPE_WH_SECRET', 'YOUR_VALUE_GOES_HERE')
+* Test the webhook and note the success/fail attempts for troubleshooting, see events and logs for futher testing.
+
+## Amazon WebServices
+* Create an account at aws.amazon.com
+* Open the S3 application and create an S3 bucket named "sherryrich-gymbag2"
+* Select AWS Region.
+![Preview](docs/aws_bucket.JPG)
+* Uncheck the "Block All Public access setting" & acknowledge that the bucket will be public, it will need to be public in order to allow public access to static files.
+![Preview](docs/aws_bucket2.JPG)
+* In the Properties section, navigate to the "Static Website Hosting" section and click edit
+* Under the Properties section, turn on "Static Website Hosting", and set the index.html and the error.html values.
+![Preview](docs/aws_bucket3.JPG)
+* In the Permissions section, click edit on the CORS configuration and set the below configuration
+![Preview](docs/aws_bucket4.JPG)
+* Click to edit the bucket policy and generate and set the below configuration:
+![Preview](docs/aws_bucket5.JPG)
+* Bucket policy
+![Preview](docs/aws_bucket6.JPG)
+* Go to the Access Control List and set the List objects permission for everyone under the Public Access section.
+* Open the IAM application to control access to the bucket and set up a user group called
+* Click on Policies, and Create Policy.
+* Click on the JSON tab and import a pre-built Amazon policy called AmazonS3FullAccess:
+* Set the following settings in the JSON tab:
+* Click Review Policy, give it a name and description and click Create Policy.
+* To attach the policy to the group, navigate to Groups, then Permissions, and under Add Permissions, select Attach Policy.
+* To create a user for the group, click Add User, and create one
+* Add the user to the group created, making sure to download the CSV file which contains the user's access credentials.
+* Note the following AWS code in Settings.py. An environment variable called USE_AWS must be set to use these settings, otherwise it will use local storage:
+![Preview](docs/aws_settings.JPG)
+
 ## Deployment
 
 * This project was developed using a GitPod workspace. The code was committed to Git and pushed to GitHub using the terminal.
