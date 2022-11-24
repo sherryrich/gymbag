@@ -508,7 +508,9 @@ os.environ.setdefault('STRIPE_PUBLIC_KEY', 'YOUR_VALUE_GOES_HERE')
 os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
 * Back in the Developers section of your stripe account click on Webhooks
 ![Preview](docs/stripe_webhook.JPG)
-* Create a webhook with the url of your website /checkout/wh/, for example: https://sherryrich-gymbag.herokuapp.com/checkout/wh/
+
+* Create a webhook with the url of your website /checkout/wh/, for example:
+ https://sherryrich-gymbag.herokuapp.com/checkout/wh/
 * Select the payment_intent.payment_failed and payment_intent.succeeded as events to send
 * Note the key created for this webhook
 * In your local environment(env.py) and heroku, create environment variable STRIPE_WH_SECRET with the secret values os.environ.setdefault('STRIPE_WH_SECRET', 'YOUR_VALUE_GOES_HERE')
@@ -519,17 +521,23 @@ os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
 * Open the S3 application and create an S3 bucket named "sherryrich-gymbag2"
 * Select AWS Region.
 ![Preview](docs/aws_bucket.JPG)
+
 * Uncheck the "Block All Public access setting" & acknowledge that the bucket will be public, it will need to be public in order to allow public access to static files.
 ![Preview](docs/aws_bucket2.JPG)
+
 * In the Properties section, navigate to the "Static Website Hosting" section and click edit
 * Under the Properties section, turn on "Static Website Hosting", and set the index.html and the error.html values.
 ![Preview](docs/aws_bucket3.JPG)
+
 * In the Permissions section, click edit on the CORS configuration and set the below configuration
 ![Preview](docs/aws_bucket4.JPG)
+
 * Click to edit the bucket policy and generate and set the below configuration:
 ![Preview](docs/aws_bucket5.JPG)
+
 * Bucket policy
 ![Preview](docs/aws_bucket6.JPG)
+
 * Go to the Access Control List and set the List objects permission for everyone under the Public Access section.
 * Open the IAM application to control access to the bucket and set up a user group called
 * Click on Policies, and Create Policy.
@@ -541,6 +549,7 @@ os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
 * Add the user to the group created, making sure to download the CSV file which contains the user's access credentials.
 * Note the following AWS code in Settings.py. An environment variable called USE_AWS must be set to use these settings, otherwise it will use local storage:
 ![Preview](docs/aws_settings.JPG)
+
 
 ## Deployment
 
