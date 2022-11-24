@@ -23,5 +23,6 @@ class Contact(models.Model):
         choices=REASON_FOR_CONTACT,
         default='please select below'
         )
+
     def __str__(self):
         return self.name
