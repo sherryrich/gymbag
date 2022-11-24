@@ -226,7 +226,7 @@ Feedback and suggestions can be submitted via a form with name, email and body o
 ### Newsletter sign-up
 Newsletter signup form encourging users to enter email address on the homepage for the purposes gathering email addresses for digital marketing campaigns.
 
-![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_status.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/newsletter_signup.JPG)
 
 ### Shopping Cart and Checkout
 The Shopping Cart updates with the total value spent and displays a success message along with incentive to increase spend to avail of free delivery over $50.
@@ -362,6 +362,22 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
   </details> 
 
 ### The W3C Markup Validator
+
+  <details>
+  <summary>HTML Validator Results/</summary>
+
+  ![](docs/html_checker_about.JPG)
+  ![](docs/html_checker_accounts_login.JPG)
+  ![](docs/html_checker_bag.JPG)
+  ![](docs/html_checker_blogs.JPG)
+  ![](docs/html_checker_contact.JPG)
+  ![](docs/html_checker_installation.JPG)
+  ![](docs/html_checker_products.JPG)
+  ![](docs/html_checker_returns.JPG)
+  ![](docs/html_checker_terms.JPG)
+
+  </details> 
+
 ### W3C CSS Validator
 
   <details>
