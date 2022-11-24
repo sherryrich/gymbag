@@ -50,7 +50,7 @@ A deployed link to the website can be found [here](https://sherryrich-gymbag.her
 
 ## UX User Experience
 ### User Stories
-Agile Development Process, The MoSCoW method was adopted to approach to prioritizing which project requirements for must have, should have, could have and will not have. Please view [GitHub Issues](https://github.com/sherryrich/gymbag/issues) as well as the [KANBAN board](https://github.com/users/sherryrich/projects/13) used for for this project.
+Agile Development Process, The MoSCoW method was adopted to approach to prioritizing which project requirements for must have, should have, could have and will not have. Please view [GitHub Issues](https://github.com/sherryrich/gymbag/issues) as well as the [KANBAN board](https://github.com/users/sherryrich/projects/13) used for this project.
 
 
 #### As the site creator/admin:
@@ -67,7 +67,7 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 * As a website user I want to be able to register an account
 * As a website user I want to be able to update details on my account
 * As a website user I want to be able to register for newsletter
-* As a website user I want to be able to add products to my shopping bag and update / pusrchase items easily
+* As a website user I want to be able to add products to my shopping bag and update / purchase items easily
 * As a website user I want to be able to checkout securely
 * As a website user I want to be able to leave comments on all news / blog posts
 * As a website user I want to be able to Like & unlike on all news / blog posts
@@ -102,7 +102,7 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 ## Architecture
 ### Database Schema
 
-I created 8 tables for the website. Post, Comment, Contact, installation, order, OrderLineItem, product and UserProfile tables. 
+I created 8 tables for the website. Post, Comment, Contact, installation, order, OrderLineItem, Product and UserProfile tables. 
 
 A relational database was created. SQLite was used in development of the website and Postgres via Heroku in production.
 
@@ -121,7 +121,7 @@ The UserProfile table contains information about the user's profile. It has the 
 
 The Order model contains all information relating to a customer's order. It has the following fields a Primary Key of ID, order_number, a ForeignKey to the user_profile, full_name, email, phone_number, country, postcode, town_or_city, street_address1, street_address2, county, date, delivery_cost, order_total, grand_total, original_bag, stripe_pid &order_status.
 
-The OrderLineItem table contains infor about an order. It has the following fields a Primary Key of ID, a ForeignKey to the order table, product_size, quantity and lineitem_total.
+The OrderLineItem table contains information about an order. It has the following fields a Primary Key of ID, a ForeignKey to the order table, product_size, quantity and lineitem_total.
 
 <details>
   <summary>Click here to view Database Schema:</summary>
@@ -184,7 +184,7 @@ Below that is the main navigation links. There is a H1 heading with "No 1 for gy
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/homepage_features.JPG)
 
 ### Navigation Bar
-The naviation bar has links to all products, clothing, nutrition, equipment, special offers and more. Included in the dropdown for more are the links to About us, gum instatiion, news / blog and ccontact us pages.
+The navigation bar has links to all products, clothing, nutrition, equipment, special offers and more. Included in the dropdown for more are the links to About us, gum installation, news / blog and contact us pages.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/navigation_bar.JPG)
 
@@ -204,12 +204,12 @@ Individual product pages provides a name, description, price, the quantity selec
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/shopping_bag.JPG)
 
 ### About Us
-The about us page informs the user(s) to find brieft information on hen the website was formed and what the website sells.
+The about us page informs the user(s) to find brief information on hen the website was formed and what the website sells.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/about_page.JPG)
 
 ### Gym Installation page
-The Installation page allows potential users contact GymBag regarding potential gym instaallation queries.  Once the form is successfully sent a message is shown to the user to inform the user.
+The Installation page allows potential users contact GymBag regarding potential gym installation queries.  Once the form is successfully sent a message is shown to the user to inform the user.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/gym_installation_page.JPG)
 
@@ -219,12 +219,12 @@ This feature is used by admin users to display latest news articles and stories 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/blog.JPG)
 
 ### Contact Us
-Feedback and suggestions can be submitted via a form with name, email and body of message and dropdown option, the options available are Retuns, Availabilty, Pricing, Feedback and Other. Once the form is successfully sent a message is shown to the user to inform the user.
+Feedback and suggestions can be submitted via a form with name, email and body of message and dropdown option, the options available are Returns, Availability, Pricing, Feedback and Other. Once the form is successfully sent a message is shown to the user to inform the user.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/contact_us.JPG)
 
 ### Newsletter sign-up
-Newsletter signup form encourging users to enter email address on the homepage for the purposes gathering email addresses for digital marketing campaigns.
+Newsletter signup form encouraging users to enter email address on the homepage for the purposes gathering email addresses for digital marketing campaigns.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/newsletter_signup.JPG)
 
@@ -234,7 +234,7 @@ The Shopping Cart updates with the total value spent and displays a success mess
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/cart.JPG)
 
 ### User Profile Page
-The user profile page displays users contact information along with order history includeing current oder status. This can be edited by the superuser in the admin. Once tthe status is changed this is reflected in realtime for the user. The 3 status options are "Confirmed", "Shipped" and "Cancelled", the default status is "Confirmed" once an order is completed.
+The user profile page displays users contact information along with order history including current order status. This can be edited by the superuser in the admin. Once the status is changed this is reflected in real time for the user. The 3 status options are "Confirmed", "Shipped" and "Cancelled", the default status is "Confirmed" once an order is completed.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/my_profile.JPG)
 
@@ -272,7 +272,7 @@ GDPR compliant privacy policy informs users about how their data is being collec
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/privacy_policy.JPG)
 
 ### Returns
-A clear returns policy is alos displayed to encourge fist time and repeat customers purchasing.
+A clear returns policy is also displayed to encourage fist time and repeat customers purchasing.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/returns.JPG)
 
@@ -293,7 +293,7 @@ A 404 page was created to handle user navigational errors and give user a quick 
 ## Web Marketing / Marketing Strategies
 
 ### SEO - Search Engine Optimization
-Google keyword research was used to optmise web pages and content to increase ranking in search engines. Both short-tail & Long-tail keywords are used. The “People also ask” and “Related searches” was also used to identify keywords used.
+Google keyword research was used to optimise web pages and content to increase ranking in search engines. Both short-tail & Long-tail keywords are used. The “People also ask” and “Related searches” was also used to identify keywords used.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/seo_keywords.JPG)
 
@@ -301,13 +301,13 @@ Google keyword research was used to optmise web pages and content to increase ra
 A blog post was created so that the website can create and distribute content material to attract and convert audience into first time customers and repeat customers. The main aim of the blog posts is to build trust and loyalty.
 
 ### Social Media Marketing
-A facebook business page was set up with the aim of generating growth organically by building a community and encouraging loyalty amongst our target market. The advantage of this is its free and quick to set up and facebook has a large audience and dempgraphic. The site can connect with customers directly via the facebook platform and wider global audience. The main aim of the facebook page iis to build and maintain relationship with target audience. Content created can be spread across different social media platforms. 
+A Facebook business page was set up with the aim of generating growth organically by building a community and encouraging loyalty amongst our target market. The advantage of this is its free and quick to set up and Facebook has a large audience and dempgraphic. The site can connect with customers directly via the Facebook platform and wider global audience. The main aim of the Facebook page iis to build and maintain relationship with target audience. Content created can be spread across different social media platforms. 
 
-I have also included a screen shot below should the facebook business page be removed by facebook.
+I have also included a screen shot below should the Facebook business page be removed by facebook.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/facebook.JPG)
 
 ### Email Marketing
-Mailchimp is used to gain new customers and retain existing. Mailchimp enables the business to run and analyse the success of newsletter marketing campaigns. Users who register to receive the newsletter are automatically added to weekly newsletter. This strategy was chosen because its free to set up with the current level of business and can scale quicktly as the business grows therefore increase conversions and generate more revenue for the business. The users who sign up have already visited the website and are more likely to become customers and therefore low cost to generate sales.
+Mailchimp is used to gain new customers and retain existing. Mailchimp enables the business to run and analyse the success of newsletter marketing campaigns. Users who register to receive the newsletter are automatically added to weekly newsletter. This strategy was chosen because its free to set up with the current level of business and can scale quickly as the business grows therefore increase conversions and generate more revenue for the business. The users who sign up have already visited the website and are more likely to become customers and therefore low cost to generate sales.
 
 
 ## Technologies Used
@@ -336,7 +336,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 * [Heroku](https://www.heroku.com/) used to deploy this app, a cloud platform as a service supporting several programming languages.
 * [Pexels](https://www.pexels.com/) Images for this project were sourced from Pexels.
 * [Privacy Policy Generator](https://www.privacypolicygenerator.info/) Free Privacy Policy Generator.
-* [Stripe]() Integrated with Stripe to faciliate online payments.
+* [Stripe]() Integrated with Stripe to facilitate online payments.
 * [SQLite](https://www.sqlite.org/index.html) database used in local development was a SQLLite database.
 * [Terms and Conditions Generator](https://www.termsandconditionsgenerator.com/) Free terms and conditions generator.
 * [Unsplash](https://unsplash.com/) Images for this project were sourced from Unsplash.
@@ -366,6 +366,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
   <details>
   <summary>HTML Validator Results/</summary>
 
+  ![](docs/html_checker_homepage.JPG)
   ![](docs/html_checker_about.JPG)
   ![](docs/html_checker_accounts_login.JPG)
   ![](docs/html_checker_bag.JPG)
@@ -406,19 +407,19 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
   </details> 
 
 ### Manual Testing
-### More manual testing scanerios and results
+### More manual testing scenarios and results
 | Feature | Test  | Expected Result | Actual Result |
 | -------------| ----- | ----- | :----: |
 | GymBag logo  | Selecting GymBag logo on homepage |  directs user back to homepage |  Pass |
 | Navigation Links  | Selecting navigation links |  directs user to relevant categories & pages |  Pass |
 | All categories  | Selecting All for each category |  directs user to show all relevant categories on the same page |  Pass |
-| Sort By  | Selecting the filter Sory by for each category |  sucesfully alters the search By price, rating, name and category options reflects results accordingly on page |  Pass |
+| Sort By  | Selecting the filter Sort by for each category |  successfully alters the search By price, rating, name and category options reflects results accordingly on page |  Pass |
 | About Us | Selecting About Us |  directs user to About Us page |  Pass |
 | Shop Now | Selecting Shop Now |  directs user to full products list page |  Pass |
 | Gym Installation | Selecting Gym Installation |  directs user to Gym Installation page |  Pass |
-| Sumbitting Form | Sumbitting details in form on installation page |  sucesfully sends message to admin and displays success message |  Pass |
+| Submitting Form | Submitting  details in form on installation page |  successfully sends message to admin and displays success message |  Pass |
 | Selecting News / Blog | Selecting News / Blog page |  directs user to /blogs/ page |  Pass |
-| Selecting News article(s) | Selecting particluar News article(s) |  directs user to particluar article page |  Pass |
+| Selecting News article(s) | Selecting particular News article(s) |  directs user to particular article page |  Pass |
 | User Access | Logged in as user |  I can leave a comment on News / Blog posts |  Pass |
 | User Access | Logged in as user |  I can leave a like  on  News / Blog posts |  Pass |
 | Pagination |  links "next" and "prev" | links at the bottom of the News / Blog posts returns results of the next page (example /?page=2) and back to the previous page | Pass |
@@ -433,23 +434,23 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 | New User | Registering as a new user | Registering as a new user entering form validation works |  Pass |
 | Admin | Loggin in as Logging in as superuser / admin | Logging in as superuser / admin directs user to admin access, shows product management page |  Pass |
 | Login Message | log-in Success | "successfully signed in as (user name)" message shown to user|  Pass |
-| Add Product | Adding a new product | Adding a new product on the product managment page sucesffuly adds product |  Pass |
-| News / blog | Create a new news / blog artile |  Creating a new blog / news article in Django admin reflects on the front end | Pass |
-| News / blog | Read the news / blog artile  |  As a user I can see the blog / news article on the front end | Pass |
-| News / blog  |  Update an existing news / blog artile | As admin I can update and edit existing blog / news article |  Pass |
-| News / blog  |  Delete an existing news / blog artile | As admin I can delete an existing blog / news article |  Pass |
+| Add Product | Adding a new product | Adding a new product on the product management page successfully adds product |  Pass |
+| News / blog | Create a new news / blog article |  Creating a new blog / news article in Django admin reflects on the front end | Pass |
+| News / blog | Read the news / blog article |  As a user I can see the blog / news article on the front end | Pass |
+| News / blog  |  Update an existing news / blog article | As admin I can update and edit existing blog / news article |  Pass |
+| News / blog  |  Delete an existing news / blog article | As admin I can delete an existing blog / news article |  Pass |
 | Leave a comment | Submit comment on an article | Confirmation message that post is "waiting for approval" shown to user |  Pass |
 | Add Product | no image is selected | default image is used |  Pass |
 | Deleting Product | Deleting selected product | removed product from search |  Pass |
-| Deleting Message | Deleting product confirmation | Confirmation message of deletion is shown when succesfully deleted |  Pass |
-| Deleting Message | Deleting product confirmation | Confirmation message of deletion is shown when succesfully deleted |  Pass |
+| Deleting Message | Deleting product confirmation | Confirmation message of deletion is shown when successfully deleted |  Pass |
+| Deleting Message | Deleting product confirmation | Confirmation message of deletion is shown when successfully deleted |  Pass |
 | Defensive Programming | Test for SQL Injection attacks | Users not permitted to access create/update/deleate products or articles if they dont have access permission | Pass |
 | Logging out | message shown | Logging out as a user / admin prompts "are you sure" message |  Pass |
 | Successfully signed out | signed out message shown | "You have signed out" message shows to user when successfully signed out |  Pass |
 | Logging out | | Logging out and redirect | Logging out as a user / admin directs user to homepage |  Pass |
 | Footer | social media links | Clicking on the social media icons in the footer open the link in a new tab |  Pass |
 | Footer | Privacy Policy links | Clicking on the Privacy Policy link in the footer diverts user to the /privacy/ page |  Pass |
-| Footer | Terms and Conditions links | Clicking on the Terms and Conditions link in the footerdiverts user to the /terms/ page |  Pass |
+| Footer | Terms and Conditions links | Clicking on the Terms and Conditions link in the footer diverts user to the /terms/ page |  Pass |
 | Footer | Returns Policy links | Clicking on the Returns Policy link in the footer diverts user to the /returns/ page |  Pass |
 
 
@@ -459,7 +460,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 Whilst no longer a requirement for the submission of this project I decided to run some automated tests for the contact page as a way to demonstrate knowledge and ability to write and view unit tests. For future projects I hope to expand unit testing and aim for 100%.
 
   <details>
-  <summary>Auotmated tests results - Contact</summary>
+  <summary>Automated tests results - Contact</summary>
 
   ![](docs/django_auto_testing.JPG)
 
@@ -482,27 +483,27 @@ Whilst no longer a requirement for the submission of this project I decided to r
 | Expected Layout   | yes | yes  | yes  | yes | Pass |
 
 ## Bugs / Errors encountered during development
-* “can’t open file ‘manage.py’: [Errno 2] No such file or directory”. Reason why was there is a character missing character in the command used for starting the project
+* “can’t open file ‘manage.py’: [Error 2] No such file or directory”. Reason why was there is a character missing character in the command used for starting the project
  [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug1.JPG)
 * Incorrectly named the file mobile_top_header.html [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug2.JPG)
 * Needed to have pillow installed to use the image field - pip3 install pillow [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug3.JPG)
-* Dopdown results were not displaying because I had comma seperated when it should have been underscore [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug4.JPG)
-* Typo in both dumbells and kettlebells caused products not to display [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug5.JPG)
+* Dropdown results were not displaying because I had comma separated when it should have been underscore [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug4.JPG)
+* Typo in both dumbbells and kettlebells caused products not to display [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug5.JPG)
 * Includes folder in the wrong location [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug6.JPG)
 * Gitpod, online resource glitch - always a good idea to push regularly [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug7.JPG)
 * Must create app before adding name of app to installed_apps in settings.py [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug8.JPG)
-* Missed closing bracked in settings.py [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug9.JPG)
+* Missed closing bracket in settings.py [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug9.JPG)
 * Webhook wasn’t displaying order in the terminal. resolved by making the port public by clicking on the lock icon. [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug10.JPG) - [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug11.JPG)
 * Spotted typo error in checkout - admin.py [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug12.JPG) - [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug13.JPG)
-* Updated webhook handler url in strip to match the change in url on Girpod locally - then the webhooks started to process stransactions sucesfully again.
+* Updated webhook handler URL in strip to match the change in URL on Girpod locally - then the webhooks started to process stransactions sucesfully again.
 * Comments in the code arent allowed in json [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug14.JPG)
-* Typo in template litteral didn’t display, should be lowercase p {{ products }} [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug15.JPG)
+* Typo in template literal didn’t display, should be lowercase p {{ products }} [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug15.JPG)
 * When I created duplicate of products.html and edited I should have edited it to "product_detail.html" and not products_detail.html"  [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug16.JPG)
 * If still logged in as /admin this can cause issues locally. When I logged out and back in I was able to see expected local version.
-* didn’t append the webhook url in Stripe with '/' [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug17.JPG) & [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug18.JPG)
+* didn’t append the webhook URL in Stripe with '/' [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug17.JPG) & [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug18.JPG)
 * issues deploying - followed steps advised on slack and worked [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug19.JPG)
 * Typo in settings.py [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug20.JPG)
-* CSS - back to top was behind fixed bottom footer, initally I used z-index but felt this looked wrong so just moved it up above the footer [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug21.JPG) 
+* CSS - back to top was behind fixed bottom footer, initially I used z-index but felt this looked wrong so just moved it up above the footer [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug21.JPG) 
 * Needed to run a migration on the Postgres DB just with a Heroku prefix and it will affect the Postgres DB on Heroku instead of local SQLite one.
 "heroku run python3 manage.py makemigrations" & "heroku run python3 manage.py migrate" resolved this. [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug22.JPG)
 
@@ -519,7 +520,7 @@ Whilst no longer a requirement for the submission of this project I decided to r
 * Go to API keys section
 ![Preview](docs/stripe_api.JPG)
 * Note both the publishable and secret keys
-* In your local environment(env.py) and heroku, create environment variables STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY with the publishable and secret key values
+* In your local environment(env.py) and Heroku, create environment variables STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY with the publishable and secret key values
 os.environ.setdefault('STRIPE_PUBLIC_KEY', 'YOUR_VALUE_GOES_HERE')
 os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
 * Back in the Developers section of your stripe account click on Webhooks
@@ -529,8 +530,8 @@ os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
  https://sherryrich-gymbag.herokuapp.com/checkout/wh/
 * Select the payment_intent.payment_failed and payment_intent.succeeded as events to send
 * Note the key created for this webhook
-* In your local environment(env.py) and heroku, create environment variable STRIPE_WH_SECRET with the secret values os.environ.setdefault('STRIPE_WH_SECRET', 'YOUR_VALUE_GOES_HERE')
-* Test the webhook and note the success/fail attempts for troubleshooting, see events and logs for futher testing.
+* In your local environment(env.py) and Heroku, create environment variable STRIPE_WH_SECRET with the secret values os.environ.setdefault('STRIPE_WH_SECRET', 'YOUR_VALUE_GOES_HERE')
+* Test the webhook and note the success/fail attempts for troubleshooting, see events and logs for further testing.
 
 ## Amazon WebServices
 * Create an account at aws.amazon.com
