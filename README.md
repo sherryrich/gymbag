@@ -357,7 +357,17 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
   <details>
   <summary>Checked color contrast analysis accessibility</summary>
 
-  ![](docs/lighthouse.JPG)
+  ![](docs/lighthouse_homepage.JPG)
+  ![](docs/lighthouse_about.JPG)
+  ![](docs/lighthouse_accounts_login.JPG)
+  ![](docs/lighthouse_bag.JPG)
+  ![](docs/lighthouse_blog.JPG)
+  ![](docs/lighthouse_contact.JPG)
+  ![](docs/lighthouse_installation.JPG)
+  ![](docs/lighthouse_products.JPG)
+  ![](docs/lighthouse_privacy.JPG)
+  ![](docs/lighthouse_returns.JPG)
+  ![](docs/lighthouse_terms.JPG)
 
   </details> 
 
