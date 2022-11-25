@@ -589,6 +589,48 @@ os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
 * Scroll to the bottom of the deploy page and select the preferred deployment type
 * Click either Enable Automatic Deploys for automatic deployment when you push updates to Github
 
+* As Heroku Student Pack no longer includes free access to the Postgres add-on I had to migrate Postgres databases from Heroku to keep ElephantSQL.
+* Navigate to ElephantSQL.com and click “Get a managed database today”
+* Select “Try now for FREE” in the TINY TURTLE database plan
+* Select “Log in with GitHub” and authorize ElephantSQL with your selected GitHub account
+* In the Create new team form
+
+### Migrating databases
+* Create a database
+* Log in to ElephantSQL.com to access your dashboard
+* Click “Create New Instance”
+* Set up your plan
+* Select “Select Region” EXAMPLE "EU-West-1 (Ireland)"
+* Then click “Review”
+* Check your details are correct and then click “Create instance”
+* Return to the ElephantSQL dashboard and click on the database instance name for this project
+
+### Migrating your data
+* Navigate to the Postgres Migration Tool repo on github in a new browser tab
+* Click the Gitpod button to open a new workspace
+* Run the script " python3 reel2reel.py" command in the terminal
+* In a different browser tab, go to your app in Heroku and select the Settings tab
+* Click the “Reveal Config Vars” button
+* Copy the value in the DATABASE_URL Config Var. It will start with postgres://
+* Return to Gitpod and paste in the URL you just copied into the terminal where prompted to provide your DATABASE_URL and click enter
+* In your original browser tab, get your ElephantSQL database URL. Again, it will start with postgres://
+* Return to Gitpod and paste in the URL where prompted
+* The data will now be downloaded from Heroku and uploaded to your ElephantSQL database
+* To test that your database has been moved successfully, return to ElephantSQL and select BROWSER
+* Click the “Table queries” button. If you see any options in the dropdown, your tables have been created
+* Select a table name you recognise, and then click “Execute”
+* You should see your data displayed relating to the table you selected
+
+### Connecting ElephantSQL database to Heroku
+* In the Heroku Dashboard for your project, open the Resources tab
+* In the Resources tab, remove the existing Postgres add-on:
+* Confirm by typing in the name of your Heroku app when prompted.
+* Navigate to the Settings tab
+* Reveal your existing Config Vars. The original DATABASE_URL should have been deleted when the add-on was removed.
+* Add a new config var called DATABASE_URL and paste in the value for your ElephantSQL database, and click Add to save it.
+* Check the Activity tab to confirm
+
+
 ### Final Deployment 
 
 * Create a runtime.txt `python-3.8.14`
