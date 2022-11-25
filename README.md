@@ -355,7 +355,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 ### Lighthouse Report
 
   <details>
-  <summary>Checked color contrast analysis accessibility</summary>
+  <summary>Lighthouse Report Results</summary>
 
   ![](docs/lighthouse_homepage.JPG)
   ![](docs/lighthouse_about.JPG)
@@ -374,7 +374,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 ### The W3C Markup Validator
 
   <details>
-  <summary>HTML Validator Results/</summary>
+  <summary>HTML Validator Results</summary>
 
   ![](docs/html_checker_homepage.JPG)
   ![](docs/html_checker_about.JPG)
@@ -457,7 +457,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 | Defensive Programming | Test for SQL Injection attacks | Users not permitted to access create/update/deleate products or articles if they dont have access permission | Pass |
 | Logging out | message shown | Logging out as a user / admin prompts "are you sure" message |  Pass |
 | Successfully signed out | signed out message shown | "You have signed out" message shows to user when successfully signed out |  Pass |
-| Logging out | | Logging out and redirect | Logging out as a user / admin directs user to homepage |  Pass |
+| Logging out | Logging out and redirect | Logging out as a user / admin directs user to homepage |  Pass |
 | Footer | social media links | Clicking on the social media icons in the footer open the link in a new tab |  Pass |
 | Footer | Privacy Policy links | Clicking on the Privacy Policy link in the footer diverts user to the /privacy/ page |  Pass |
 | Footer | Terms and Conditions links | Clicking on the Terms and Conditions link in the footer diverts user to the /terms/ page |  Pass |
@@ -467,7 +467,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 ## Automated Testing
 
 ### Unit testing
-Whilst no longer a requirement for the submission of this project I decided to run some automated tests for the contact page as a way to demonstrate knowledge and ability to write and view unit tests. For future projects I hope to expand unit testing and aim for 100%.
+I decided to run some limited automated tests for the contact page as a way to demonstrate knowledge and ability to write and view unit tests. For future projects I hope to expand unit testing and aim for 100%.
 
   <details>
   <summary>Automated tests results - Contact</summary>
