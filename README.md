@@ -241,6 +241,14 @@ The Shopping Cart updates with the total value spent and displays a success mess
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/cart.JPG)
 
+### Order confirmation - successful purchases
+
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_success_confirmation.JPG)
+
+### Order confirmation - unsuccessful purchases - generic message example
+
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/unsuccessful_purchases_generic_decline.JPG)
+
 ### User Profile Page
 The user profile page displays users contact information along with order history including current order status. This can be edited by the superuser in the admin. Once the status is changed this is reflected in real time for the user. The 3 status options are "Confirmed", "Shipped" and "Cancelled", the default status is "Confirmed" once an order is completed.
 
@@ -293,6 +301,9 @@ Personalized terms and conditions created for GymBag.
 A 404 page was created to handle user navigational errors and give user a quick ink to direct them back to shopping.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/404.JPG)
+
+
+
 
 ## Future Features
 * Gift Cards [#28](https://github.com/sherryrich/gymbag/issues/28)
