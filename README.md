@@ -228,6 +228,14 @@ Newsletter signup form encouraging users to enter email address on the homepage 
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/newsletter_signup.JPG)
 
+Successful sign up message
+
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/newsletter_signup_success.JPG)
+
+Email added to subscribers contact list in Mailchimp
+
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/newsletter_signup_success_mailchimp.JPG)
+
 ### Shopping Cart and Checkout
 The Shopping Cart updates with the total value spent and displays a success message along with incentive to increase spend to avail of free delivery over $50.
 
@@ -386,6 +394,9 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
   ![](docs/html_checker_products.JPG)
   ![](docs/html_checker_returns.JPG)
   ![](docs/html_checker_terms.JPG)
+
+  NB The Privacy Policy page is linked to externally however fails to pass the HTML Validator as outlined below.
+  ![](docs/html_checker_privacy.JPG)
 
   </details> 
 
