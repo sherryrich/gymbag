@@ -241,13 +241,17 @@ The Shopping Cart updates with the total value spent and displays a success mess
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/cart.JPG)
 
-### Order confirmation - successful purchases
+### Order confirmation - successful purchase
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_success_confirmation.JPG)
 
 ### Order confirmation - unsuccessful purchases - generic message example
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/unsuccessful_purchases_generic_decline.JPG)
+
+### Order confirmation - successful purchase - confirmation email sent
+
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_success_confirmation_email.JPG)
 
 ### User Profile Page
 The user profile page displays users contact information along with order history including current order status. This can be edited by the superuser in the admin. Once the status is changed this is reflected in real time for the user. The 3 status options are "Confirmed", "Shipped" and "Cancelled", the default status is "Confirmed" once an order is completed.
