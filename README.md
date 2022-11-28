@@ -249,7 +249,7 @@ The Shopping Cart updates with the total value spent and displays a success mess
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/unsuccessful_purchases_generic_decline.JPG)
 
-### Order confirmation - successful purchase - confirmation email sent
+### Order confirmation - successful purchase - confirmation email
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_success_confirmation_email.JPG)
 

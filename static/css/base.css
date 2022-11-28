@@ -654,6 +654,10 @@ input[name='q']::placeholder {
             background-color: black;
             color: white;
         }
+
+    .form-control {
+        width: 70%;
+    }
 }
 
 @media (max-width: 767px) {
