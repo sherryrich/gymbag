@@ -5,7 +5,7 @@
 <html lang="en">
 
 <head>
-
+    <!-- Meta tags and SEO keywords -->
     {% block meta %}
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
@@ -20,6 +20,7 @@
     {% block extra_meta %}
     {% endblock %}
 
+    <!-- CSS -->
     {% block corecss %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -31,6 +32,7 @@
     {% block extra_css %}
     {% endblock %}
 
+     <!-- Javascript -->
     {% block corejs %}
     <script src="https://kit.fontawesome.com/551ee76ae4.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -51,6 +53,7 @@
 </head>
 
 <body>
+     <!-- Header and logo -->
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -58,6 +61,7 @@
                     <h2 class="text-black my-0"><strong>Gym</strong>Bag</h2>
                 </a>
             </div>
+             <!-- Search bar -->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
@@ -71,6 +75,7 @@
                     </div>
                 </form>
             </div>
+            <!-- My Account Register Login -->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
@@ -94,6 +99,7 @@
                             {% endif %}
                         </div>
                     </li>
+                     <!-- Shopping bag and order total -->
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
                             href="{% url 'view_bag' %}">
@@ -112,6 +118,7 @@
                 </ul>
             </div>
         </div>
+         <!-- Mobile nav bar -->
         <div class="row bg-white">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
@@ -122,6 +129,7 @@
                 {% include 'includes/main-nav.html' %}
             </nav>
         </div>
+        <!-- Delivery banner -->
         <div id="delivery-banner" class="row text-center">
             <div class="col bg-red text-white">
                 <h5 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h5>
@@ -129,7 +137,7 @@
         </div>
     </header>
 
-
+    <!-- Container for feedback toast messages -->
     {% if messages %}
     <div class="message-container">
         {% for message in messages %}

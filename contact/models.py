@@ -1,6 +1,9 @@
 from django.db import models
 
 
+""" Model for contact form """
+
+
 class Contact(models.Model):
     REASON_FOR_CONTACT = [
         ('please select', 'Please select'),
