@@ -88,7 +88,7 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 * As a website user I want to be able to send messages via the contact form [#39](https://github.com/sherryrich/gymbag/issues/39)
 * As a website user I want to be able to send messages via the installation form [#40](https://github.com/sherryrich/gymbag/issues/40)
 * As a website user I want to be able to receive a confirmation email of my order once compelted [#8](https://github.com/sherryrich/gymbag/issues/8)
-
+* As a website user I want to be able to receive appropriate messaging throughout the site [#43](https://github.com/sherryrich/gymbag/issues/43)
 
 
 
@@ -320,6 +320,18 @@ A 404 page was created to handle user navigational errors and give user a quick 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/404.JPG)
 
 
+### Messaging
+#### Users are informed of appropriate messaging throughtout the website. Examples below
+* Message shown when submitting a date in the past on 
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/error_date_passed_message.JPG)
+* Message shown when attempting to add <1 product into the cart
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/error_adding_negative_to_bag.JPG)
+* Message shown when attempting to add >99 product into the cart
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/error_adding_over_99.JPG)
+* Message shown when attempting to access edit / delete URL's without permission, SQL attack prevention
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/error_access_denied_message.JPG)
+* Message shown when client field is required
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/error_form_field_required_messageJPG.JPG)
 
 
 ## Future Features
@@ -475,7 +487,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 ### Accessibility
 
   <details>
-  <summary>The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/extension/) was used for Browser Extension testing to ensure no errors shown</summary>
+  <summary>The WAVE WebAIM web accessibility evaluation tool was used for browser extension testing to ensure no errors shown</summary>
 
   ![](docs/wave_about.JPG)
   ![](docs/wave_bag.JPG)
