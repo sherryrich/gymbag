@@ -210,6 +210,10 @@ input[name='q']::placeholder {
     width: 50%;
 }
 
+.btn-search {
+    width: 75% !important;
+}
+
 .input-group-append {
     width: 25%;
 }

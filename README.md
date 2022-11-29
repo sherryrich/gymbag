@@ -18,7 +18,7 @@ If testing interactively, feel free to use card details below. Further informati
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/gymbag_amiresponsive.JPG)
 
 ### Live Website
-A deployed link to the website can be found [here](https://sherryrich-gymbag.herokuapp.com/)
+A deployed link to the website can be found via the following URL [https://sherryrich-gymbag.herokuapp.com/](https://sherryrich-gymbag.herokuapp.com/)
 
 ### QR Code
 
@@ -58,12 +58,12 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 * As the website Administrator I would like to be able to add, view, edit and delete products [#32](https://github.com/sherryrich/gymbag/issues/32)
 * As the website Administrator I would like to be able to add, view, edit and delete blog posts [#24](https://github.com/sherryrich/gymbag/issues/24)
 * As the website Administrator I want to be able to view / reject pending posts from users before publication [#25](https://github.com/sherryrich/gymbag/issues/25)
-* As the website Administrator I want to be able to view newsletter signups [#16](https://github.com/sherryrich/gymbag/issues/16)
+* As the website Administrator I want to be able to view newsletter signups [#42](https://github.com/sherryrich/gymbag/issues/42)
 * As the website Administrator I want users to be able to view / access the business social media [#34](https://github.com/sherryrich/gymbag/issues/34)
 
 
 ####  As the site user:
-* As a website user I want to be able to instantly understand main purpose of the site & learn more about the business & products on offer[#41]https://github.com/sherryrich/gymbag/issues/41
+* As a website user I want to be able to instantly understand main purpose of the site & learn more about the business & products on offer[#41](https://github.com/sherryrich/gymbag/issues/41)
 * As a website user I want to be able to register an account [#5](https://github.com/sherryrich/gymbag/issues/5)
 * As a website user I want to be able to update details on my account [#35](https://github.com/sherryrich/gymbag/issues/35)
 * As a website user I want to be able to select products to purchase [#1](https://github.com/sherryrich/gymbag/issues/1)
@@ -291,10 +291,10 @@ Status is changed in admin.
 
 ### Admin
 Admin - Superuser Access
-
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/admin.JPG)
 
 ### Footer
+
 The footer contains links to Privacy Policy Terms & Conditions Returns Policy as well as social network links (Facebook, Twitter, Instagram and YouTube) and Copyright information.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/footer.JPG)
