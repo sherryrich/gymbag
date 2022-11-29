@@ -433,7 +433,14 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
   <details>
   <summary>Checked using W3C CSS Validator ensuring there were no errors or warnings present. Click here to see the W3C CSS Validator result: </summary>
 
+  static/css/base.css
   ![](docs/w3c_css_validator_result.JPG)
+
+  profiles/static/profiles/css/profile.css
+  ![](docs/w3c_css_validator_result_profile.JPG)
+
+  checkout/static/checkout/css/checkout.css
+  ![](docs/w3c_css_validator_result_checkout.JPG)
 
   </details> 
 
@@ -445,6 +452,16 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
   ![](docs/flake8.JPG)
 
   </details> 
+
+### JSHINT
+
+ <details>
+  <summary>Javascript was run through the JSHint validator. Click here to see the results: </summary>
+
+  ![](docs/jshint_validator_result_profiles_countryfield.JPG)
+  ![](docs/jshint_validator_result_stripe_elements.JPG)
+
+  </details>
 
 ### Color Contrast Accessibility Validator
 
