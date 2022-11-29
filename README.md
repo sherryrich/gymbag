@@ -63,20 +63,20 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 
 
 ####  As the site user:
-* As a website user I want to be able to instantly understand the main purpose of the site and learn more about the business and products on offer
+* As a website user I want to be able to instantly understand main purpose of the site & learn more about the business & products on offer[#41]https://github.com/sherryrich/gymbag/issues/41
 * As a website user I want to be able to register an account [#5](https://github.com/sherryrich/gymbag/issues/5)
-* As a website user I want to be able to update details on my account
+* As a website user I want to be able to update details on my account [#35](https://github.com/sherryrich/gymbag/issues/35)
 * As a website user I want to be able to select products to purchase [#1](https://github.com/sherryrich/gymbag/issues/1)
 * As a website user I want to be able to view all product information available before purchasing [#2](https://github.com/sherryrich/gymbag/issues/2)
 * As a website user I want to be able to register for newsletter [#16](https://github.com/sherryrich/gymbag/issues/16)
 * As a website user I want to be able to re-set password [#7](https://github.com/sherryrich/gymbag/issues/7)
 * As a website user I want to be able to add products to my shopping bag and update / purchase items easily [#18](https://github.com/sherryrich/gymbag/issues/18)
-* As a website user I want to be able to add products to my shopping bag and view summary of order  [#4](https://github.com/sherryrich/gymbag/issues/4)
-* As a website user I want to be able to checkout securely
+* As a website user I want to be able to add products to my shopping bag and view summary of order [#4](https://github.com/sherryrich/gymbag/issues/4)
+* As a website user I want to be able to checkout securely [#37](https://github.com/sherryrich/gymbag/issues/37)
 * As a website user I want to be able to view comments on all news / blog posts [#23](https://github.com/sherryrich/gymbag/issues/23)
 * As a website user I want to be able to view next page(s) on news / blog posts [#21](https://github.com/sherryrich/gymbag/issues/21)
 * As a website user I want to be able to view comments on all news / blog posts [#22](https://github.com/sherryrich/gymbag/issues/22)
-* As a website user I want to be able to leave comments on all news / blog posts
+* As a website user I want to be able to leave comments on all news / blog posts [#36](https://github.com/sherryrich/gymbag/issues/36)
 * As a website user I want to be able to Like & unlike on all news / blog posts [#27](https://github.com/sherryrich/gymbag/issues/27)
 * As a website user I want to be able to view all products [#10](https://github.com/sherryrich/gymbag/issues/10)
 * As a website user I want to be able to search all products by using the search functionality [#13](https://github.com/sherryrich/gymbag/issues/13)
@@ -84,9 +84,9 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 * As a website user I want to be able to search products by category [#11](https://github.com/sherryrich/gymbag/issues/11)
 * As a website user I want to be able to select size and quantity of products [#14](https://github.com/sherryrich/gymbag/issues/14)
 * As a website user I want to be able to access special offers [#3](https://github.com/sherryrich/gymbag/issues/3)
-* As a website user I want to be able to view my order history / my profile
-* As a website user I want to be able to send messages via the contact form
-* As a website user I want to be able to send messages via the installation form
+* As a website user I want to be able to view my order history / my profile [#38](https://github.com/sherryrich/gymbag/issues/38)
+* As a website user I want to be able to send messages via the contact form [#39](https://github.com/sherryrich/gymbag/issues/39)
+* As a website user I want to be able to send messages via the installation form [#40](https://github.com/sherryrich/gymbag/issues/40)
 * As a website user I want to be able to receive a confirmation email of my order once compelted [#8](https://github.com/sherryrich/gymbag/issues/8)
 
 
