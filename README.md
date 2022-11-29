@@ -54,27 +54,40 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 
 
 #### As the site creator/admin:
-* As the website Administrator I would like to be able to access the Django admin to view orders, comments etc
-* As the website Administrator I would like to be able to add, view, edit and delete products
-* As the website Administrator I would like to be able to add, view, edit and delete blog posts
-* As the website Administrator I want to be able to view / reject pending posts from users before publication
-* As the website Administrator I want to be able to view newsletter signups
-* As the website Administrator I want users to be able to view the business social media
+* As the website Administrator I would like to be able to access the Django admin to view orders, comments etc [#15](https://github.com/sherryrich/gymbag/issues/15)
+* As the website Administrator I would like to be able to add, view, edit and delete products [#32](https://github.com/sherryrich/gymbag/issues/32)
+* As the website Administrator I would like to be able to add, view, edit and delete blog posts [#24](https://github.com/sherryrich/gymbag/issues/24)
+* As the website Administrator I want to be able to view / reject pending posts from users before publication [#25](https://github.com/sherryrich/gymbag/issues/25)
+* As the website Administrator I want to be able to view newsletter signups [#16](https://github.com/sherryrich/gymbag/issues/16)
+* As the website Administrator I want users to be able to view / access the business social media [#34](https://github.com/sherryrich/gymbag/issues/34)
 
 
 ####  As the site user:
 * As a website user I want to be able to instantly understand the main purpose of the site and learn more about the business and products on offer
-* As a website user I want to be able to register an account
+* As a website user I want to be able to register an account [#5](https://github.com/sherryrich/gymbag/issues/5)
 * As a website user I want to be able to update details on my account
-* As a website user I want to be able to register for newsletter
-* As a website user I want to be able to add products to my shopping bag and update / purchase items easily
+* As a website user I want to be able to select products to purchase [#1](https://github.com/sherryrich/gymbag/issues/1)
+* As a website user I want to be able to view all product information available before purchasing [#2](https://github.com/sherryrich/gymbag/issues/2)
+* As a website user I want to be able to register for newsletter [#16](https://github.com/sherryrich/gymbag/issues/16)
+* As a website user I want to be able to re-set password [#7](https://github.com/sherryrich/gymbag/issues/7)
+* As a website user I want to be able to add products to my shopping bag and update / purchase items easily [#18](https://github.com/sherryrich/gymbag/issues/18)
+* As a website user I want to be able to add products to my shopping bag and view summary of order  [#4](https://github.com/sherryrich/gymbag/issues/4)
 * As a website user I want to be able to checkout securely
+* As a website user I want to be able to view comments on all news / blog posts [#23](https://github.com/sherryrich/gymbag/issues/23)
+* As a website user I want to be able to view next page(s) on news / blog posts [#21](https://github.com/sherryrich/gymbag/issues/21)
+* As a website user I want to be able to view comments on all news / blog posts [#22](https://github.com/sherryrich/gymbag/issues/22)
 * As a website user I want to be able to leave comments on all news / blog posts
-* As a website user I want to be able to Like & unlike on all news / blog posts
-* As a website user I want to be able to search all products by using the search functionality
+* As a website user I want to be able to Like & unlike on all news / blog posts [#27](https://github.com/sherryrich/gymbag/issues/27)
+* As a website user I want to be able to view all products [#10](https://github.com/sherryrich/gymbag/issues/10)
+* As a website user I want to be able to search all products by using the search functionality [#13](https://github.com/sherryrich/gymbag/issues/13)
+* As a website user I want to be able to view products by category [#17](https://github.com/sherryrich/gymbag/issues/17)
+* As a website user I want to be able to search products by category [#11](https://github.com/sherryrich/gymbag/issues/11)
+* As a website user I want to be able to select size and quantity of products [#14](https://github.com/sherryrich/gymbag/issues/14)
+* As a website user I want to be able to access special offers [#3](https://github.com/sherryrich/gymbag/issues/3)
 * As a website user I want to be able to view my order history / my profile
 * As a website user I want to be able to send messages via the contact form
 * As a website user I want to be able to send messages via the installation form
+* As a website user I want to be able to receive a confirmation email of my order once compelted [#8](https://github.com/sherryrich/gymbag/issues/8)
 
 
 
