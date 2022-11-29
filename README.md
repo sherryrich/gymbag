@@ -219,7 +219,7 @@ Individual product pages provides a name, description, price, the quantity selec
 ### About Us
 The about us page informs the user(s) to find brief information on hen the website was formed and what the website sells.
 
-![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/about_page.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/aboutpage.JPG)
 
 ### Gym Installation page
 The Installation page allows potential users contact GymBag regarding potential gym installation queries.  Once the form is successfully sent a message is shown to the user to inform the user.
@@ -470,7 +470,27 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 
   ![](docs/a11y_result.JPG)
 
-  </details> 
+  </details>
+
+### Accessibility
+
+  <details>
+  <summary>The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/extension/) was used for Browser Extension testing to ensure no errors shown</summary>
+
+  ![](docs/wave_about.JPG)
+  ![](docs/wave_bag.JPG)
+  ![](docs/wave_blog.JPG)
+  ![](docs/wave_contact.JPG)
+  ![](docs/wave_homepage.JPG)
+  ![](docs/wave_installation.JPG)
+  ![](docs/wave_login.JPG)
+  ![](docs/wave_privacy.JPG)
+  ![](docs/wave_products.JPG)
+  ![](docs/wave_returns.JPG)
+  ![](docs/wave_terms.JPG)
+
+
+  </details>
 
 ### Manual Testing
 ### More manual testing scenarios and results
