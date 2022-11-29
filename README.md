@@ -322,15 +322,24 @@ A 404 page was created to handle user navigational errors and give user a quick 
 
 ### Messaging
 #### Users are informed of appropriate messaging throughtout the website. Examples below
-* Message shown when submitting a date in the past on 
+* Message shown when submitting a date in the past on
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/error_date_passed_message.JPG)
+
 * Message shown when attempting to add <1 product into the cart
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/error_adding_negative_to_bag.JPG)
+
 * Message shown when attempting to add >99 product into the cart
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/error_adding_over_99.JPG)
+
 * Message shown when attempting to access edit / delete URL's without permission, SQL attack prevention
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/error_access_denied_message.JPG)
+
 * Message shown when client field is required
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/error_form_field_required_messageJPG.JPG)
 
 
@@ -610,7 +619,7 @@ I decided to run some limited automated tests for the contact page as a way to d
 * "./gymbag/urls.py:50:1: F811 redefinition of unused 'handler404' from line 23". This is as per code institute instructions [View here](https://github.com/sherryrich/gymbag/blob/main/docs/404_error.JPG) 
 * ./checkout/apps.py:8:9: F401 'checkout.signals' imported but unused. This is as per code institute Boutique Ado instructions 
 [Code Institute Solutions](https://github.com/Code-Institute-Solutions/boutique_ado_v1/blob/250e2c2b8e43cccb56b4721cd8a8bd4de6686546/checkout/apps.py)
-
+* CSS issue on the on the Body field on the contact page.
 
 ## Stripe
 * Register for an account at stripe.com
