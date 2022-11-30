@@ -87,7 +87,7 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 * As a website user I want to be able to view my order history / my profile [#38](https://github.com/sherryrich/gymbag/issues/38)
 * As a website user I want to be able to send messages via the contact form [#39](https://github.com/sherryrich/gymbag/issues/39)
 * As a website user I want to be able to send messages via the installation form [#40](https://github.com/sherryrich/gymbag/issues/40)
-* As a website user I want to be able to receive a confirmation email of my order once compelted [#8](https://github.com/sherryrich/gymbag/issues/8)
+* As a website user I want to be able to receive a confirmation email of my order once completed [#8](https://github.com/sherryrich/gymbag/issues/8)
 * As a website user I want to be able to receive appropriate messaging throughout the site [#43](https://github.com/sherryrich/gymbag/issues/43)
 
 
@@ -272,26 +272,30 @@ The about us page informs the user(s) to find brief information on hen the websi
 
 ### Gym Installation page
 The Installation page allows potential users contact GymBag regarding potential gym installation queries.  Once the form is successfully sent a message is shown to the user to inform the user.
-Relates user story:
+Related user story:
 * As a website user I want to be able to send messages via the installation form [#40](https://github.com/sherryrich/gymbag/issues/40)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/gym_installation_page.JPG)
 
 ### News / Blog
 This feature is used by admin users to display latest news articles and stories to generate inbound traffic to the website organically.
 * As the website Administrator I would like to be able to add, view, edit and delete blog posts [#24](https://github.com/sherryrich/gymbag/issues/24)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/django_admin_add_post.JPG)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/blog.JPG)
 
 ### Contact Us
 Feedback and suggestions can be submitted via a form with name, email and body of message and dropdown option, the options available are Returns, Availability, Pricing, Feedback and Other. Once the form is successfully sent a message is shown to the user to inform the user.
-Relates user story:
+
+Related user story:
 * As a website user I want to be able to send messages via the contact form [#39](https://github.com/sherryrich/gymbag/issues/39)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/contact_us.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/django_admin_contact.JPG)
 
 ### Newsletter sign-up
 Newsletter signup form encouraging users to enter email address on the homepage for the purposes gathering email addresses for digital marketing campaigns.
 Related user story:
 * As the website Administrator I want to be able to view newsletter signups [#42](https://github.com/sherryrich/gymbag/issues/42)
 * As a website user I want to be able to register for newsletter [#16](https://github.com/sherryrich/gymbag/issues/16)
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/newsletter_signup.JPG)
 
 Successful sign up message
@@ -316,8 +320,8 @@ The Shopping Cart updates with the total value spent and displays a success mess
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/unsuccessful_purchases_generic_decline.JPG)
 
 ### Order confirmation - successful purchase - confirmation email
-Relates user story:
-* As a website user I want to be able to receive a confirmation email of my order once compelted [#8](https://github.com/sherryrich/gymbag/issues/8)
+Related user story:
+* As a website user I want to be able to receive a confirmation email of my order once completed [#8](https://github.com/sherryrich/gymbag/issues/8)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_success_confirmation_email.JPG)
 
 ### User Profile Page
@@ -381,10 +385,11 @@ A 404 page was created to handle user navigational errors and give user a quick 
 
 
 ### Messaging
-#### Users are informed of appropriate messaging throughtout the website. Examples below
+#### Users are informed of appropriate messaging throughtout the website.
 Related user story:
 * As a website user I want to be able to receive appropriate messaging throughout the site [#43](https://github.com/sherryrich/gymbag/issues/43)
 
+ Examples below
 * Message shown when submitting a date in the past on
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/error_date_passed_message.JPG)
@@ -421,9 +426,9 @@ Google keyword research was used to optimise web pages and content to increase r
 A blog post was created so that the website can create and distribute content material to attract and convert audience into first time customers and repeat customers. The main aim of the blog posts is to build trust and loyalty.
 
 ### Social Media Marketing
-A Facebook business page was set up with the aim of generating growth organically by building a community and encouraging loyalty amongst our target market. The advantage of this is its free and quick to set up and Facebook has a large audience and dempgraphic. The site can connect with customers directly via the Facebook platform and wider global audience. The main aim of the Facebook page iis to build and maintain relationship with target audience. Content created can be spread across different social media platforms. 
+A Facebook business page was set up with the aim of generating growth organically by building a community and encouraging loyalty amongst our target market. The advantage of this is its free and quick to set up and Facebook has a large audience and demographic. The site can connect with customers directly via the Facebook platform and wider global audience. The main aim of the Facebook page iis to build and maintain relationship with target audience. Content created can be spread across different social media platforms. 
 
-I have also included a screen shot below should the Facebook business page be removed by facebook.
+I have also included a screen shot below should the Facebook business page be removed by Facebook.
 * As the website Administrator I want users to be able to view / access the business social media [#34](https://github.com/sherryrich/gymbag/issues/34)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/facebook.JPG)
 
@@ -615,7 +620,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 | Deleting Product | Deleting selected product | removed product from search |  Pass |
 | Deleting Message | Deleting product confirmation | Confirmation message of deletion is shown when successfully deleted |  Pass |
 | Deleting Message | Deleting product confirmation | Confirmation message of deletion is shown when successfully deleted |  Pass |
-| Defensive Programming | Test for SQL Injection attacks | Users not permitted to access create/update/deleate products or articles if they dont have access permission | Pass |
+| Defensive Programming | Test for SQL Injection attacks | Users not permitted to access create/update/delete products or articles if they don't have access permission | Pass |
 | Logging out | message shown | Logging out as a user / admin prompts "are you sure" message |  Pass |
 | Successfully signed out | signed out message shown | "You have signed out" message shows to user when successfully signed out |  Pass |
 | Logging out | Logging out and redirect | Logging out as a user / admin directs user to homepage |  Pass |
@@ -666,7 +671,7 @@ I decided to run some limited automated tests for the contact page as a way to d
 * Missed closing bracket in settings.py [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug9.JPG)
 * Webhook wasn’t displaying order in the terminal. resolved by making the port public by clicking on the lock icon. [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug10.JPG) - [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug11.JPG)
 * Spotted typo error in checkout - admin.py [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug12.JPG) - [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug13.JPG)
-* Updated webhook handler URL in strip to match the change in URL on Girpod locally - then the webhooks started to process stransactions sucesfully again.
+* Updated webhook handler URL in strip to match the change in URL on Girpod locally - then the webhooks started to process transactions successfully again.
 * Comments in the code arent allowed in json [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug14.JPG)
 * Typo in template literal didn’t display, should be lowercase p {{ products }} [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug15.JPG)
 * When I created duplicate of products.html and edited I should have edited it to "product_detail.html" and not products_detail.html"  [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug16.JPG)
