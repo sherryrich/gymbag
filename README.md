@@ -63,7 +63,7 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 
 
 ####  As the site user:
-* As a website user I want to be able to instantly understand main purpose of the site & learn more about the business & products on offer[#41](https://github.com/sherryrich/gymbag/issues/41)
+* As a website user I want to be able to instantly understand main purpose of the site & learn more about the business & products on offer [#41](https://github.com/sherryrich/gymbag/issues/41)
 * As a website user I want to be able to register an account [#5](https://github.com/sherryrich/gymbag/issues/5)
 * As a website user I want to be able to update details on my account [#35](https://github.com/sherryrich/gymbag/issues/35)
 * As a website user I want to be able to select products to purchase [#1](https://github.com/sherryrich/gymbag/issues/1)
@@ -75,7 +75,7 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 * As a website user I want to be able to checkout securely [#37](https://github.com/sherryrich/gymbag/issues/37)
 * As a website user I want to be able to view comments on all news / blog posts [#23](https://github.com/sherryrich/gymbag/issues/23)
 * As a website user I want to be able to view next page(s) on news / blog posts [#21](https://github.com/sherryrich/gymbag/issues/21)
-* As a website user I want to be able to view comments on all news / blog posts [#22](https://github.com/sherryrich/gymbag/issues/22)
+* As a website user I want to be able to view likes on each news / blog posts [#22](https://github.com/sherryrich/gymbag/issues/22)
 * As a website user I want to be able to leave comments on all news / blog posts [#36](https://github.com/sherryrich/gymbag/issues/36)
 * As a website user I want to be able to Like & unlike on all news / blog posts [#27](https://github.com/sherryrich/gymbag/issues/27)
 * As a website user I want to be able to view all products [#10](https://github.com/sherryrich/gymbag/issues/10)
@@ -193,7 +193,8 @@ Roboto Condensed is the primary font taken from Google Fonts this font was chose
 ### Home page
 Homepage displays the logo on the left top, search bar in the middle, then my account and card details on the right hand side.
 Below that is the main navigation links. There is a H1 heading with "No 1 for gym gear" along with a large background image of weights bar and plates informing users so that the website's purpose is immediately evident to a new user.
-
+Related user story:
+* As a website user I want to be able to instantly understand main purpose of the site & learn more about the business & products on offer [#41](https://github.com/sherryrich/gymbag/issues/41)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/homepage_features.JPG)
 
 ### Navigation Bar
@@ -203,8 +204,31 @@ The navigation bar has links to all products, clothing, nutrition, equipment, sp
 
 ### All Products page
 The All products page displays all products available. Users can sort by price, rating, name or category. There is a back to top button if users wish to get back to the top easily.
-
+Related user story:
+* As a website user I want to be able to select products to purchase [#1](https://github.com/sherryrich/gymbag/issues/1)
+* As a website user I want to be able to view all products [#10](https://github.com/sherryrich/gymbag/issues/10)
+* As a website user I want to be able to search all products by using the search functionality [#13](https://github.com/sherryrich/gymbag/issues/13)
+* As a website user I want to be able to view products by category [#17](https://github.com/sherryrich/gymbag/issues/17)
+* As a website user I want to be able to search products by category [#11](https://github.com/sherryrich/gymbag/issues/11)
+* As a website user I want to be able to select size and quantity of products [#14](https://github.com/sherryrich/gymbag/issues/14)
+* As a website user I want to be able to access special offers [#3](https://github.com/sherryrich/gymbag/issues/3)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/all_products.JPG)
+
+### Sign Up / register page
+Related user story:
+* As a website user I want to be able to register an account [#5](https://github.com/sherryrich/gymbag/issues/5)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/sign_up.JPG)
+
+### Forgot Password / Password Reset
+Related user story:
+* As a website user I want to be able to re-set password [#7](https://github.com/sherryrich/gymbag/issues/7)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/password_reset.JPG)
+
+### My Profile page
+Related user story:
+* As a website user I want to be able to update details on my account [#35](https://github.com/sherryrich/gymbag/issues/35)
+* As a website user I want to be able to view my order history / my profile [#38](https://github.com/sherryrich/gymbag/issues/38)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/my_profile_pageJPG.JPG)
 
 ### Product Category pages
 Users can search via each category in the various dropdown options for quick navigation.
@@ -213,8 +237,33 @@ Users can search via each category in the various dropdown options for quick nav
 
 ### Individual Product pages - shopping bag
 Individual product pages provides a name, description, price, the quantity selected and update and delete options if superuser is logged in.
-
+Related User Story:
+* As a website user I want to be able to view all product information available before purchasing [#2](https://github.com/sherryrich/gymbag/issues/2)
+* As a website user I want to be able to add products to my shopping bag and update / purchase items easily [#18](https://github.com/sherryrich/gymbag/issues/18)
+* As a website user I want to be able to add products to my shopping bag and view summary of order [#4](https://github.com/sherryrich/gymbag/issues/4)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/shopping_bag.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/shopping_bag_summary.JPG)
+
+### Secure Checkout
+Related User Story:
+* As a website user I want to be able to checkout securely [#37](https://github.com/sherryrich/gymbag/issues/37)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/secure_checkout.JPG)
+
+### View comments on News / Blog posts
+Related User Story:
+* As a website user I want to be able to view comments on all news / blog posts [#23](https://github.com/sherryrich/gymbag/issues/23)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/comments.JPG)
+* As a website user I want to be able to leave comments on all news / blog posts [#36](https://github.com/sherryrich/gymbag/issues/36)
+
+### View likes on News / Blog posts
+Related User Story:
+* As a website user I want to be able to view likes on each news / blog posts [#22](https://github.com/sherryrich/gymbag/issues/22)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/no_of_likes.JPG)
+
+### Pagination
+Related User Story:
+* As a website user I want to be able to view next page(s) on news / blog posts [#21](https://github.com/sherryrich/gymbag/issues/21)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/pagination.JPG)
 
 ### About Us
 The about us page informs the user(s) to find brief information on hen the website was formed and what the website sells.
@@ -223,22 +272,26 @@ The about us page informs the user(s) to find brief information on hen the websi
 
 ### Gym Installation page
 The Installation page allows potential users contact GymBag regarding potential gym installation queries.  Once the form is successfully sent a message is shown to the user to inform the user.
-
+Relates user story:
+* As a website user I want to be able to send messages via the installation form [#40](https://github.com/sherryrich/gymbag/issues/40)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/gym_installation_page.JPG)
 
 ### News / Blog
 This feature is used by admin users to display latest news articles and stories to generate inbound traffic to the website organically.
-
+* As the website Administrator I would like to be able to add, view, edit and delete blog posts [#24](https://github.com/sherryrich/gymbag/issues/24)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/blog.JPG)
 
 ### Contact Us
 Feedback and suggestions can be submitted via a form with name, email and body of message and dropdown option, the options available are Returns, Availability, Pricing, Feedback and Other. Once the form is successfully sent a message is shown to the user to inform the user.
-
+Relates user story:
+* As a website user I want to be able to send messages via the contact form [#39](https://github.com/sherryrich/gymbag/issues/39)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/contact_us.JPG)
 
 ### Newsletter sign-up
 Newsletter signup form encouraging users to enter email address on the homepage for the purposes gathering email addresses for digital marketing campaigns.
-
+Related user story:
+* As the website Administrator I want to be able to view newsletter signups [#42](https://github.com/sherryrich/gymbag/issues/42)
+* As a website user I want to be able to register for newsletter [#16](https://github.com/sherryrich/gymbag/issues/16)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/newsletter_signup.JPG)
 
 Successful sign up message
@@ -263,7 +316,8 @@ The Shopping Cart updates with the total value spent and displays a success mess
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/unsuccessful_purchases_generic_decline.JPG)
 
 ### Order confirmation - successful purchase - confirmation email
-
+Relates user story:
+* As a website user I want to be able to receive a confirmation email of my order once compelted [#8](https://github.com/sherryrich/gymbag/issues/8)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_success_confirmation_email.JPG)
 
 ### User Profile Page
@@ -276,6 +330,8 @@ Status is changed in admin.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_status.JPG)
 
 ## Admin CRUD pages for Products
+Related user story:
+* As the website Administrator I would like to be able to add, view, edit and delete products [#32](https://github.com/sherryrich/gymbag/issues/32)
 ### Adding a product as a superuser
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/create.JPG)
 ### Adding a product - success message
@@ -291,7 +347,11 @@ Status is changed in admin.
 
 ### Admin
 Admin - Superuser Access
+Related user story:
+* As the website Administrator I would like to be able to access the Django admin to view orders, comments etc [#15](https://github.com/sherryrich/gymbag/issues/15)
+* As the website Administrator I want to be able to view / reject pending posts from users before publication [#25](https://github.com/sherryrich/gymbag/issues/25)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/admin.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/admin_publish.JPG)
 
 ### Footer
 
@@ -322,6 +382,9 @@ A 404 page was created to handle user navigational errors and give user a quick 
 
 ### Messaging
 #### Users are informed of appropriate messaging throughtout the website. Examples below
+Related user story:
+* As a website user I want to be able to receive appropriate messaging throughout the site [#43](https://github.com/sherryrich/gymbag/issues/43)
+
 * Message shown when submitting a date in the past on
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/error_date_passed_message.JPG)
@@ -361,6 +424,7 @@ A blog post was created so that the website can create and distribute content ma
 A Facebook business page was set up with the aim of generating growth organically by building a community and encouraging loyalty amongst our target market. The advantage of this is its free and quick to set up and Facebook has a large audience and dempgraphic. The site can connect with customers directly via the Facebook platform and wider global audience. The main aim of the Facebook page iis to build and maintain relationship with target audience. Content created can be spread across different social media platforms. 
 
 I have also included a screen shot below should the Facebook business page be removed by facebook.
+* As the website Administrator I want users to be able to view / access the business social media [#34](https://github.com/sherryrich/gymbag/issues/34)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/facebook.JPG)
 
 ### Email Marketing
