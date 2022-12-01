@@ -668,7 +668,11 @@ input[name='q']::placeholder {
     }
 
     .masthead-text {
-        height: 500px;
+        height: 600px;
+    }
+
+    .post-title{
+        margin-top: 10%;
     }
 }
 
