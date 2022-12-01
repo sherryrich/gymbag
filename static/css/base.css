@@ -217,7 +217,6 @@ input[name='q']::placeholder {
     width: 25%;
 }
 
-
 #id_body {
     height: calc(7.5em + 0.75rem + 2px);
 }
@@ -395,7 +394,6 @@ input[name='q']::placeholder {
     background-color: white !important;
     padding: 0;
     border-top: 4px solid #dc3545;
-
 }
 
 .social-networks {
@@ -680,5 +678,4 @@ input[name='q']::placeholder {
     .copyright {
         display: none
     }
-    
 }
