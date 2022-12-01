@@ -46,7 +46,6 @@ h1 {
     color: white;
 }
 
-
 /* from Bulma */
 .icon {
     align-items: center;
@@ -661,6 +660,15 @@ input[name='q']::placeholder {
 
     .form-control {
         width: 70%;
+    }
+
+    .icon {
+        justify-content: center !important;
+        width: 3.5rem !important;
+    }
+
+    .masthead-text {
+        height: 500px;
     }
 }
 
