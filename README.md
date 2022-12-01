@@ -193,6 +193,7 @@ Roboto Condensed is the primary font taken from Google Fonts this font was chose
 ### Home page
 Homepage displays the logo on the left top, search bar in the middle, then my account and card details on the right hand side.
 Below that is the main navigation links. There is a H1 heading with "No 1 for gym gear" along with a large background image of weights bar and plates informing users so that the website's purpose is immediately evident to a new user.
+
 Related user story:
 * As a website user I want to be able to instantly understand main purpose of the site & learn more about the business & products on offer [#41](https://github.com/sherryrich/gymbag/issues/41)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/homepage_features.JPG)
@@ -204,6 +205,7 @@ The navigation bar has links to all products, clothing, nutrition, equipment, sp
 
 ### All Products page
 The All products page displays all products available. Users can sort by price, rating, name or category. There is a back to top button if users wish to get back to the top easily.
+
 Related user story:
 * As a website user I want to be able to select products to purchase [#1](https://github.com/sherryrich/gymbag/issues/1)
 * As a website user I want to be able to view all products [#10](https://github.com/sherryrich/gymbag/issues/10)
@@ -237,6 +239,7 @@ Users can search via each category in the various dropdown options for quick nav
 
 ### Individual Product pages - shopping bag
 Individual product pages provides a name, description, price, the quantity selected and update and delete options if superuser is logged in.
+
 Related User Story:
 * As a website user I want to be able to view all product information available before purchasing [#2](https://github.com/sherryrich/gymbag/issues/2)
 * As a website user I want to be able to add products to my shopping bag and update / purchase items easily [#18](https://github.com/sherryrich/gymbag/issues/18)
@@ -272,6 +275,7 @@ The about us page informs the user(s) to find brief information on hen the websi
 
 ### Gym Installation page
 The Installation page allows potential users contact GymBag regarding potential gym installation queries.  Once the form is successfully sent a message is shown to the user to inform the user.
+
 Related user story:
 * As a website user I want to be able to send messages via the installation form [#40](https://github.com/sherryrich/gymbag/issues/40)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/gym_installation_page.JPG)
@@ -292,6 +296,7 @@ Related user story:
 
 ### Newsletter sign-up
 Newsletter signup form encouraging users to enter email address on the homepage for the purposes gathering email addresses for digital marketing campaigns.
+
 Related user story:
 * As the website Administrator I want to be able to view newsletter signups [#42](https://github.com/sherryrich/gymbag/issues/42)
 * As a website user I want to be able to register for newsletter [#16](https://github.com/sherryrich/gymbag/issues/16)
