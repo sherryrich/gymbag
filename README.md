@@ -687,13 +687,13 @@ I decided to run some limited automated tests for the contact page as a way to d
 * CSS - back to top was behind fixed bottom footer, initially I used z-index but felt this looked wrong so just moved it up above the footer [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug21.JPG) 
 * Needed to run a migration on the Postgres DB just with a Heroku prefix and it will affect the Postgres DB on Heroku instead of local SQLite one.
 "heroku run python3 manage.py makemigrations" & "heroku run python3 manage.py migrate" resolved this. [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug22.JPG)
+* Could not fix css issue for a long time, finally solved the issue by simply changing forms.TextInput to forms.Textarea in contact/forms.py file [View here](https://github.com/sherryrich/gymbag/blob/main/docs/bug24.JPG)
 
 ## Unfixed Bugs
 * When running "python3 -m flake8" in the terminal and excluding cscode, migrations & settings there are 2 remaining issues detailed below.
 * "./gymbag/urls.py:50:1: F811 redefinition of unused 'handler404' from line 23". This is as per code institute instructions [View here](https://github.com/sherryrich/gymbag/blob/main/docs/404_error.JPG) 
 * ./checkout/apps.py:8:9: F401 'checkout.signals' imported but unused. This is as per code institute Boutique Ado instructions 
 [Code Institute Solutions](https://github.com/Code-Institute-Solutions/boutique_ado_v1/blob/250e2c2b8e43cccb56b4721cd8a8bd4de6686546/checkout/apps.py)
-* CSS issue on the on the Body field on the contact page.
 
 ## Stripe
 * Register for an account at stripe.com

@@ -10,6 +10,6 @@ class ContactForm(forms.ModelForm):
         widgets = {
             'name': forms.TextInput(attrs={'class': 'form-control'}),
             'email': forms.TextInput(attrs={'class': 'form-control'}),
-            'body': forms.TextInput(attrs={'class': 'form-control'}),
+            'body': forms.Textarea(attrs={'class': 'form-control'}),
             'contact_reason': forms.Select(attrs={'class': 'form-control'}),
         }
