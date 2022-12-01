@@ -639,6 +639,7 @@ input[name='q']::placeholder {
     .btn.btn-black.rounded-0.btn-lg {
         padding: .375rem .375rem;
         font-size: .75rem;
+        margin-bottom: 5px;
     }
 
     .increment-qty, .decrement-qty {
