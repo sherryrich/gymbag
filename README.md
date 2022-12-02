@@ -223,6 +223,11 @@ Related user story:
 * As a website user I want to be able to register an account [#5](https://github.com/sherryrich/gymbag/issues/5)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/sign_up.JPG)
 
+### Sign In
+Sign in page can be accessed from the header link under my account. The user is asked for email and password. The Remember Me option is shown to make it easier for users to sign-in again at a later stage. Forgot Password link is also shown if users require to re-set password.
+
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/sign_in.JPG)
+
 ### Forgot Password / Password Reset
 Related user story:
 * As a website user I want to be able to re-set password [#7](https://github.com/sherryrich/gymbag/issues/7)
@@ -230,18 +235,15 @@ Related user story:
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/password_reset.JPG)
 
 ### Log Out
-Related user story:
+The log out contains some defensive design that prompts the user if they wish to confirm before procesding.
+
 * As a website user I want to be able to log out of my account [#44](https://github.com/sherryrich/gymbag/issues/44)
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/sign_out.JPG)
+
+Confirmation of a successful sign out
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/sign_out_confirmation.JPG)
-
-### My Profile page
-Related user story:
-* As a website user I want to be able to update details on my account [#35](https://github.com/sherryrich/gymbag/issues/35)
-* As a website user I want to be able to view my order history / my profile [#38](https://github.com/sherryrich/gymbag/issues/38)
-
-![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/my_profile_pageJPG.JPG)
 
 ### Product Category pages
 Users can search via each category in the various dropdown options for quick navigation.
@@ -355,6 +357,10 @@ Related user story:
 ### User Profile Page
 The user profile page displays users contact information along with order history including current order status. This can be edited by the superuser in the admin. Once the status is changed this is reflected in real time for the user. The 3 status options are "Confirmed", "Shipped" and "Cancelled", the default status is "Confirmed" once an order is completed.
 
+Related user story:
+* As a website user I want to be able to update details on my account [#35](https://github.com/sherryrich/gymbag/issues/35)
+* As a website user I want to be able to view my order history / my profile [#38](https://github.com/sherryrich/gymbag/issues/38)
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/my_profile.JPG)
 
 Status is changed in admin.
@@ -383,11 +389,15 @@ Related user story:
 
 ### Admin
 Admin - Superuser Access
+The Django admin allows users with access to Create, Read, Update, Delete all the data on the front end via Django back office admin. Users can view emails, comments, posts, orders, contacts. Users can create, read, update and delete news / blog posts from the admin for example.
 
 Related user story:
 * As the website Administrator I would like to be able to access the Django admin to view orders, comments etc [#15](https://github.com/sherryrich/gymbag/issues/15)
-* As the website Administrator I want to be able to view / reject pending posts from users before publication [#25](https://github.com/sherryrich/gymbag/issues/25)
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/admin.JPG)
+
+* As the website Administrator I want to be able to view / reject pending posts from users before publication [#25](https://github.com/sherryrich/gymbag/issues/25)
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/admin_publish.JPG)
 
 ### Footer
@@ -397,12 +407,12 @@ The footer contains links to Privacy Policy Terms & Conditions Returns Policy as
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/footer.JPG)
 
 ### Privacy Policy
-GDPR compliant privacy policy informs users about how their data is being collected and processed. It is transparent, concise and easily accessible.
+GDPR compliant privacy policy informs users about how their data is being collected and processed. It is transparent, concise and easily accessible. This is linked to externally intentionally at [Privacy Policy Generator](https://www.privacypolicygenerator.info/) 
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/privacy_policy.JPG)
 
 ### Returns
-A clear returns policy is also displayed to encourage fist time and repeat customers purchasing.
+A clear returns policy is also displayed to encourage fist time and repeat customers purchasing. Bootstrap accordion was used here to display each term as vertically collapsible.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/returns.JPG)
 
