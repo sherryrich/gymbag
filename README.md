@@ -89,7 +89,7 @@ Agile Development Process, The MoSCoW method was adopted to approach to prioriti
 * As a website user I want to be able to send messages via the installation form [#40](https://github.com/sherryrich/gymbag/issues/40)
 * As a website user I want to be able to receive a confirmation email of my order once completed [#8](https://github.com/sherryrich/gymbag/issues/8)
 * As a website user I want to be able to receive appropriate messaging throughout the site [#43](https://github.com/sherryrich/gymbag/issues/43)
-
+* As a website user I want to be able to log out of my account [#44](https://github.com/sherryrich/gymbag/issues/44)
 
 
 ### Overall Goals
@@ -139,7 +139,7 @@ The OrderLineItem table contains information about an order. It has the followin
 <details>
   <summary>Click here to view Database Schema:</summary>
 
-  ![](docs/database.PNG)
+  ![](docs/database.JPG)
 
   </details>
 
@@ -217,6 +217,8 @@ Related user story:
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/all_products.JPG)
 
 ### Sign Up / register page
+The accounts - signup page can be accessed from the header link under my account. The user is asked for email, username and password. Once an account is created user can comment on articles, like posts and save / edit my account details and view past order confirmations.
+
 Related user story:
 * As a website user I want to be able to register an account [#5](https://github.com/sherryrich/gymbag/issues/5)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/sign_up.JPG)
@@ -225,6 +227,12 @@ Related user story:
 Related user story:
 * As a website user I want to be able to re-set password [#7](https://github.com/sherryrich/gymbag/issues/7)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/password_reset.JPG)
+
+### Log Out
+Related user story:
+* As a website user I want to be able to log out of my account [#44](https://github.com/sherryrich/gymbag/issues/44)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/sign_out.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/sign_out_confirmation.JPG)
 
 ### My Profile page
 Related user story:
@@ -252,7 +260,7 @@ Related User Story:
 The checkout page has two sides. On the left is a form for the user to input their details, this form is saved for future purchases and can be updated.
 The right side is a summary of the order / shopping bad. Users have to fill in their credit card details because the website does not store these details at this time.
 
-Users are presented with two options "adjust bag" & "Complete Order". "adjust bag" if a user wishes to edit items and "Complete Order" will attempt to process the payment and compelte the oder.
+Users are presented with two options "adjust bag" & "Complete Order". "adjust bag" if a user wishes to edit items and "Complete Order" will attempt to process the payment and complete the order.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/checkout.JPG)
 
@@ -328,7 +336,7 @@ The Shopping Cart updates with the total value spent and displays a success mess
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/cart.JPG)
 
 ### Order confirmation - successful purchase
-Upon a successful purchase order a confirmation page appears which shows the user a summary of what has been purchased. It includes confirmation order number, date processed, details of the order including the address it is being sent. A sucess message also appears to confirm the order with a short summary and confirming the email to which a confirmation email is being sent to.
+Upon a successful purchase order a confirmation page appears which shows the user a summary of what has been purchased. It includes confirmation order number, date processed, details of the order including the address it is being sent. A success message also appears to confirm the order with a short summary and confirming the email to which a confirmation email is being sent to.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_success_confirmation.JPG)
 
@@ -352,7 +360,9 @@ Status is changed in admin.
 
 ## Admin CRUD pages for Products
 A superuser is granted access to add or edit a product from both the front end and back end (Django admin) of the website.
+
 Related user story:
+
 * As the website Administrator I would like to be able to add, view, edit and delete products [#32](https://github.com/sherryrich/gymbag/issues/32)
 ### Adding a product as a superuser
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/create.JPG)
@@ -362,6 +372,7 @@ Related user story:
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/read_product.JPG)
 ### Update - product details
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/update_product.JPG)
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/edit_product.JPG)
 ### Update - product details - confirmation message
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/update_message.JPG)
 ### Delete - product details
@@ -369,6 +380,7 @@ Related user story:
 
 ### Admin
 Admin - Superuser Access
+
 Related user story:
 * As the website Administrator I would like to be able to access the Django admin to view orders, comments etc [#15](https://github.com/sherryrich/gymbag/issues/15)
 * As the website Administrator I want to be able to view / reject pending posts from users before publication [#25](https://github.com/sherryrich/gymbag/issues/25)
@@ -444,7 +456,7 @@ Google keyword research was used to optimise web pages and content to increase r
 A blog post was created so that the website can create and distribute content material to attract and convert audience into first time customers and repeat customers. The main aim of the blog posts is to build trust and loyalty.
 
 ### Social Media Marketing
-A Facebook business page was set up with the aim of generating growth organically by building a community and encouraging loyalty amongst our target market. The advantage of this is its free and quick to set up and Facebook has a large audience and demographic. The site can connect with customers directly via the Facebook platform and wider global audience. The main aim of the Facebook page iis to build and maintain relationship with target audience. Content created can be spread across different social media platforms. 
+A Facebook business page was set up with the aim of generating growth organically by building a community and encouraging loyalty amongst our target market. The advantage of this is its free and quick to set up and Facebook has a large audience and demographic. The site can connect with customers directly via the Facebook platform and wider global audience. The main aim of the Facebook page is to build and maintain relationship with target audience. Content created can be spread across different social media platforms. 
 
 I have also included a screen shot below should the Facebook business page be removed by Facebook.
 * As the website Administrator I want users to be able to view / access the business social media [#34](https://github.com/sherryrich/gymbag/issues/34)
