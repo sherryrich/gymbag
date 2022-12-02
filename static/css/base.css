@@ -575,6 +575,11 @@ input[name='q']::placeholder {
     border: none;
 }
 
+.error404 {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
