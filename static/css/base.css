@@ -678,6 +678,10 @@ input[name='q']::placeholder {
     .post-title{
         margin-top: 10%;
     }
+
+    .col-1 {
+        margin-right: 15px;
+    }
 }
 
 @media (max-width: 767px) {
