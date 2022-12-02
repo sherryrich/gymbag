@@ -239,13 +239,22 @@ Users can search via each category in the various dropdown options for quick nav
 
 ### Individual Product pages - shopping bag
 Individual product pages provides a name, description, price, the quantity selected and update and delete options if superuser is logged in.
-
+The user is able to view all items in their bag. Product image, quantity chosen for each item. The user can also edit the no of items in their bag by increasing or reducing the quantity or even removing an item. The total is updated accordingly. The user can then decide to "keep shopping" to be brought back to all products page or decide to process to checkout page.
+ 
 Related User Story:
 * As a website user I want to be able to view all product information available before purchasing [#2](https://github.com/sherryrich/gymbag/issues/2)
 * As a website user I want to be able to add products to my shopping bag and update / purchase items easily [#18](https://github.com/sherryrich/gymbag/issues/18)
 * As a website user I want to be able to add products to my shopping bag and view summary of order [#4](https://github.com/sherryrich/gymbag/issues/4)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/shopping_bag.JPG)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/shopping_bag_summary.JPG)
+
+### Checkout
+The checkout page has two sides. On the left is a form for the user to input their details, this form is saved for future purchases and can be updated.
+The right side is a summary of the order / shopping bad. Users have to fill in their credit card details because the website does not store these details at this time.
+
+Users are presented with two options "adjust bag" & "Complete Order". "adjust bag" if a user wishes to edit items and "Complete Order" will attempt to process the payment and compelte the oder.
+
+![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/checkout.JPG)
 
 ### Secure Checkout
 Related User Story:
@@ -282,6 +291,8 @@ Related user story:
 
 ### News / Blog
 This feature is used by admin users to display latest news articles and stories to generate inbound traffic to the website organically.
+New Article is submitted by a superuser via the Django admin. The superuser enters the following to create a blog post in admin, Title, Slug, Author, Image, Excerpt, Content, Status (Draft or publish) and likes.
+
 * As the website Administrator I would like to be able to add, view, edit and delete blog posts [#24](https://github.com/sherryrich/gymbag/issues/24)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/django_admin_add_post.JPG)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/blog.JPG)
@@ -317,6 +328,7 @@ The Shopping Cart updates with the total value spent and displays a success mess
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/cart.JPG)
 
 ### Order confirmation - successful purchase
+Upon a successful purchase order a confirmation page appears which shows the user a summary of what has been purchased. It includes confirmation order number, date processed, details of the order including the address it is being sent. A sucess message also appears to confirm the order with a short summary and confirming the email to which a confirmation email is being sent to.
 
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_success_confirmation.JPG)
 
@@ -339,6 +351,7 @@ Status is changed in admin.
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/order_status.JPG)
 
 ## Admin CRUD pages for Products
+A superuser is granted access to add or edit a product from both the front end and back end (Django admin) of the website.
 Related user story:
 * As the website Administrator I would like to be able to add, view, edit and delete products [#32](https://github.com/sherryrich/gymbag/issues/32)
 ### Adding a product as a superuser
