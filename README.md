@@ -864,7 +864,7 @@ os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
 * Find the 'Fork' button at the top right of the page
 * Once you click the button the fork will be in your repository
 
-### Cloning This Project
+### Cloning This Project / Local Deployment
 
 * Clone this project by following the steps:
 
@@ -875,7 +875,35 @@ to copy the URL
 * Open a new terminal
 * Change the current working directory to the location that you want the cloned directory
 * Type 'git clone' and paste the URL copied in step 3
-* Press 'Enter' and the project is cloned
+
+```git clone https://github.com/sherryrich/gymbag.git```
+
+* Press 'Enter' and the project is cloned to your workspace
+* Create an env.py file(do not commit this file to source control) in the root folder in your project, and add in the following code with the relevant key, value pairs, and ensure you enter the correct key values<br>
+<br><code>import os</code>
+<br><code>os.environ["SECRET_KEY"]= 'TO BE ADDED BY USER'</code>
+<br><code>os.environ["STRIPE_PUBLIC_KEY"]= 'TO BE ADDED BY USER'</code>
+<br><code>os.environ["STRIPE_SECRET_KEY"]= 'TO BE ADDED BY USER'</code>
+<br><code>os.environ["STRIPE_WH_SECRET"]= 'TO BE ADDED BY USER'</code>
+<br><code>os.environ["AWS_ACCESS_KEY_ID"]= 'TO BE ADDED BY USER'</code>
+<br><code>os.environ["AWS_SECRET_ACCESS_KEY"]= 'TO BE ADDED BY USER'</code>
+<br><code>os.environ["EMAIL_HOST_USER"]= 'TO BE ADDED BY USER'</code>
+<br><code>os.environ["EMAIL_HOST_PASS"]= 'TO BE ADDED BY USER'</code>
+<br><code>os.environ["USE_AWS"]= 'TO BE ADDED BY USER'</code>
+<br><code>os.environ["DATABASE_URL"]= 'TO BE ADDED BY USER'</code>
+<br><code>os.environ["DEVELOPMENT"] ='True'</code>
+
+* Some values for the environment variables above are described in different sections of this readme
+* Install the relevant packages as per the requirements.txt file
+* In the settings.py ensure the connection is set to either the Heroku postgres database or the local sqllite database
+* Ensure debug is set to true in the settings.py file for local development
+* Add localhost/127.0.0.1 to the ALLOWED_HOSTS variable in settings.py
+* Run "python3 manage.py showmigrations" to check the status of the migrations
+* Run "python3 manage.py migrate" to migrate the database
+* Run "python3 manage.py createsuperuser" to create a super/admin user
+* Run manage.py loaddata db.json to load the product data into the database
+* Start the application by running <code>python3 manage.py runserver</code>
+* Open the application in a web browser, for example: http://127.0.0.1:8000/
 
 ## Credits
 
