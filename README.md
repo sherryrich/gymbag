@@ -226,11 +226,13 @@ Related user story:
 ### Forgot Password / Password Reset
 Related user story:
 * As a website user I want to be able to re-set password [#7](https://github.com/sherryrich/gymbag/issues/7)
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/password_reset.JPG)
 
 ### Log Out
 Related user story:
 * As a website user I want to be able to log out of my account [#44](https://github.com/sherryrich/gymbag/issues/44)
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/sign_out.JPG)
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/sign_out_confirmation.JPG)
 
@@ -238,6 +240,7 @@ Related user story:
 Related user story:
 * As a website user I want to be able to update details on my account [#35](https://github.com/sherryrich/gymbag/issues/35)
 * As a website user I want to be able to view my order history / my profile [#38](https://github.com/sherryrich/gymbag/issues/38)
+
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/my_profile_pageJPG.JPG)
 
 ### Product Category pages
@@ -492,7 +495,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 * [Heroku](https://www.heroku.com/) used to deploy this app, a cloud platform as a service supporting several programming languages.
 * [Pexels](https://www.pexels.com/) Images for this project were sourced from Pexels.
 * [Privacy Policy Generator](https://www.privacypolicygenerator.info/) Free Privacy Policy Generator.
-* [Stripe]() Integrated with Stripe to facilitate online payments.
+* [Stripe](https://stripe.com/en-ie) Integrated with Stripe to facilitate online payments.
 * [SQLite](https://www.sqlite.org/index.html) database used in local development was a SQLLite database.
 * [Terms and Conditions Generator](https://www.termsandconditionsgenerator.com/) Free terms and conditions generator.
 * [Unsplash](https://unsplash.com/) Images for this project were sourced from Unsplash.
@@ -773,6 +776,17 @@ os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
 * Note the following AWS code in Settings.py. An environment variable called USE_AWS must be set to use these settings, otherwise it will use local storage:
 ![Preview](docs/aws_settings.JPG)
 
+## Google Email
+* Create an email account at google.com, login, go to accounts settings in your gmail account and then click on Other Google Account Settings
+* Go to accounts and import then click on other account settings
+* Under signing into Google, turn on 2-step verification and follow the steps to enable
+* Once verified click on app passwords, select Other as the app and give the password a name, for example Django
+* Click create and a 16 digit password will be generated, copy this 16 digit password
+* In the env.py file, create an environment variable called EMAIL_HOST_PASS with the 16 digit password
+* In the env.py file, create an environment variable called EMAIL_HOST_USER with the email address of the gmail account
+* Set and confirm the following values in the settings.py file to successfully send emails
+![Preview](docs/gmail_settings.JPG)
+* You will also need to set the variables EMAIL_HOST_PASS and EMAIL_HOST_USER in your production instance, for example Heroku
 
 ## Deployment
 
