@@ -27,12 +27,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link href="/static/img/favicon.ico" rel="icon" type="image/x-icon"/>
+
     {% endblock %}
 
     {% block extra_css %}
     {% endblock %}
 
-     <!-- Javascript -->
+    <!-- Javascript -->
     {% block corejs %}
     <script src="https://kit.fontawesome.com/551ee76ae4.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -53,7 +55,7 @@
 </head>
 
 <body>
-     <!-- Header and logo -->
+    <!-- Header and logo -->
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -61,14 +63,15 @@
                     <h2 class="text-black my-0"><strong>Gym</strong>Bag</h2>
                 </a>
             </div>
-             <!-- Search bar -->
+            <!-- Search bar -->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
-                        <input class="form-control form-search border border-black rounded-0" type="text" name="q" id="search"
-                            placeholder="Search our site" aria-label="Search">
+                        <input class="form-control form-search border border-black rounded-0" type="text" name="q"
+                            id="search" placeholder="Search our site" aria-label="Search">
                         <div class="input-group-append">
-                            <button class="form-control btn-search btn btn-black border border-black rounded-0" type="submit">
+                            <button class="form-control btn-search btn btn-black border border-black rounded-0"
+                                type="submit">
                                 Search
                             </button>
                         </div>
@@ -99,7 +102,7 @@
                             {% endif %}
                         </div>
                     </li>
-                     <!-- Shopping bag and order total -->
+                    <!-- Shopping bag and order total -->
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
                             href="{% url 'view_bag' %}">
@@ -118,7 +121,7 @@
                 </ul>
             </div>
         </div>
-         <!-- Mobile nav bar -->
+        <!-- Mobile nav bar -->
         <div class="row bg-white">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
