@@ -580,7 +580,7 @@ Mailchimp is used to gain new customers and retain existing. Mailchimp enables t
 ### flake8
 
   <details>
-  <summary>The website pep8online.com is currently down so flake8 was run in the terminal. Migration and settings errors remain. Click here to see the result: </summary>
+  <summary>The website pep8online.com is currently down so flake8 was used. This can be done by typing "python3 -m flake8" command in the terminal. Migration and settings errors remain as advised by code institute. Click here to see the result: </summary>
 
   ![](docs/flake8.JPG)
 
