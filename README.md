@@ -17,18 +17,6 @@ If testing interactively, feel free to use card details below. Further informati
 ## Showcase
 ![Preview](https://github.com/sherryrich/gymbag/blob/main/docs/gymbag_amiresponsive.JPG)
 
-### Live Website
-A deployed link to the website can be found via the following URL [https://sherryrich-gymbag.herokuapp.com/](https://sherryrich-gymbag.herokuapp.com/)
-
-### QR Code
-
- <details>
-  <summary>Click here to see QR Code</summary>
-
-  ![](docs/qrcode_sherryrich-gymbag.herokuapp.com.png)
-
-  </details>
-
 
 # Table of Contents
 - [Table of Contents](#table-of-contents)
